@@ -1,0 +1,1868 @@
+[
+  {
+    "id": "kinetic-hook",
+    "name": "Kinetic hook",
+    "category": "typography",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/kinetic-hook.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Alpha subject over changing display headlines; word-driven reveals.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect kinetic-hook op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Getimede woordopbouw, optioneel via woordtijden of `syncWords`; geen reference-specifieke fonts/lettertiming of automatische matte. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Getimede woordopbouw, optioneel via woordtijden of `syncWords`; geen reference-specifieke fonts/lettertiming of automatische matte.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel params.wordTimes met lokale start/startMs, of syncWords en job.captions; tekst en captionwoorden moeten overeenkomen.",
+      "Voor tekst achter een echte persoon: foregroundFrames; deze recipe segmenteert niet zelf."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "icon-strike",
+    "name": "Icon strike",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/icon-strike.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Icon row with growing strike paths and staggered removal.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect icon-strike op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Meerdere eigen iconen met strike en exit; timing nog niet aan gesproken iconnamen gekoppeld. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Meerdere eigen iconen met strike en exit; timing nog niet aan gesproken iconnamen gekoppeld.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "prompt-bar",
+    "name": "Prompt bar",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/prompt-bar.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Rounded input surface; progressive string reveal; sent-state swap.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect prompt-bar op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Inputkaart en typewriter; geen echte promptuitvoering of resultaatroll-in. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Inputkaart en typewriter; geen echte promptuitvoering of resultaatroll-in.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "grade-slider",
+    "name": "Grade slider",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/grade-slider.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Two differently graded footage layers divided by a moving angled mask.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect grade-slider op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Eigen footage onder moving splitmask; rechterdeel krijgt Canvas-gradefilter. Geen automatische kleurmatch of exacte reference-grade. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Eigen footage onder moving splitmask; rechterdeel krijgt Canvas-gradefilter. Geen automatische kleurmatch of exacte reference-grade.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "magazine-cover",
+    "name": "Magazine cover",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/magazine-cover.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Masthead and small cover lines on a shared grid; subject interrupts text.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect magazine-cover op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen coverlayout met werkelijk geselecteerde videofoto; geen automatische coverlines/barcode of fontmatching. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen coverlayout met werkelijk geselecteerde videofoto; geen automatische coverlines/barcode of fontmatching.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "nle-timeline",
+    "name": "Editing timeline",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/nle-timeline.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Stacked tracks populated in time; timeline playhead sweeps across.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect nle-timeline op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Geanimeerde tracks/playhead; geen reconstructie van de werkelijke EDL als NLE-timeline. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Geanimeerde tracks/playhead; geen reconstructie van de werkelijke EDL als NLE-timeline.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "file-drop",
+    "name": "File drop",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/file-drop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "File tile enters a target area; player and rejection labels replace it.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect file-drop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Dalende documentkaarten met eigen video-thumbnail; geen werkelijk verworpen takefragment of automatische afkeur. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Dalende documentkaarten met eigen video-thumbnail; geen werkelijk verworpen takefragment of automatische afkeur.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "odometer-recursion",
+    "name": "Odometer",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/odometer-recursion.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Rolling time digits followed by nested repeated frames.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea",
+      "value": 128,
+      "label": "minuten teruggewonnen"
+    },
+    "prompt": "Gebruik effect odometer-recursion op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Cubic counter en geneste eigen bewegende video; counter is configureerbaar getal, geen werkelijk bron/editduur-odometer. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Cubic counter en geneste eigen bewegende video; counter is configureerbaar getal, geen werkelijk bron/editduur-odometer.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "mood-curtain",
+    "name": "Mood curtain",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/mood-curtain.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Darkening plate/grade enters across shot; text remains legible.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect mood-curtain op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Eigen footage krijgt bewegende grade-onthulling en vignet; geen grainmodel of automatic lookmatching. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Eigen footage krijgt bewegende grade-onthulling en vignet; geen grainmodel of automatic lookmatching.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "grid-collapse",
+    "name": "Grid collapse",
+    "category": "layout",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/grid-collapse.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Portrait becomes one cell of nine; camera returns to central cell.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect grid-collapse op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen media in gridcellen; zonder mediaSources herhaalt dezelfde video; geen automatische andere creatorselectie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen media in gridcellen; zonder mediaSources herhaalt dezelfde video; geen automatische andere creatorselectie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "page-scroll",
+    "name": "Page scroll",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/page-scroll.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Clipped document viewport with a moving page and active-line accents.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect page-scroll op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Clipped scroll met echte media-previewrijen; geen interpretatie van echte pagina of gesproken rijhighlights. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Clipped scroll met echte media-previewrijen; geen interpretatie van echte pagina of gesproken rijhighlights.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "comment-thread",
+    "name": "Comment thread",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/comment-thread.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Compact stacked message cards animate a note and reply.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect comment-thread op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Staggered commentkaarten; geen persistent storyboardcomment-/replymechanisme. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Staggered commentkaarten; geen persistent storyboardcomment-/replymechanisme.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "word-stamp",
+    "name": "Word stamp",
+    "category": "typography",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/serif-stamp.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Large editorial letters occupy upper shot; foreground occludes baseline.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect word-stamp op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Grote gedraaide kaderstempel; geen per-letter serifheadline uit referentie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Grote gedraaide kaderstempel; geen per-letter serifheadline uit referentie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "giant-captions",
+    "name": "Giant captions",
+    "category": "captions",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/giant-captions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Large alternating sans/serif text blocks; secondary phrase at torso.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect giant-captions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Gestapelde grote woorden; geen volledige captionbox/payofftransformatie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Gestapelde grote woorden; geen volledige captionbox/payofftransformatie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel params.wordTimes met lokale start/startMs, of syncWords en job.captions; tekst en captionwoorden moeten overeenkomen.",
+      "Voor tekst achter een echte persoon: foregroundFrames; deze recipe segmenteert niet zelf."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "video-card",
+    "name": "Video card",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/video-card.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Framed moving screen insert near head; progress and chapter state.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect video-card op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Kaart toont werkelijke walkthrough/video; geen automatische hoofdstukherkenning of videoplayer-controlsynchronisatie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Kaart toont werkelijke walkthrough/video; geen automatische hoofdstukherkenning of videoplayer-controlsynchronisatie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "comment-cta",
+    "name": "Comment CTA",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/comment-cta.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Keyword entry, reply and engagement UI in a short sequence.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect comment-cta op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Lokale getekende commentkaart; geen daadwerkelijke post/reply/like of externe API. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Lokale getekende commentkaart; geen daadwerkelijke post/reply/like of externe API.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "camera-transitions",
+    "name": "Camera moves",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/camera-transitions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Fast camera displacement/scale/rotation with motion-smear frames.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect camera-transitions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Echte bron transformeert met settle; richting, spin/drop en attack instelbaar; optionele previous-bron onder cut. Geen optical-flow motionblur of automatische cutmotivatie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Echte bron transformeert met settle; richting, spin/drop en attack instelbaar; optionele previous-bron onder cut. Geen optical-flow motionblur of automatische cutmotivatie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "job.video: shot dat binnenkomt; optioneel job.previous: onderliggend vorige shot. params.mode, direction, attack sturen de beweging."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "contact-sheet-hook",
+    "name": "Contact sheet hook",
+    "category": "layout",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/contact-sheet-hook.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Growing repeated shot grid; progressive thumbnail population.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect contact-sheet-hook op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Grid met eigen levende mediakaarten; geen verschillende echte bronmomenten zonder apart aangeleverde assets. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Grid met eigen levende mediakaarten; geen verschillende echte bronmomenten zonder apart aangeleverde assets.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "receipt-printer",
+    "name": "Receipt printer",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/receipt-printer.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Narrow paper strip emerges vertically; line-by-line text; exit toss.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect receipt-printer op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Papier-reveal met getekende tekst; geen dynamische instructieregels, tear-off of toss. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Papier-reveal met getekende tekst; geen dynamische instructieregels, tear-off of toss.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "jiggle-delete",
+    "name": "Jiggle delete",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/jiggle-delete.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Tiles rotate subtly then vanish in speech order.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect jiggle-delete op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Jiggle en krimp/delete; geen appassets of automatische naam-/woordkoppeling. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Jiggle en krimp/delete; geen appassets of automatische naam-/woordkoppeling.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "keycaps",
+    "name": "Keycaps",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/keycaps.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Small keyboard tiles descend with varied rotations and accumulate.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect keycaps op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Keycap-rij met drukken; geen vallende tiles, collision pile of bezem. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Keycap-rij met drukken; geen vallende tiles, collision pile of bezem.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "projected-film",
+    "name": "Projected film",
+    "category": "film",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/projected-film.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Perforated side rails, frame borders and voice-linked visual strip.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect projected-film op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen footage in filmframe met rails/kras/vignet; geen stemgedreven soundtrackstrip of fysieke filmtransport. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen footage in filmframe met rails/kras/vignet; geen stemgedreven soundtrackstrip of fysieke filmtransport.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "film-look",
+    "name": "Film look",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/film-look.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Strong dark/warm color treatment without extra screen objects.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect film-look op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Canvas-tint/kras/vignet; geen specifieke teal-shadow/warm-highlight footagegrade. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Canvas-tint/kras/vignet; geen specifieke teal-shadow/warm-highlight footagegrade.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "eyedropper-grade",
+    "name": "Eyedropper grade",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/eyedropper-grade.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Small vertical swatch UI paired with changing underlying grade.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect eyedropper-grade op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Eigen footage-preview met vaste swatches en cursor; geen echte pixelkleurselectie of gekoppelde grade. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Eigen footage-preview met vaste swatches en cursor; geen echte pixelkleurselectie of gekoppelde grade.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "reel-cascade",
+    "name": "Reel cascade",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/reel-cascade.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Several portrait cards fall into a shallow layered wall.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect reel-cascade op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen videokaarten vallen in stapel; mediaSources kan reeds geladen alternatieven kiezen; geen collisionphysics. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen videokaarten vallen in stapel; mediaSources kan reeds geladen alternatieven kiezen; geen collisionphysics.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "playing-grid",
+    "name": "Playing grid",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/playing-grid.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Multiple moving portraits settle into a regular background grid.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect playing-grid op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Grid toont echte mediaframes; zonder meerdere bronnen dezelfde clip; geen automatische portfolioselectie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Grid toont echte mediaframes; zonder meerdere bronnen dezelfde clip; geen automatische portfolioselectie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "reel-feed",
+    "name": "Reel feed",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/reel-feed.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Vertical feed scroll accelerates; directional blur joins shots.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect reel-feed op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen videokaarten in feedvorm; geen snelheidsprofiel/scrollbrake met full-frame motionblur. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen videokaarten in feedvorm; geen snelheidsprofiel/scrollbrake met full-frame motionblur.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "intertitle",
+    "name": "Intertitle",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/intertitle.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Circular closing mask leads to centered text on a bordered plate.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect intertitle op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Gekleurde titelplaat; geen iris-close op echt gezicht. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Gekleurde titelplaat; geen iris-close op echt gezicht.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "screenplay-page",
+    "name": "Screenplay page",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/screenplay-page.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Monospaced script layout; reading line receives moving highlight.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect screenplay-page op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Getypte scriptregels op kaart; geen eigen transcript met woordgewijze scriptmarkering. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Getypte scriptregels op kaart; geen eigen transcript met woordgewijze scriptmarkering.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "knockout-captions",
+    "name": "Knockout captions",
+    "category": "captions",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/knockout-captions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Growing caption stack becomes text-shaped holes in a solid plate.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect knockout-captions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Echte offscreen tekstuitsparing; woordtiming/leesbaarheid op eigen footage nog beoordelen. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Echte offscreen tekstuitsparing; woordtiming/leesbaarheid op eigen footage nog beoordelen.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "lens-ring",
+    "name": "Lens ring",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/lens-ring.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Focal-length scale and reframing linked to a short typed title.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect lens-ring op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Draaiende schaal met label; geen gekoppelde focal-length/readout of optische cameraactie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Draaiende schaal met label; geen gekoppelde focal-length/readout of optische cameraactie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "grease-pencil-sheet",
+    "name": "Grease pencil",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/grease-pencil-sheet.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Film contact sheet with irregular drawn circles on selected cells.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect grease-pencil-sheet op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Titel met getekende ellips/markeringen; geen echte takecontactsheet of afgekeurde framekeuze. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Titel met getekende ellips/markeringen; geen echte takecontactsheet of afgekeurde framekeuze.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "title-card-dive",
+    "name": "Title card dive",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/title-card-dive.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Brief centered title; footage becomes phone media; scale through screen.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect title-card-dive op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Schaalbare titelplaat; geen footage-in-phone compositie met echte dive. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Schaalbare titelplaat; geen footage-in-phone compositie met echte dive.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "picture-dive",
+    "name": "Picture dive",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/picture-dive.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Recursive picture frames share live footage at different scales.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect picture-dive op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Vier geneste eigen mediapanelen en schaalbeweging; dezelfde actuele bronframe of expliciet gekozen media, geen 3D kamertracking. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Vier geneste eigen mediapanelen en schaalbeweging; dezelfde actuele bronframe of expliciet gekozen media, geen 3D kamertracking.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "live-markup",
+    "name": "Live markup",
+    "category": "drawing",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/live-markup.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Desaturated shot with hand-drawn accent circle, arrow and label.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect live-markup op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Groeiende ellips over titel; geen footage-desaturatie of tracking op hoofd. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Groeiende ellips over titel; geen footage-desaturatie of tracking op hoofd.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "storyboard-deck",
+    "name": "Storyboard deck",
+    "category": "layout",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/storyboard-deck.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Shot cards fan out, consolidate to a board, then reveal note card.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect storyboard-deck op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Fanned kaarten met werkelijke media; geen automatisch geselecteerde diverse storyframes of persistent commentactie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Fanned kaarten met werkelijke media; geen automatisch geselecteerde diverse storyframes of persistent commentactie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "gravity-drop",
+    "name": "Gravity drop",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/gravity-drop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Letters descend in sequence and settle over speaker.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect gravity-drop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Springbeweging van titelblok; geen individuele letters met gesimuleerde collisions. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Springbeweging van titelblok; geen individuele letters met gesimuleerde collisions.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "video-backdrop",
+    "name": "Video backdrop",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/video-backdrop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Screen footage fills background behind masked foreground speaker.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect video-backdrop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Werkelijke walkthrough of geselecteerde video full-frame; voor echte persoon ervoor foregroundFrames nodig. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Werkelijke walkthrough of geselecteerde video full-frame; voor echte persoon ervoor foregroundFrames nodig.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "comment-drop",
+    "name": "Comment drop",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/comment-drop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Individual keyword glyphs drop into a compact comment field.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect comment-drop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Staggered commentkaarten; geen vallende individuele keywordletters in input. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Staggered commentkaarten; geen vallende individuele keywordletters in input.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "shape-transitions",
+    "name": "Shape transitions",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/shape-transitions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Geometric masks reveal video with circular and segmented boundaries.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect shape-transitions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Iris, blinds, doors en clock-clipping met echte optionele `next`-bron; geen automatisch gekozen cutpunt, geometrische 3D deuren of volledige transitionbibliotheek. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Iris, blinds, doors en clock-clipping met echte optionele `next`-bron; geen automatisch gekozen cutpunt, geometrische 3D deuren of volledige transitionbibliotheek.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "job.next: eigen volgende video of afbeelding; params.variant kiest iris, blinds, doors of clock; attack in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "press-front",
+    "name": "Front page",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/press-front.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Dense newspaper columns surround a monochrome moving portrait.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect press-front op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen cover/krantplaat met monochroom eigen videovenster; geen echt live-halftone of volledige newspaperkolommen. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen cover/krantplaat met monochroom eigen videovenster; geen echt live-halftone of volledige newspaperkolommen.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "paper-tear",
+    "name": "Paper tear",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/paper-tear.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Irregular central split; paper halves move apart over continuing shot.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect paper-tear op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Twee rafelige panelen met schaduw/peel; previous-medialaag moet worden aangeleverd; geen fysische curl. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Twee rafelige panelen met schaduw/peel; previous-medialaag moet worden aangeleverd; geen fysische curl.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.previous: eigen video of afbeelding op de scheurende panelen; zonder bron wordt een eigen krantenlayout getekend."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "blade-slice",
+    "name": "Blade slice",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/blade-slice.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Horizontal bands of the same footage shift laterally and reunite.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect blade-slice op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Echte bronvideo verdeeld in tegengesteld bewegende horizontale banden; geen mondtracking of automatische cut-on-word. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Echte bronvideo verdeeld in tegengesteld bewegende horizontale banden; geen mondtracking of automatische cut-on-word.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "job.video of geladen eigen mediabron voor echte verschuivende videobanden; params.distance: afstand in 720px-compositieruimte."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "day-dial",
+    "name": "Day dial",
+    "category": "infographic",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/day-dial.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Pale circular time scale rotates/advances behind speaker.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect day-dial op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Draaiende klokmarkeringen en tijdlabel; geen uur-per-woordtik achter gemaskeerd subject. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Draaiende klokmarkeringen en tijdlabel; geen uur-per-woordtik achter gemaskeerd subject.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "predict-keys",
+    "name": "Predictive keyboard",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/predict-keys.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Phone keyboard and input text; individual key or suggestion emphasis.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect predict-keys op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Keycap-rij; geen volledige keyboard/input/predictivebar-simulatie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Keycap-rij; geen volledige keyboard/input/predictivebar-simulatie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "impact-frame",
+    "name": "Impact frame",
+    "category": "film",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/impact-frame.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Brief high-contrast ink treatment with radial speed strokes and key word.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect impact-frame op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen starburst en woord; geen live ink/posterization van bronshot en anime speed-lines. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen starburst en woord; geen live ink/posterization van bronshot en anime speed-lines.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "orbit-ring",
+    "name": "Orbit ring",
+    "category": "3d",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/orbit-ring.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Projected text ellipse; front/rear passes occlude correctly around head.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect orbit-ring op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Projectie van letters in rear/front-pass; vereist foreground-alpha en handmatige center; geen headtracking. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Projectie van letters in rear/front-pass; vereist foreground-alpha en handmatige center; geen headtracking.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Voor echte vrijstaande personen: foregroundFrames met RGBA-alpha; anders gebruikt deze recipe een gecropt videoportret of een getekende stand-in.",
+      "params.centerY, radius, orbitText en speed: handmatig afgestemde plaatsing; automatische hoofdtracking ontbreekt."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "dolly-zoom",
+    "name": "Dolly zoom",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/dolly-zoom.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Foreground size approximately held while background scale changes.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect dolly-zoom op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Achtergrond en foreground-alpha hebben onafhankelijk tegengestelde schaal. Vereist schone `background` plus matte voor een bruikbare echte shot; zonder die inputs blijft dit een synthetische/ghostgevoelige demonstratie, geen gereconstrueerde 3D-perspectiefwissel. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Achtergrond en foreground-alpha hebben onafhankelijk tegengestelde schaal. Vereist schone `background` plus matte voor een bruikbare echte shot; zonder die inputs blijft dit een synthetische/ghostgevoelige demonstratie, geen gereconstrueerde 3D-perspectiefwissel.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "job.background: schone achtergrond zonder persoon; foregroundFrames: bijpassende subject-alpha; zonder clean plate kunnen dubbelbeelden ontstaan.",
+      "params.amount en subjectAmount bepalen onafhankelijke schalen; geen 3D-reconstructie."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "banknote",
+    "name": "Banknote",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/banknote.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Engraved monochrome portrait medallion with growing numeric amount.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect banknote op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen foreground/video in monochroom medaillon en oplopend configureerbaar bedrag; geen engraving/displacement. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen foreground/video in monochroom medaillon en oplopend configureerbaar bedrag; geen engraving/displacement.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Voor echte vrijstaande personen: foregroundFrames met RGBA-alpha; anders gebruikt deze recipe een gecropt videoportret of een getekende stand-in.",
+      "params.value en label voor bedrag/eenheid; eigen alpha of video voor portretmedaillon."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "voice-note",
+    "name": "Voice note",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/voice-note.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Audio message bar, voice waveform, playback and transcript state.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect voice-note op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen waveformachtige balk; geen uit stemaudio afgeleide waveform of transcript/send-state. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen waveformachtige balk; geen uit stemaudio afgeleide waveform of transcript/send-state.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Geen werkelijke audiowaveforminput aangesloten: de huidige balken zijn procedureel, niet spraakgestuurd."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "letter-dive",
+    "name": "Letter dive",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/letter-dive.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Footage visible through word mask; camera scales into glyph opening.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect letter-dive op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Echte footage via source-in door een sterk inzoomend woordmasker. Zonder media deterministisch kleurverloop; geen automatische keuze/tracking van een glyphopening of 3D camera. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Echte footage via source-in door een sterk inzoomend woordmasker. Zonder media deterministisch kleurverloop; geen automatische keuze/tracking van een glyphopening of 3D camera.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "live-cursor",
+    "name": "Live cursor",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/live-cursor.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Named pointer traces path, selects a subject box and moves content.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect live-cursor op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Pointerpad en clickring op kaart; geen automatisch geselecteerde/mobiele subjectcutout. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Pointerpad en clickring op kaart; geen automatisch geselecteerde/mobiele subjectcutout.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "head-stack",
+    "name": "Head stack",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/head-stack.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Small labeled boxes pile above head then destabilize and fall.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect head-stack op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Eigen subject-alpha of cropped videoportretten; nog geen gelabelde tiles met stacking/topplephysics. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Eigen subject-alpha of cropped videoportretten; nog geen gelabelde tiles met stacking/topplephysics.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Voor echte vrijstaande personen: foregroundFrames met RGBA-alpha; anders gebruikt deze recipe een gecropt videoportret of een getekende stand-in."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "rack-focus",
+    "name": "Rack focus",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/rack-focus.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Background-only blur ramps while foreground remains sharp.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect rack-focus op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Achtergrondblur en scherpe aangeleverde alpha; zonder matte synthetische demo; geen autofocus/segmentation intern. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Achtergrondblur en scherpe aangeleverde alpha; zonder matte synthetische demo; geen autofocus/segmentation intern.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Vereist foregroundFrames met echte subject-alpha voor de kernfunctie; zonder matte blijft alleen een eenvoudiger galerievoorbeeld over."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "code-body",
+    "name": "Code body",
+    "category": "segmentation",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/code-body.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Speaker silhouette replaced by code-like glyph field then restored.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect code-body op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Codeglyphs echt geclipt in aangeleverde subject-alpha met verticale scan; zonder alpha codekaartdemo; geen automatische segmentation intern. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Codeglyphs echt geclipt in aangeleverde subject-alpha met verticale scan; zonder alpha codekaartdemo; geen automatische segmentation intern.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Vereist foregroundFrames met echte subject-alpha voor de kernfunctie; zonder matte blijft alleen een eenvoudiger galerievoorbeeld over."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "post-wall",
+    "name": "Post wall",
+    "category": "infographic",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/post-wall.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Dense small post tiles populate background with increasing counter.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect post-wall op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen bewegende media in enkele kaarten; geen één-tegel-per-dag-dataset of postcounter. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen bewegende media in enkele kaarten; geen één-tegel-per-dag-dataset of postcounter.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen.",
+      "params.mediaSources: meerdere eigen mediapaden voor verschillende kaarten; één bron wordt anders herhaald."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "clone-row",
+    "name": "Clone row",
+    "category": "segmentation",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/clone-row.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Offset subject duplicates reveal in depth order then reunite.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect clone-row op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Offset kopieën van echte foreground-alpha of cropped video; geen autonome body/face-tracking, voor echte cutouts alpha nodig. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Offset kopieën van echte foreground-alpha of cropped video; geen autonome body/face-tracking, voor echte cutouts alpha nodig.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Voor echte vrijstaande personen: foregroundFrames met RGBA-alpha; anders gebruikt deze recipe een gecropt videoportret of een getekende stand-in."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "layer-explode",
+    "name": "Layer explode",
+    "category": "3d",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/layer-explode.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Scene planes separate in perspective with wireframe edges and audio layer.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect layer-explode op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Perspectiefplaten met echte video, monochrome kopie en foreground; captionlaag nog label, geen stemwaveform. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Perspectiefplaten met echte video, monochrome kopie en foreground; captionlaag nog label, geen stemwaveform.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "sketch-words",
+    "name": "Sketch words",
+    "category": "drawing",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/sketch-words.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Paper/line rendering in background; progressively drawn headline strokes.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect sketch-words op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Titel en growing/dashed underline; geen penciltextuur of handgeschreven glyphtracing. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Titel en growing/dashed underline; geen penciltextuur of handgeschreven glyphtracing.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "blow-away",
+    "name": "Blow away",
+    "category": "particles",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/blow-away.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Subject breaks into drifting fragments and reveals a clean room plate.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect blow-away op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Tekstletters waaien uiteen; geen pixels/deeltjes van subject en gereconstrueerde clean plate. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Tekstletters waaien uiteen; geen pixels/deeltjes van subject en gereconstrueerde clean plate.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "De huidige recipe animeert tekstletters; subject-alpha en clean plate leveren hier nog geen subjectdeeltjes op."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "incoming-call",
+    "name": "Incoming call",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/incoming-call.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Call banner enters, vibrates and changes to declined state.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect incoming-call op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen telefoon/call-vorm; geen compact buzz/decline-banner op gesproken cue. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen telefoon/call-vorm; geen compact buzz/decline-banner op gesproken cue.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Voor echte vrijstaande personen: foregroundFrames met RGBA-alpha; anders gebruikt deze recipe een gecropt videoportret of een getekende stand-in."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "search-suggest",
+    "name": "Search suggest",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/search-suggest.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Query types in a bar while related list rows change below it.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect search-suggest op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Typewriter en vaste suggesties; geen dynamische online zoekresultaten of semantische suggesties. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Typewriter en vaste suggesties; geen dynamische online zoekresultaten of semantische suggesties.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "double-exposure",
+    "name": "Double exposure",
+    "category": "segmentation",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/double-exposure.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Monochrome subject silhouette contains secondary moving imagery.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect double-exposure op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Secundaire geselecteerde media via source-in in echte subject-alpha; vereist foreground en andere bron voor rijk effect; geen automatische scenechoice. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Secundaire geselecteerde media via source-in in echte subject-alpha; vereist foreground en andere bron voor rijk effect; geen automatische scenechoice.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Vereist foregroundFrames met echte subject-alpha voor de kernfunctie; zonder matte blijft alleen een eenvoudiger galerievoorbeeld over.",
+      "job.walkthrough of params.mediaSources: secundair eigen beeld voor de vulling; job.video: onderliggend bronshot."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "shockwave",
+    "name": "Shockwave",
+    "category": "distortion",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/shockwave.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Brief radial local displacement expands from behind head.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect shockwave op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Expanderende lijnring; geen displacement/vervorming van kamer of bronvideo. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Expanderende lijnring; geen displacement/vervorming van kamer of bronvideo.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "De huidige recipe tekent een ring; geen bronvideo-displacementinput aangesloten."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "room-doors",
+    "name": "Room doors",
+    "category": "3d",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/room-doors.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Background divides into perspective door panels exposing another surface.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect room-doors op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Beeldoperatie. Bronvideopanelen schuiven/schalen open op werkelijke walkthrough/gekozen media; geen getrackte kamergeometrie of fysische schaduwen. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "image-operation",
+    "maturityLabel": "Beeldoperatie",
+    "limitations": "Bronvideopanelen schuiven/schalen open op werkelijke walkthrough/gekozen media; geen getrackte kamergeometrie of fysische schaduwen.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "finger-draw",
+    "name": "Finger draw",
+    "category": "tracking",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/finger-draw.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Small path follows a visible fingertip gesture; needs tracked coordinates.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect finger-draw op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Stand-in. Vooraf getekende ellips; geen fingertiptracking of pad uit handbeweging. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "stand-in",
+    "maturityLabel": "Stand-in",
+    "limitations": "Vooraf getekende ellips; geen fingertiptracking of pad uit handbeweging.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden.",
+      "Geen fingertiptracking of padinput aangesloten: de huidige ellips volgt geen echte hand."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  },
+  {
+    "id": "follow-chip",
+    "name": "Follow chip",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/follow-chip.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": "Profile/follow pill enters and toggles on action cue.",
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect follow-chip op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Basisanimatie. Eigen pill/button-reveal; geen werkelijk following-state/klik of accountactie. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "maturity": "baseline-animation",
+    "maturityLabel": "Basisanimatie",
+    "limitations": "Eigen pill/button-reveal; geen werkelijk following-state/klik of accountactie.",
+    "inputRequirements": [
+      "params.text: eigen tekst; start en duration: plaatsing in seconden."
+    ],
+    "acceptanceStatus": "source-inspected; see exact-commit runner reports for animation/export checks; premium quality not accepted"
+  }
+]

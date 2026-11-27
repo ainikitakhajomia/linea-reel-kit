@@ -1,0 +1,16 @@
+{
+  "id": "studio-linea",
+  "name": "Studio Linea",
+  "background": "#f6f5f1",
+  "foreground": "#111316",
+  "accent": "#27335f",
+  "muted": "#6a6c67",
+  "surface": "#ffffff",
+  "fontFamily": "Arial, sans-serif",
+  "preferredFont": "DM Sans",
+  "radius": 20,
+  "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+  "source": "https://studio.use-linea.com/",
+  "observed": "2026-11-27",
+  "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+}

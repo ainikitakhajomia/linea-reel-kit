@@ -1,0 +1,7 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:transparent}canvas{display:block}</style></head><body><canvas id="stage"></canvas><script type="module">
+import {drawFrame} from './effects.mjs';import {loadMedia,updateMedia} from './media.mjs';
+const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');let job,media={};
+window.setJob=async value=>{await document.fonts.ready;job=value;canvas.width=job.width||720;canvas.height=job.height||1280;media=await loadMedia(job);return true;};
+window.frame=async time=>{await updateMedia(media,job,time);drawFrame(ctx,job,time,media);return canvas.toDataURL('image/png').split(',')[1];};
+window.ready=true;
+</script></body></html>
