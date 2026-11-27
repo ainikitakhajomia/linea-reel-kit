@@ -77,6 +77,8 @@ class FFmpegIntegrationTests(unittest.TestCase):
             code = reel.main(["edit", str(source), "--transcript", str(transcript), "--out", str(out), "--width", "180", "--height", "320"])
             self.assertEqual(code, 0)
             result = reel.load(out / "job.json")["job"]
+            self.assertEqual(result["brand"]["accent"], "#27335f")
+            self.assertEqual(result["brand"]["background"], "#f6f5f1")
             self.assertGreater(result["duration"], 2.9)
             self.assertEqual(len(result["captions"]), 1)
             info, duration = reel.probe(out / "edited.mp4")
