@@ -10,12 +10,13 @@ def keep(path):
     if not target.exists():shutil.copyfile(path,target)
     return 'review-media/'+target.name
 sources=[('corrected','Gecorrigeerd · small ASR · 1080p','46048561317',ROOT/'out/recovered/latest'),('native','Eerdere versie · 1080p','46047685973',ROOT/'out/recovered/previous'),('first','Eerste versie · 540p · visueel afgekeurd','46046650541',Path('/Users/nikitakhajomia/linea-dev/worktrees/mattia/task-20261127-175400-eededbe663/linea-reel-kit/out/rendered-first'))]
+sources += [(key,label,run,ROOT/'out/recovered'/key) for key,label,run in [('baseline','Vroege basisexport','46046012093'),('partial-first','Eerste gedeeltelijke run','46045013148'),('partial-second','Tweede gedeeltelijke run','46045359598'),('partial-cancelled','Gedeeltelijk herstelde run','46047955403')]]
 result={'effects':{},'films':[],'extras':[],'carousels':[],'provenance':'Original synthetic demonstrations from preserved GitHub Actions outputs. No client footage. Reference media is linked directly, never copied.','sources':[]}
 films={}
 for key,label,run,base in sources:
     if not base.exists():continue
     portable=base/'out/portable-review/public'
-    if not portable.exists():raise SystemExit('Missing portable review '+str(base))
+    if not portable.exists():portable=base/'public'
     result['sources'].append({'label':label,'run':run,'url':f'https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/{run}'})
     manifest=json.loads((portable/'demos/manifest.json').read_text()) if (portable/'demos/manifest.json').exists() else []
     for demo in manifest:
@@ -28,12 +29,20 @@ for key,label,run,base in sources:
         for name,field in [('source.mp4','source'),('poster.jpg','poster'),('job.json','job')]:
             if (folder/name).exists():v[field]=keep(folder/name)
         film['versions'].append(v)
-    if key=='corrected':
-        for e in json.loads((ROOT/'src/catalog.json').read_text()):
-            video=portable/'renders'/(e['id']+'.mp4');poster=portable/'renders'/(e['id']+'-poster.jpg')
-            if not video.exists():raise ValueError('Missing effect '+e['id'])
-            result['effects'][e['id']]={'video':keep(video),'poster':keep(poster)}
-        for image in sorted((base/'out/carousel').glob('*.png')):result['carousels'].append(keep(image))
+    renderdir=portable/'renders'
+    if not renderdir.exists():renderdir=base/'public/renders'
+    for e in json.loads((ROOT/'src/catalog.json').read_text()):
+        video=renderdir/(e['id']+'.mp4');poster=renderdir/(e['id']+'-poster.jpg')
+        if not video.exists():
+            if key=='corrected':raise ValueError('Missing effect '+e['id'])
+            continue
+        media=keep(video)
+        if key=='corrected':result['effects'][e['id']]={'video':media,'poster':keep(poster),'versions':[]}
+        target=result['effects'].get(e['id'])
+        if target and all(v['video']!=media for v in target['versions']):target['versions'].append({'label':label,'run':run,'video':media})
+    for image in sorted((base/'out/carousel').glob('*.png')):
+        path=keep(image)
+        if path not in result['carousels']:result['carousels'].append(path)
     for name in ['talking-head-demo.mp4','talking-head-with-sfx.mp4','slideshow.mp4']:
         p=base/'out'/name
         if p.exists():result['extras'].append({'title':name.removesuffix('.mp4').replace('-',' '),'version':label,'run':run,'video':keep(p),'source':keep(portable/'demo/source.mp4') if (portable/'demo/source.mp4').exists() else None})

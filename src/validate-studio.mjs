@@ -15,6 +15,9 @@ try{
  await page.goto(url,{waitUntil:'networkidle'});await page.waitForSelector('.card');assert.equal(await page.locator('.card').count(),67);
  const manifest=await page.evaluate(async()=>{const r=await fetch(new URL('public/review-manifest.json',location.href));return r.json();});
  for(const v of await page.locator('.card video').all()){await play(v);report.effects++;}
+ const paths=new Set();function collect(x){if(typeof x==='string'&&x.startsWith('review-media/'))paths.add(x);else if(Array.isArray(x))x.forEach(collect);else if(x&&typeof x==='object')Object.values(x).forEach(collect);}collect(manifest);
+ const allPaths=[...paths];for(let i=0;i<allPaths.length;i+=6)await Promise.all(allPaths.slice(i,i+6).map(async p=>{const r=await page.request.head(new URL('public/'+p,url).href);assert.ok(r.ok(),'Missing media: '+p);assert.ok(Number(r.headers()['content-length'])>0,'Empty media: '+p);}));report.mediaFilesVerified=paths.size;
+
  await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'out/studio-qa/library.png'});
  await page.locator('.open').first().click();await page.waitForSelector('dialog[open]');
  for(const v of await page.locator('#comparison video').all())await play(v);
@@ -39,6 +42,7 @@ try{
  report.audioStreams=[];
  for(const path of [...new Set(films)]){
   const probe=spawnSync('ffprobe',['-v','error','-show_streams','-of','json',resolve('public',path)],{encoding:'utf8'});if(probe.status!==0)throw Error('Cannot inspect audio streams: '+path);
+  const decoded=spawnSync('ffmpeg',['-v','error','-i',resolve('public',path),'-f','null','-'],{encoding:'utf8',timeout:60000});assert.equal(decoded.status,0,'Full export must decode through its final frame: '+path+' '+decoded.stderr);
   const streams=JSON.parse(probe.stdout).streams.filter(s=>s.codec_type==='audio');
   if(!streams.length){report.audioStreams.push({path,audio:false});continue;}
   const signal=await page.evaluate(async path=>{const ctx=new AudioContext();const buffer=await ctx.decodeAudioData(await (await fetch(new URL('public/'+path,location.href))).arrayBuffer());let peak=0;for(const value of buffer.getChannelData(0))peak=Math.max(peak,Math.abs(value));await ctx.close();return {channels:buffer.numberOfChannels,peak,duration:buffer.duration};},path);

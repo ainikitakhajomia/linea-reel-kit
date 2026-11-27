@@ -2,271 +2,830 @@
   "effects": {
     "kinetic-hook": {
       "video": "review-media/0b3a9677b23d9c69da885ad2.mp4",
-      "poster": "review-media/c4872529272863042ad43d63.jpg"
+      "poster": "review-media/c4872529272863042ad43d63.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/0b3a9677b23d9c69da885ad2.mp4"
+        }
+      ]
     },
     "icon-strike": {
       "video": "review-media/76a807c2c81245126315cc06.mp4",
-      "poster": "review-media/bf9a01fe6654ab7677b0d753.jpg"
+      "poster": "review-media/bf9a01fe6654ab7677b0d753.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/76a807c2c81245126315cc06.mp4"
+        }
+      ]
     },
     "prompt-bar": {
       "video": "review-media/7aa452aecf7240f5f5deb686.mp4",
-      "poster": "review-media/80674c9b00b835acaf45346f.jpg"
+      "poster": "review-media/80674c9b00b835acaf45346f.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/7aa452aecf7240f5f5deb686.mp4"
+        }
+      ]
     },
     "grade-slider": {
       "video": "review-media/e56f0778243055fd272f9a75.mp4",
-      "poster": "review-media/3c97153e9228ec930d1c73a8.jpg"
+      "poster": "review-media/3c97153e9228ec930d1c73a8.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e56f0778243055fd272f9a75.mp4"
+        }
+      ]
     },
     "magazine-cover": {
       "video": "review-media/858c24b1b4327f1c5af62088.mp4",
-      "poster": "review-media/3cc76c4e8933d75b8f6b8491.jpg"
+      "poster": "review-media/3cc76c4e8933d75b8f6b8491.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/858c24b1b4327f1c5af62088.mp4"
+        }
+      ]
     },
     "nle-timeline": {
       "video": "review-media/8122181e58842162040910b3.mp4",
-      "poster": "review-media/888347ca46c51b47226cd4b1.jpg"
+      "poster": "review-media/888347ca46c51b47226cd4b1.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/8122181e58842162040910b3.mp4"
+        }
+      ]
     },
     "file-drop": {
       "video": "review-media/5158ff251f4956083d6f5f01.mp4",
-      "poster": "review-media/c01422a25271131884acd18c.jpg"
+      "poster": "review-media/c01422a25271131884acd18c.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/5158ff251f4956083d6f5f01.mp4"
+        }
+      ]
     },
     "odometer-recursion": {
       "video": "review-media/b311198c0b04b18b08dc66cb.mp4",
-      "poster": "review-media/3f6f16121f7842b8ce3fbdea.jpg"
+      "poster": "review-media/3f6f16121f7842b8ce3fbdea.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/b311198c0b04b18b08dc66cb.mp4"
+        }
+      ]
     },
     "mood-curtain": {
       "video": "review-media/8113b92ec16772714778d97f.mp4",
-      "poster": "review-media/2e4c2b86c5dffae179d986df.jpg"
+      "poster": "review-media/2e4c2b86c5dffae179d986df.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/8113b92ec16772714778d97f.mp4"
+        }
+      ]
     },
     "grid-collapse": {
       "video": "review-media/e32a0fd6004e2034a261e351.mp4",
-      "poster": "review-media/e55f0b612af4d46550dda395.jpg"
+      "poster": "review-media/e55f0b612af4d46550dda395.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e32a0fd6004e2034a261e351.mp4"
+        }
+      ]
     },
     "page-scroll": {
       "video": "review-media/32bfdbd959ae4aa82e41a225.mp4",
-      "poster": "review-media/ef8818da1ee078ada8437a95.jpg"
+      "poster": "review-media/ef8818da1ee078ada8437a95.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/32bfdbd959ae4aa82e41a225.mp4"
+        }
+      ]
     },
     "comment-thread": {
       "video": "review-media/21bb9f0eabdd946a8f12a2c6.mp4",
-      "poster": "review-media/53179182f62cf5b57bec8251.jpg"
+      "poster": "review-media/53179182f62cf5b57bec8251.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/21bb9f0eabdd946a8f12a2c6.mp4"
+        }
+      ]
     },
     "word-stamp": {
       "video": "review-media/a26d07300592d4679a01e6f1.mp4",
-      "poster": "review-media/850141ae193f4c7cdaa8923d.jpg"
+      "poster": "review-media/850141ae193f4c7cdaa8923d.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/a26d07300592d4679a01e6f1.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/44fc2e1606530e0780c886c6.mp4"
+        }
+      ]
     },
     "giant-captions": {
       "video": "review-media/623511b77900909d3938dbbd.mp4",
-      "poster": "review-media/6595563dd12db155b86fabf6.jpg"
+      "poster": "review-media/6595563dd12db155b86fabf6.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/623511b77900909d3938dbbd.mp4"
+        }
+      ]
     },
     "video-card": {
       "video": "review-media/5e22b27a2a5d1783f6a64a6d.mp4",
-      "poster": "review-media/673ece28534a3ec3417d1b0b.jpg"
+      "poster": "review-media/673ece28534a3ec3417d1b0b.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/5e22b27a2a5d1783f6a64a6d.mp4"
+        }
+      ]
     },
     "comment-cta": {
       "video": "review-media/1602bc0837ab82eb3b0caca8.mp4",
-      "poster": "review-media/b05360b5c9e26b0c72ba6038.jpg"
+      "poster": "review-media/b05360b5c9e26b0c72ba6038.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/1602bc0837ab82eb3b0caca8.mp4"
+        }
+      ]
     },
     "camera-transitions": {
       "video": "review-media/d8afa0ce95a4a9d0159615eb.mp4",
-      "poster": "review-media/81cd670e49210f9ce486c2ec.jpg"
+      "poster": "review-media/81cd670e49210f9ce486c2ec.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/d8afa0ce95a4a9d0159615eb.mp4"
+        },
+        {
+          "label": "Vroege basisexport",
+          "run": "46046012093",
+          "video": "review-media/88df67f7d831cb9ffcfc4249.mp4"
+        }
+      ]
     },
     "contact-sheet-hook": {
       "video": "review-media/1c928b801c2a773ac93dd259.mp4",
-      "poster": "review-media/61b3c067ffc327514ca50190.jpg"
+      "poster": "review-media/61b3c067ffc327514ca50190.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/1c928b801c2a773ac93dd259.mp4"
+        }
+      ]
     },
     "receipt-printer": {
       "video": "review-media/10625bb87875427121c34de1.mp4",
-      "poster": "review-media/bdbb5ee3cdca267801b8d8d7.jpg"
+      "poster": "review-media/bdbb5ee3cdca267801b8d8d7.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/10625bb87875427121c34de1.mp4"
+        }
+      ]
     },
     "jiggle-delete": {
       "video": "review-media/e89a755fcd7acad77e5de21a.mp4",
-      "poster": "review-media/ce3d92e91271b9bf6d6f59bd.jpg"
+      "poster": "review-media/ce3d92e91271b9bf6d6f59bd.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e89a755fcd7acad77e5de21a.mp4"
+        }
+      ]
     },
     "keycaps": {
       "video": "review-media/a033aceaf52c87130bf391eb.mp4",
-      "poster": "review-media/5503f29133d2b28bded7b453.jpg"
+      "poster": "review-media/5503f29133d2b28bded7b453.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/a033aceaf52c87130bf391eb.mp4"
+        }
+      ]
     },
     "projected-film": {
       "video": "review-media/8a34edf34db579a53509cc4f.mp4",
-      "poster": "review-media/c2d43e7380d067eb3fedc3a9.jpg"
+      "poster": "review-media/c2d43e7380d067eb3fedc3a9.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/8a34edf34db579a53509cc4f.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/5b553d1acd9c0bb63e5d1c86.mp4"
+        }
+      ]
     },
     "film-look": {
       "video": "review-media/165ac5464620c9938769bf05.mp4",
-      "poster": "review-media/86f371ead638df52b3f81861.jpg"
+      "poster": "review-media/86f371ead638df52b3f81861.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/165ac5464620c9938769bf05.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/102264872a0cefcfd5037b6b.mp4"
+        }
+      ]
     },
     "eyedropper-grade": {
       "video": "review-media/92f701f539570942cac593b5.mp4",
-      "poster": "review-media/80c7b74c8269a87579b1aa32.jpg"
+      "poster": "review-media/80c7b74c8269a87579b1aa32.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/92f701f539570942cac593b5.mp4"
+        }
+      ]
     },
     "reel-cascade": {
       "video": "review-media/3edc0c686db263819bbbb5ca.mp4",
-      "poster": "review-media/6127935340f62d4b2215bf27.jpg"
+      "poster": "review-media/6127935340f62d4b2215bf27.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/3edc0c686db263819bbbb5ca.mp4"
+        }
+      ]
     },
     "playing-grid": {
       "video": "review-media/e6793f5da8b76fee77a5e122.mp4",
-      "poster": "review-media/5caf4210c65f99653dac91c3.jpg"
+      "poster": "review-media/5caf4210c65f99653dac91c3.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e6793f5da8b76fee77a5e122.mp4"
+        }
+      ]
     },
     "reel-feed": {
       "video": "review-media/f0675f323178b5dd48761e48.mp4",
-      "poster": "review-media/937824bf1078f6023cbb0095.jpg"
+      "poster": "review-media/937824bf1078f6023cbb0095.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/f0675f323178b5dd48761e48.mp4"
+        }
+      ]
     },
     "intertitle": {
       "video": "review-media/d48d090ddd51c44990aa3ce7.mp4",
-      "poster": "review-media/82807e0e647bbe6020b31859.jpg"
+      "poster": "review-media/82807e0e647bbe6020b31859.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/d48d090ddd51c44990aa3ce7.mp4"
+        }
+      ]
     },
     "screenplay-page": {
       "video": "review-media/cb0f04f5590f3460bb59fe2f.mp4",
-      "poster": "review-media/93c182b972cb0c88be7510cb.jpg"
+      "poster": "review-media/93c182b972cb0c88be7510cb.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/cb0f04f5590f3460bb59fe2f.mp4"
+        }
+      ]
     },
     "knockout-captions": {
       "video": "review-media/10ab1f475d84ce15637b5efc.mp4",
-      "poster": "review-media/188df05d307f7d384dd74fd1.jpg"
+      "poster": "review-media/188df05d307f7d384dd74fd1.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/10ab1f475d84ce15637b5efc.mp4"
+        }
+      ]
     },
     "lens-ring": {
       "video": "review-media/513400ae5d9f341634947db7.mp4",
-      "poster": "review-media/907731ae68dd65d3bb37fd95.jpg"
+      "poster": "review-media/907731ae68dd65d3bb37fd95.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/513400ae5d9f341634947db7.mp4"
+        }
+      ]
     },
     "grease-pencil-sheet": {
       "video": "review-media/e4f17548f498bb6c2f65ee3b.mp4",
-      "poster": "review-media/d244368040ce4f12a0373b57.jpg"
+      "poster": "review-media/d244368040ce4f12a0373b57.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e4f17548f498bb6c2f65ee3b.mp4"
+        }
+      ]
     },
     "title-card-dive": {
       "video": "review-media/0afc1fece4d2899eeed08f0c.mp4",
-      "poster": "review-media/4bb88f61637e799139edd00c.jpg"
+      "poster": "review-media/4bb88f61637e799139edd00c.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/0afc1fece4d2899eeed08f0c.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/841805c41b7fc2ee5a1a78f1.mp4"
+        }
+      ]
     },
     "picture-dive": {
       "video": "review-media/066c06a52da8ae1b7b41c7f0.mp4",
-      "poster": "review-media/e30475d6aabc5d0b5616f7cb.jpg"
+      "poster": "review-media/e30475d6aabc5d0b5616f7cb.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/066c06a52da8ae1b7b41c7f0.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/2df6f0706fe405ce94eff24f.mp4"
+        }
+      ]
     },
     "live-markup": {
       "video": "review-media/5b4c7806cbb0a2c43a2369b8.mp4",
-      "poster": "review-media/30983f5eaf4395253aff8814.jpg"
+      "poster": "review-media/30983f5eaf4395253aff8814.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/5b4c7806cbb0a2c43a2369b8.mp4"
+        }
+      ]
     },
     "storyboard-deck": {
       "video": "review-media/1d9e4a7bca9f84ed9cde9437.mp4",
-      "poster": "review-media/fb3777965a348c1bbdf964de.jpg"
+      "poster": "review-media/fb3777965a348c1bbdf964de.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/1d9e4a7bca9f84ed9cde9437.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/e882c073d1befc6993ddbbc4.mp4"
+        }
+      ]
     },
     "gravity-drop": {
       "video": "review-media/6c7f84b0a026ac0dce809023.mp4",
-      "poster": "review-media/b1f8337e45d695e9d7f5d00a.jpg"
+      "poster": "review-media/b1f8337e45d695e9d7f5d00a.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/6c7f84b0a026ac0dce809023.mp4"
+        }
+      ]
     },
     "video-backdrop": {
       "video": "review-media/c94ea889ee286de3c6d3d79c.mp4",
-      "poster": "review-media/ab46237a8d3531ad1eda46f6.jpg"
+      "poster": "review-media/ab46237a8d3531ad1eda46f6.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/c94ea889ee286de3c6d3d79c.mp4"
+        }
+      ]
     },
     "comment-drop": {
       "video": "review-media/21bb9f0eabdd946a8f12a2c6.mp4",
-      "poster": "review-media/53179182f62cf5b57bec8251.jpg"
+      "poster": "review-media/53179182f62cf5b57bec8251.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/21bb9f0eabdd946a8f12a2c6.mp4"
+        }
+      ]
     },
     "shape-transitions": {
       "video": "review-media/84092d979f4cbb39672f0525.mp4",
-      "poster": "review-media/fcd06bf83c407448535e2b11.jpg"
+      "poster": "review-media/fcd06bf83c407448535e2b11.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/84092d979f4cbb39672f0525.mp4"
+        },
+        {
+          "label": "Vroege basisexport",
+          "run": "46046012093",
+          "video": "review-media/0ac374a7c3ad968c8abf996f.mp4"
+        }
+      ]
     },
     "press-front": {
       "video": "review-media/28191fb35c32cdcab6523c15.mp4",
-      "poster": "review-media/ffbdc04c117ecbe90c72cd28.jpg"
+      "poster": "review-media/ffbdc04c117ecbe90c72cd28.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/28191fb35c32cdcab6523c15.mp4"
+        }
+      ]
     },
     "paper-tear": {
       "video": "review-media/100d3cfcfc5efdcda4a29b1f.mp4",
-      "poster": "review-media/dddccebe7c41f428c90f8e0d.jpg"
+      "poster": "review-media/dddccebe7c41f428c90f8e0d.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/100d3cfcfc5efdcda4a29b1f.mp4"
+        },
+        {
+          "label": "Eerdere versie · 1080p",
+          "run": "46047685973",
+          "video": "review-media/6c31688bef0325399659da1b.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/d1239803498ddea0314a73d2.mp4"
+        }
+      ]
     },
     "blade-slice": {
       "video": "review-media/4e7967a52a42a0d3644adb52.mp4",
-      "poster": "review-media/df428c46787ef6ccd9bea0a5.jpg"
+      "poster": "review-media/df428c46787ef6ccd9bea0a5.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/4e7967a52a42a0d3644adb52.mp4"
+        }
+      ]
     },
     "day-dial": {
       "video": "review-media/31641d22122e628c8dfbb00d.mp4",
-      "poster": "review-media/0960b3e471587b38c1a1cfdc.jpg"
+      "poster": "review-media/0960b3e471587b38c1a1cfdc.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/31641d22122e628c8dfbb00d.mp4"
+        }
+      ]
     },
     "predict-keys": {
       "video": "review-media/e9391818ca0fb9d2d4d53dd9.mp4",
-      "poster": "review-media/9ee9b5efa8c9af633daad38b.jpg"
+      "poster": "review-media/9ee9b5efa8c9af633daad38b.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e9391818ca0fb9d2d4d53dd9.mp4"
+        }
+      ]
     },
     "impact-frame": {
       "video": "review-media/2c70f126d4281fd1077b17cd.mp4",
-      "poster": "review-media/22b0b021b71a2f1fc9a8e2d6.jpg"
+      "poster": "review-media/22b0b021b71a2f1fc9a8e2d6.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/2c70f126d4281fd1077b17cd.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/482fb6b46a2798aae22dd32b.mp4"
+        }
+      ]
     },
     "orbit-ring": {
       "video": "review-media/e134e5140e00a7a63f533b28.mp4",
-      "poster": "review-media/3d62df3525bb930d5fac84e8.jpg"
+      "poster": "review-media/3d62df3525bb930d5fac84e8.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e134e5140e00a7a63f533b28.mp4"
+        }
+      ]
     },
     "dolly-zoom": {
       "video": "review-media/bcd4c399b5e44bc799db46b0.mp4",
-      "poster": "review-media/c0c7de4f94631e2b50105fca.jpg"
+      "poster": "review-media/c0c7de4f94631e2b50105fca.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/bcd4c399b5e44bc799db46b0.mp4"
+        },
+        {
+          "label": "Vroege basisexport",
+          "run": "46046012093",
+          "video": "review-media/eb871e7214a7ebc942ea101f.mp4"
+        }
+      ]
     },
     "banknote": {
       "video": "review-media/12d91b139919646a9b948b7f.mp4",
-      "poster": "review-media/a489d38192292ce3d7babd2d.jpg"
+      "poster": "review-media/a489d38192292ce3d7babd2d.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/12d91b139919646a9b948b7f.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/c32a7fcc7c97baa1905c3cb0.mp4"
+        }
+      ]
     },
     "voice-note": {
       "video": "review-media/fce16874c7eafbc1e4c0b59d.mp4",
-      "poster": "review-media/27bf993c89cbe4f70b837bf4.jpg"
+      "poster": "review-media/27bf993c89cbe4f70b837bf4.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/fce16874c7eafbc1e4c0b59d.mp4"
+        }
+      ]
     },
     "letter-dive": {
       "video": "review-media/d1f9ac50ec79cb4779d75634.mp4",
-      "poster": "review-media/88d59bab4be0cb2de54ca8b4.jpg"
+      "poster": "review-media/88d59bab4be0cb2de54ca8b4.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/d1f9ac50ec79cb4779d75634.mp4"
+        },
+        {
+          "label": "Eerste versie · 540p · visueel afgekeurd",
+          "run": "46046650541",
+          "video": "review-media/b07e943c0b88aa8f31899055.mp4"
+        },
+        {
+          "label": "Vroege basisexport",
+          "run": "46046012093",
+          "video": "review-media/c7d9945115c11c0aa9350b37.mp4"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "run": "46047955403",
+          "video": "review-media/eaad7709d6127c9ffdfd2417.mp4"
+        }
+      ]
     },
     "live-cursor": {
       "video": "review-media/a68df4bcfdbacf1581c749ef.mp4",
-      "poster": "review-media/7f7765e00e80034f9fec2541.jpg"
+      "poster": "review-media/7f7765e00e80034f9fec2541.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/a68df4bcfdbacf1581c749ef.mp4"
+        }
+      ]
     },
     "head-stack": {
       "video": "review-media/e7987afb24b87118327fbfdd.mp4",
-      "poster": "review-media/749d6a39e5acea7b1c500b48.jpg"
+      "poster": "review-media/749d6a39e5acea7b1c500b48.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/e7987afb24b87118327fbfdd.mp4"
+        }
+      ]
     },
     "rack-focus": {
       "video": "review-media/78f70883781a3e0da96558d3.mp4",
-      "poster": "review-media/4e6d58605cb65172d18229c2.jpg"
+      "poster": "review-media/4e6d58605cb65172d18229c2.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/78f70883781a3e0da96558d3.mp4"
+        }
+      ]
     },
     "code-body": {
       "video": "review-media/8128d6fd8be58605bc00f4fa.mp4",
-      "poster": "review-media/8b3ed2c108ece568fee491e7.jpg"
+      "poster": "review-media/8b3ed2c108ece568fee491e7.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/8128d6fd8be58605bc00f4fa.mp4"
+        }
+      ]
     },
     "post-wall": {
       "video": "review-media/546f691419b2e6af63c12348.mp4",
-      "poster": "review-media/4818e63918790191de2ed1fd.jpg"
+      "poster": "review-media/4818e63918790191de2ed1fd.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/546f691419b2e6af63c12348.mp4"
+        }
+      ]
     },
     "clone-row": {
       "video": "review-media/03823a7f29d583243d72f448.mp4",
-      "poster": "review-media/2aea22a5a64905e47fb6389a.jpg"
+      "poster": "review-media/2aea22a5a64905e47fb6389a.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/03823a7f29d583243d72f448.mp4"
+        }
+      ]
     },
     "layer-explode": {
       "video": "review-media/116598e7bbf21a2e0d10de91.mp4",
-      "poster": "review-media/d8429a4e8c3fb7d07d381486.jpg"
+      "poster": "review-media/d8429a4e8c3fb7d07d381486.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/116598e7bbf21a2e0d10de91.mp4"
+        }
+      ]
     },
     "sketch-words": {
       "video": "review-media/3172f8db2d9cf78ec929e82f.mp4",
-      "poster": "review-media/511188232f25f73b0265fd5b.jpg"
+      "poster": "review-media/511188232f25f73b0265fd5b.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/3172f8db2d9cf78ec929e82f.mp4"
+        }
+      ]
     },
     "blow-away": {
       "video": "review-media/6b44f25b5691458c4209405b.mp4",
-      "poster": "review-media/09636690852f0e453e8998a1.jpg"
+      "poster": "review-media/09636690852f0e453e8998a1.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/6b44f25b5691458c4209405b.mp4"
+        },
+        {
+          "label": "Vroege basisexport",
+          "run": "46046012093",
+          "video": "review-media/1cf7bfbceca87a54da95a345.mp4"
+        }
+      ]
     },
     "incoming-call": {
       "video": "review-media/4b8db5aa1c27cfe4a2f8800d.mp4",
-      "poster": "review-media/cf080fca0cde49dda9bda2f6.jpg"
+      "poster": "review-media/cf080fca0cde49dda9bda2f6.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/4b8db5aa1c27cfe4a2f8800d.mp4"
+        }
+      ]
     },
     "search-suggest": {
       "video": "review-media/58ae452c15038dcece8d991b.mp4",
-      "poster": "review-media/249b045d40019950ced324e2.jpg"
+      "poster": "review-media/249b045d40019950ced324e2.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/58ae452c15038dcece8d991b.mp4"
+        }
+      ]
     },
     "double-exposure": {
       "video": "review-media/fa60ed3fef7e7433286a0da3.mp4",
-      "poster": "review-media/5746b2472bfc951dd8240a82.jpg"
+      "poster": "review-media/5746b2472bfc951dd8240a82.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/fa60ed3fef7e7433286a0da3.mp4"
+        },
+        {
+          "label": "Eerste versie · 540p · visueel afgekeurd",
+          "run": "46046650541",
+          "video": "review-media/b55115a0995e49a1178dea05.mp4"
+        }
+      ]
     },
     "shockwave": {
       "video": "review-media/7cda8abc1c53543257bc2edb.mp4",
-      "poster": "review-media/a8bee119bd8a986eb9229a92.jpg"
+      "poster": "review-media/a8bee119bd8a986eb9229a92.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/7cda8abc1c53543257bc2edb.mp4"
+        }
+      ]
     },
     "room-doors": {
       "video": "review-media/cad32a4671b8d29a567660a7.mp4",
-      "poster": "review-media/3cc1e93b57c324598d4c68c9.jpg"
+      "poster": "review-media/3cc1e93b57c324598d4c68c9.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/cad32a4671b8d29a567660a7.mp4"
+        }
+      ]
     },
     "finger-draw": {
       "video": "review-media/b62f9f667d2f7ea2df30bf70.mp4",
-      "poster": "review-media/589cf494d6ba13fbd2488991.jpg"
+      "poster": "review-media/589cf494d6ba13fbd2488991.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/b62f9f667d2f7ea2df30bf70.mp4"
+        }
+      ]
     },
     "follow-chip": {
       "video": "review-media/9656ad0f6a4acb2ac84b6632.mp4",
-      "poster": "review-media/11b4acb5efee6e6c7d1a1748.jpg"
+      "poster": "review-media/11b4acb5efee6e6c7d1a1748.jpg",
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "run": "46048561317",
+          "video": "review-media/9656ad0f6a4acb2ac84b6632.mp4"
+        }
+      ]
     }
   },
   "films": [
@@ -876,6 +1435,223 @@
           },
           "source": "review-media/757b399a9d42520099e54eac.mp4",
           "job": "review-media/21795908c9391627d293effb.json"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "key": "partial-cancelled",
+          "run": "46047955403",
+          "video": "review-media/28ae129a2fd1315a06b55268.mp4",
+          "duration": 6.208333333333333,
+          "effects": [
+            {
+              "id": "camera-transitions",
+              "start": 0,
+              "duration": 1.92,
+              "text": "Die ene taak",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "word-stamp",
+              "start": 1.92,
+              "duration": 1.7000000000000002,
+              "text": "Elke week?",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "follow-chip",
+              "start": 3.62,
+              "duration": 2.588333333333333,
+              "text": "Pak die eerst",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Je",
+              "startMs": 0,
+              "endMs": 200,
+              "confidence": 0.13770291209220886
+            },
+            {
+              "text": " hebt",
+              "startMs": 200,
+              "endMs": 480,
+              "confidence": 0.9706041812896729
+            },
+            {
+              "text": " geen",
+              "startMs": 480,
+              "endMs": 820,
+              "confidence": 0.7675533890724182
+            },
+            {
+              "text": " extra",
+              "startMs": 820,
+              "endMs": 1180,
+              "confidence": 0.9563179612159729
+            },
+            {
+              "text": " merke",
+              "startMs": 1180,
+              "endMs": 1720,
+              "confidence": 0.30431029200553894
+            },
+            {
+              "text": " dag",
+              "startMs": 1720,
+              "endMs": 1920,
+              "confidence": 0.5995149612426758
+            },
+            {
+              "text": " nodig.",
+              "startMs": 1920,
+              "endMs": 2260,
+              "confidence": 0.895468533039093
+            },
+            {
+              "text": " We",
+              "startMs": 2720,
+              "endMs": 2760,
+              "confidence": 0.113377645611763
+            },
+            {
+              "text": " beginnen",
+              "startMs": 2760,
+              "endMs": 3020,
+              "confidence": 0.4525986909866333
+            },
+            {
+              "text": " met",
+              "startMs": 3020,
+              "endMs": 3300,
+              "confidence": 0.9962998032569885
+            },
+            {
+              "text": " die",
+              "startMs": 3300,
+              "endMs": 3460,
+              "confidence": 0.41197440028190613
+            },
+            {
+              "text": " een",
+              "startMs": 3460,
+              "endMs": 3620,
+              "confidence": 0.29674240946769714
+            },
+            {
+              "text": " takt",
+              "startMs": 3620,
+              "endMs": 4040,
+              "confidence": 0.3031792491674423
+            },
+            {
+              "text": " die",
+              "startMs": 4040,
+              "endMs": 4140,
+              "confidence": 0.23254245519638062
+            },
+            {
+              "text": " je",
+              "startMs": 4140,
+              "endMs": 4280,
+              "confidence": 0.5199942588806152
+            },
+            {
+              "text": " elke",
+              "startMs": 4280,
+              "endMs": 4540,
+              "confidence": 0.7449502944946289
+            },
+            {
+              "text": " meek",
+              "startMs": 4540,
+              "endMs": 4860,
+              "confidence": 0.43440960347652435
+            },
+            {
+              "text": " opnieuw",
+              "startMs": 4860,
+              "endMs": 5260,
+              "confidence": 0.7265483339627584
+            },
+            {
+              "text": " doet.",
+              "startMs": 5260,
+              "endMs": 5500,
+              "confidence": 0.2185247391462326
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "je hebt",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "je",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 1.92
+              },
+              {
+                "phrase": "begin",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 6,
+                "asrToken": "nodig",
+                "asrOnsetSeconds": 1.92,
+                "start": 1.92,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 1.7000000000000002
+              },
+              {
+                "phrase": "elke week",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 12,
+                "asrToken": "takt",
+                "asrOnsetSeconds": 3.62,
+                "start": 3.62,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 2.588333333333333
+              }
+            ],
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/aa2b901ff1cac1a30c15efab.mp4",
+          "poster": "review-media/dfdd4630ed3728e099334974.jpg",
+          "job": "review-media/a485beec97cf6635242ed867.json"
         }
       ]
     },
@@ -1519,6 +2295,239 @@
           },
           "source": "review-media/5eb46b15ecb88cd08126f875.mp4",
           "job": "review-media/cfd9581c56ee88a91cd5c39d.json"
+        },
+        {
+          "label": "Gedeeltelijk herstelde run",
+          "key": "partial-cancelled",
+          "run": "46047955403",
+          "video": "review-media/a702f9be70a040ec1548bede.mp4",
+          "duration": 7.125,
+          "effects": [
+            {
+              "id": "kinetic-hook",
+              "start": 0,
+              "duration": 2.06,
+              "text": "Dit staat niet, wat je",
+              "params": {
+                "syncWords": true
+              },
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "orbit-ring",
+              "start": 2.06,
+              "duration": 2.64,
+              "text": "HET VERHAAL",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "giant-captions",
+              "start": 4.7,
+              "duration": 2.425,
+              "text": "houden, dat ik op de",
+              "params": {
+                "syncWords": true
+              },
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Dit",
+              "startMs": 0,
+              "endMs": 280,
+              "confidence": 0.42137905955314636
+            },
+            {
+              "text": " staat",
+              "startMs": 280,
+              "endMs": 540,
+              "confidence": 0.5993682146072388
+            },
+            {
+              "text": " niet,",
+              "startMs": 540,
+              "endMs": 720,
+              "confidence": 0.9522420763969421
+            },
+            {
+              "text": " wat",
+              "startMs": 1000,
+              "endMs": 1100,
+              "confidence": 0.3306705355644226
+            },
+            {
+              "text": " je",
+              "startMs": 1100,
+              "endMs": 1300,
+              "confidence": 0.7330878376960754
+            },
+            {
+              "text": " nu",
+              "startMs": 1300,
+              "endMs": 1600,
+              "confidence": 0.8418733477592468
+            },
+            {
+              "text": " is,",
+              "startMs": 1600,
+              "endMs": 2040,
+              "confidence": 0.32565194368362427
+            },
+            {
+              "text": " dat",
+              "startMs": 2060,
+              "endMs": 2220,
+              "confidence": 0.28755947947502136
+            },
+            {
+              "text": " staat",
+              "startMs": 2220,
+              "endMs": 2540,
+              "confidence": 0.9773346781730652
+            },
+            {
+              "text": " achter",
+              "startMs": 2540,
+              "endMs": 2920,
+              "confidence": 0.8320986032485962
+            },
+            {
+              "text": " me.",
+              "startMs": 2920,
+              "endMs": 3320,
+              "confidence": 0.5493406653404236
+            },
+            {
+              "text": " Wobblijft,",
+              "startMs": 3720,
+              "endMs": 4240,
+              "confidence": 0.49254476428031924
+            },
+            {
+              "text": " dat",
+              "startMs": 4400,
+              "endMs": 4460,
+              "confidence": 0.9797143340110779
+            },
+            {
+              "text": " moet",
+              "startMs": 4460,
+              "endMs": 4700,
+              "confidence": 0.15810218453407288
+            },
+            {
+              "text": " houden,",
+              "startMs": 4700,
+              "endMs": 5120,
+              "confidence": 0.6124434620141983
+            },
+            {
+              "text": " dat",
+              "startMs": 5140,
+              "endMs": 5260,
+              "confidence": 0.7958680987358093
+            },
+            {
+              "text": " ik",
+              "startMs": 5260,
+              "endMs": 5440,
+              "confidence": 0.06819230318069458
+            },
+            {
+              "text": " op",
+              "startMs": 5440,
+              "endMs": 5660,
+              "confidence": 0.4024186432361603
+            },
+            {
+              "text": " de",
+              "startMs": 5660,
+              "endMs": 5840,
+              "confidence": 0.4963186979293823
+            },
+            {
+              "text": " morgen",
+              "startMs": 5840,
+              "endMs": 6140,
+              "confidence": 0.332141637802124
+            },
+            {
+              "text": " ont.",
+              "startMs": 6140,
+              "endMs": 6440,
+              "confidence": 0.41696256399154663
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "dit staat",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "dit",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.06
+              },
+              {
+                "phrase": "achter mij",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 7,
+                "asrToken": "dat",
+                "asrOnsetSeconds": 2.06,
+                "start": 2.06,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 2.64
+              },
+              {
+                "phrase": "voorgrond",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 14,
+                "asrToken": "houden",
+                "asrOnsetSeconds": 4.7,
+                "start": 4.7,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 2.425
+              }
+            ],
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/b7927d291a29f011b8c57507.mp4",
+          "poster": "review-media/e62106379b73f7e714b1a952.jpg",
+          "job": "review-media/bcfcb081cc45590e05fa64f4.json"
         }
       ]
     },
@@ -6971,6 +7980,69 @@
       "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
     },
     {
+      "title": "talking head demo",
+      "version": "Vroege basisexport",
+      "run": "46046012093",
+      "video": "review-media/6ed23fdd613140f5356d1c31.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "talking head with sfx",
+      "version": "Vroege basisexport",
+      "run": "46046012093",
+      "video": "review-media/98c7a5f530fb0be6d12a3934.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "slideshow",
+      "version": "Vroege basisexport",
+      "run": "46046012093",
+      "video": "review-media/10fc321d96a2ea265b2917c3.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "talking head demo",
+      "version": "Eerste gedeeltelijke run",
+      "run": "46045013148",
+      "video": "review-media/6ed23fdd613140f5356d1c31.mp4",
+      "source": null
+    },
+    {
+      "title": "talking head demo",
+      "version": "Tweede gedeeltelijke run",
+      "run": "46045359598",
+      "video": "review-media/6ed23fdd613140f5356d1c31.mp4",
+      "source": null
+    },
+    {
+      "title": "talking head with sfx",
+      "version": "Tweede gedeeltelijke run",
+      "run": "46045359598",
+      "video": "review-media/98c7a5f530fb0be6d12a3934.mp4",
+      "source": null
+    },
+    {
+      "title": "talking head demo",
+      "version": "Gedeeltelijk herstelde run",
+      "run": "46047955403",
+      "video": "review-media/d0d5ec825df78409074a6500.mp4",
+      "source": null
+    },
+    {
+      "title": "talking head with sfx",
+      "version": "Gedeeltelijk herstelde run",
+      "run": "46047955403",
+      "video": "review-media/87f1d30ee5302e5fb98db53b.mp4",
+      "source": null
+    },
+    {
+      "title": "slideshow",
+      "version": "Gedeeltelijk herstelde run",
+      "run": "46047955403",
+      "video": "review-media/10fc321d96a2ea265b2917c3.mp4",
+      "source": null
+    },
+    {
       "title": "Lokale pipeline · demo",
       "version": "Oorspronkelijke lokale synthetische cut",
       "run": null,
@@ -7008,6 +8080,26 @@
       "label": "Eerste versie · 540p · visueel afgekeurd",
       "run": "46046650541",
       "url": "https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/46046650541"
+    },
+    {
+      "label": "Vroege basisexport",
+      "run": "46046012093",
+      "url": "https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/46046012093"
+    },
+    {
+      "label": "Eerste gedeeltelijke run",
+      "run": "46045013148",
+      "url": "https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/46045013148"
+    },
+    {
+      "label": "Tweede gedeeltelijke run",
+      "run": "46045359598",
+      "url": "https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/46045359598"
+    },
+    {
+      "label": "Gedeeltelijk herstelde run",
+      "run": "46047955403",
+      "url": "https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/46047955403"
     }
   ]
 }
