@@ -1,0 +1,250 @@
+{
+  "job": {
+    "title": "Storytelling",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 10.583333333333334,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/08-story/source.mp4",
+    "captions": [
+      {
+        "text": " Maandag",
+        "startMs": 0,
+        "endMs": 500,
+        "confidence": 0.7191888242959976
+      },
+      {
+        "text": " lag",
+        "startMs": 500,
+        "endMs": 700,
+        "confidence": 0.8928390741348267
+      },
+      {
+        "text": " alles",
+        "startMs": 700,
+        "endMs": 1120,
+        "confidence": 0.9789702296257019
+      },
+      {
+        "text": " verspreid.",
+        "startMs": 1120,
+        "endMs": 1900,
+        "confidence": 0.7636748949686686
+      },
+      {
+        "text": " Op",
+        "startMs": 2280,
+        "endMs": 2480,
+        "confidence": 0.9783913493156433
+      },
+      {
+        "text": " vrijdag",
+        "startMs": 2480,
+        "endMs": 3020,
+        "confidence": 0.975479006767273
+      },
+      {
+        "text": " mist",
+        "startMs": 3020,
+        "endMs": 3320,
+        "confidence": 0.43059614300727844
+      },
+      {
+        "text": " iedereen",
+        "startMs": 3320,
+        "endMs": 3660,
+        "confidence": 0.7746460437774658
+      },
+      {
+        "text": " maar",
+        "startMs": 3660,
+        "endMs": 4200,
+        "confidence": 0.8687572479248047
+      },
+      {
+        "text": " de",
+        "startMs": 4200,
+        "endMs": 4360,
+        "confidence": 0.9572696089744568
+      },
+      {
+        "text": " volgende",
+        "startMs": 4360,
+        "endMs": 4880,
+        "confidence": 0.9932309687137604
+      },
+      {
+        "text": " stap",
+        "startMs": 4880,
+        "endMs": 5220,
+        "confidence": 0.9541187286376953
+      },
+      {
+        "text": " maast.",
+        "startMs": 5220,
+        "endMs": 5680,
+        "confidence": 0.39648595452308655
+      },
+      {
+        "text": " We",
+        "startMs": 6080,
+        "endMs": 6260,
+        "confidence": 0.9681130051612854
+      },
+      {
+        "text": " bewonnen",
+        "startMs": 6260,
+        "endMs": 6800,
+        "confidence": 0.7561343709627787
+      },
+      {
+        "text": " met",
+        "startMs": 6800,
+        "endMs": 7000,
+        "confidence": 0.9968599081039429
+      },
+      {
+        "text": " één",
+        "startMs": 7000,
+        "endMs": 7240,
+        "confidence": 0.5561408400535583
+      },
+      {
+        "text": " proces.",
+        "startMs": 7240,
+        "endMs": 7620,
+        "confidence": 0.9429446458816528
+      },
+      {
+        "text": " Niet",
+        "startMs": 8260,
+        "endMs": 8480,
+        "confidence": 0.9634453654289246
+      },
+      {
+        "text": " met",
+        "startMs": 8480,
+        "endMs": 8800,
+        "confidence": 0.9877558946609497
+      },
+      {
+        "text": " 20",
+        "startMs": 8800,
+        "endMs": 9240,
+        "confidence": 0.3823658525943756
+      },
+      {
+        "text": " tols.",
+        "startMs": 9240,
+        "endMs": 9740,
+        "confidence": 0.40592001378536224
+      }
+    ],
+    "effects": [
+      {
+        "id": "screenplay-page",
+        "start": 0,
+        "duration": 2.48,
+        "text": "MAANDAG",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "paper-tear",
+        "start": 2.48,
+        "duration": 4.52,
+        "text": "VRIJDAG",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "intertitle",
+        "start": 7.0,
+        "duration": 3.583333333333334,
+        "text": "Begin met één proces",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Maandag lag alles verspreid. Op vrijdag wist iedereen wat de volgende stap was. We begonnen met één proces. Niet met twintig tools.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "maandag",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 0,
+        "asrToken": "maandag",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.48
+      },
+      {
+        "phrase": "vrijdag",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 5,
+        "asrToken": "vrijdag",
+        "asrOnsetSeconds": 2.48,
+        "start": 2.48,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 4.52
+      },
+      {
+        "phrase": "één proces",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 16,
+        "asrToken": "een",
+        "asrOnsetSeconds": 7.0,
+        "start": 7.0,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.583333333333334
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

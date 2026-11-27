@@ -1,0 +1,232 @@
+{
+  "job": {
+    "title": "Tekst achter de spreker",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 8.0,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/02-behind-speaker/source.mp4",
+    "captions": [
+      {
+        "text": " Dit",
+        "startMs": 0,
+        "endMs": 180,
+        "confidence": 0.8231840133666992
+      },
+      {
+        "text": " staat",
+        "startMs": 180,
+        "endMs": 460,
+        "confidence": 0.8061727285385132
+      },
+      {
+        "text": " niet",
+        "startMs": 460,
+        "endMs": 740,
+        "confidence": 0.993224561214447
+      },
+      {
+        "text": " voor",
+        "startMs": 740,
+        "endMs": 1160,
+        "confidence": 0.2656201720237732
+      },
+      {
+        "text": " je",
+        "startMs": 1160,
+        "endMs": 1380,
+        "confidence": 0.9526950120925903
+      },
+      {
+        "text": " neus.",
+        "startMs": 1380,
+        "endMs": 2160,
+        "confidence": 0.9209526181221008
+      },
+      {
+        "text": " Het",
+        "startMs": 2240,
+        "endMs": 2440,
+        "confidence": 0.8627545237541199
+      },
+      {
+        "text": " staat",
+        "startMs": 2440,
+        "endMs": 2760,
+        "confidence": 0.980445921421051
+      },
+      {
+        "text": " achter",
+        "startMs": 2760,
+        "endMs": 3220,
+        "confidence": 0.9680336713790894
+      },
+      {
+        "text": " mij.",
+        "startMs": 3220,
+        "endMs": 3560,
+        "confidence": 0.9616455435752869
+      },
+      {
+        "text": " Zo",
+        "startMs": 4120,
+        "endMs": 4320,
+        "confidence": 0.6846810579299927
+      },
+      {
+        "text": " blijft",
+        "startMs": 4320,
+        "endMs": 4760,
+        "confidence": 0.9854936301708221
+      },
+      {
+        "text": " het",
+        "startMs": 4760,
+        "endMs": 4960,
+        "confidence": 0.9938814640045166
+      },
+      {
+        "text": " behaal",
+        "startMs": 4960,
+        "endMs": 5560,
+        "confidence": 0.7443130811055502
+      },
+      {
+        "text": " letterlijk",
+        "startMs": 5560,
+        "endMs": 6080,
+        "confidence": 0.5844789147377014
+      },
+      {
+        "text": " op",
+        "startMs": 6080,
+        "endMs": 6260,
+        "confidence": 0.9781226515769958
+      },
+      {
+        "text": " de",
+        "startMs": 6260,
+        "endMs": 6440,
+        "confidence": 0.9659519791603088
+      },
+      {
+        "text": " voorbond.",
+        "startMs": 6440,
+        "endMs": 7160,
+        "confidence": 0.5131931975483894
+      }
+    ],
+    "effects": [
+      {
+        "id": "kinetic-hook",
+        "start": 0,
+        "duration": 2.76,
+        "text": "Dit staat niet voor je",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "orbit-ring",
+        "start": 2.76,
+        "duration": 2.0,
+        "text": "HET VERHAAL",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "giant-captions",
+        "start": 4.76,
+        "duration": 3.24,
+        "text": "het behaal letterlijk op de",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ],
+    "background": "demos/02-behind-speaker/background.png",
+    "foregroundFrames": "demos/02-behind-speaker/foreground/%06d.png"
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "dit staat",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 0,
+        "asrToken": "dit",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.76
+      },
+      {
+        "phrase": "achter mij",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 8,
+        "asrToken": "achter",
+        "asrOnsetSeconds": 2.76,
+        "start": 2.76,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.0
+      },
+      {
+        "phrase": "voorgrond",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 12,
+        "asrToken": "het",
+        "asrOnsetSeconds": 4.76,
+        "start": 4.76,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 3.24
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

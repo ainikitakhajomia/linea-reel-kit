@@ -1,0 +1,250 @@
+{
+  "job": {
+    "title": "SaaS productverhaal",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 7.583333333333333,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/04-product/source.mp4",
+    "captions": [
+      {
+        "text": " Your",
+        "startMs": 0,
+        "endMs": 180,
+        "confidence": 0.5247984528541565
+      },
+      {
+        "text": " inbox",
+        "startMs": 180,
+        "endMs": 440,
+        "confidence": 0.9449132084846497
+      },
+      {
+        "text": " is",
+        "startMs": 440,
+        "endMs": 800,
+        "confidence": 0.9922032356262207
+      },
+      {
+        "text": " not",
+        "startMs": 800,
+        "endMs": 960,
+        "confidence": 0.9680934548377991
+      },
+      {
+        "text": " a",
+        "startMs": 960,
+        "endMs": 1140,
+        "confidence": 0.994103729724884
+      },
+      {
+        "text": " workflow.",
+        "startMs": 1140,
+        "endMs": 1580,
+        "confidence": 0.949648380279541
+      },
+      {
+        "text": " Put",
+        "startMs": 2060,
+        "endMs": 2380,
+        "confidence": 0.9804470539093018
+      },
+      {
+        "text": " the",
+        "startMs": 2380,
+        "endMs": 2600,
+        "confidence": 0.989918053150177
+      },
+      {
+        "text": " next",
+        "startMs": 2600,
+        "endMs": 2880,
+        "confidence": 0.9834313988685608
+      },
+      {
+        "text": " step,",
+        "startMs": 2880,
+        "endMs": 3260,
+        "confidence": 0.9980875849723816
+      },
+      {
+        "text": " where",
+        "startMs": 3480,
+        "endMs": 3660,
+        "confidence": 0.9854759573936462
+      },
+      {
+        "text": " your",
+        "startMs": 3660,
+        "endMs": 3880,
+        "confidence": 0.9886623024940491
+      },
+      {
+        "text": " team",
+        "startMs": 3880,
+        "endMs": 4160,
+        "confidence": 0.9965435862541199
+      },
+      {
+        "text": " can",
+        "startMs": 4160,
+        "endMs": 4420,
+        "confidence": 0.9950022101402283
+      },
+      {
+        "text": " see",
+        "startMs": 4420,
+        "endMs": 4700,
+        "confidence": 0.9189186692237854
+      },
+      {
+        "text": " it.",
+        "startMs": 4700,
+        "endMs": 4900,
+        "confidence": 0.9965576529502869
+      },
+      {
+        "text": " Then",
+        "startMs": 5260,
+        "endMs": 5540,
+        "confidence": 0.9596995711326599
+      },
+      {
+        "text": " get",
+        "startMs": 5540,
+        "endMs": 5780,
+        "confidence": 0.966892659664154
+      },
+      {
+        "text": " back",
+        "startMs": 5780,
+        "endMs": 6040,
+        "confidence": 0.9912236928939819
+      },
+      {
+        "text": " to",
+        "startMs": 6040,
+        "endMs": 6280,
+        "confidence": 0.9985740184783936
+      },
+      {
+        "text": " the",
+        "startMs": 6280,
+        "endMs": 6420,
+        "confidence": 0.960702657699585
+      },
+      {
+        "text": " work.",
+        "startMs": 6420,
+        "endMs": 6680,
+        "confidence": 0.9566247463226318
+      }
+    ],
+    "effects": [
+      {
+        "id": "file-drop",
+        "start": 0,
+        "duration": 2.6,
+        "text": "One place",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "video-card",
+        "start": 2.6,
+        "duration": 3.18,
+        "text": "A clear next step",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "layer-explode",
+        "start": 5.78,
+        "duration": 1.8033333333333328,
+        "text": "Back to the work",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Your inbox is not a workflow. Put the next step where your team can see it. Then get back to the work.",
+    "language": "en",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "your inbox",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 0,
+        "asrToken": "your",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.6
+      },
+      {
+        "phrase": "next step",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 8,
+        "asrToken": "next",
+        "asrOnsetSeconds": 2.6,
+        "start": 2.6,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.18
+      },
+      {
+        "phrase": "back",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 18,
+        "asrToken": "back",
+        "asrOnsetSeconds": 5.78,
+        "start": 5.78,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 1.8033333333333328
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

@@ -1409,10 +1409,10 @@
       "brand": "studio-linea"
     },
     "prompt": "Gebruik effect letter-dive op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
-    "quality": "Beeldoperatie. Echte footage via source-in door een sterk inzoomend woordmasker. Zonder media deterministisch kleurverloop; geen automatische keuze/tracking van een glyphopening of 3D camera. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "quality": "Beeldoperatie. Echte footage door inzoomend tekstmasker met late crossfade naar volledig bronbeeld; geen automatische glyphopeningtracking of 3D camera. Zonder media kleurverloop. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
     "maturity": "image-operation",
     "maturityLabel": "Beeldoperatie",
-    "limitations": "Echte footage via source-in door een sterk inzoomend woordmasker. Zonder media deterministisch kleurverloop; geen automatische keuze/tracking van een glyphopening of 3D camera.",
+    "limitations": "Echte footage door inzoomend tekstmasker met late crossfade naar volledig bronbeeld; geen automatische glyphopeningtracking of 3D camera. Zonder media kleurverloop.",
     "inputRequirements": [
       "params.text: eigen tekst; start en duration: plaatsing in seconden.",
       "Optioneel job.walkthrough of job.video: eigen bronmedia; zonder bron gebruikt de galerie synthetische vormen."
@@ -1743,10 +1743,10 @@
       "brand": "studio-linea"
     },
     "prompt": "Gebruik effect double-exposure op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
-    "quality": "Beeldoperatie. Secundaire geselecteerde media via source-in in echte subject-alpha; vereist foreground en andere bron voor rijk effect; geen automatische scenechoice. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
+    "quality": "Beeldoperatie. Secundair eigen beeld via echte subject-alpha; vereist foregroundFrames en secundaire bron. Zonder die inputs expliciet gelabelde synthetische portretsilhouet met duotoonlandschap; geen automatische scenechoice. Broninspectie; geen bewezen premium- of referentiegelijkheid.",
     "maturity": "image-operation",
     "maturityLabel": "Beeldoperatie",
-    "limitations": "Secundaire geselecteerde media via source-in in echte subject-alpha; vereist foreground en andere bron voor rijk effect; geen automatische scenechoice.",
+    "limitations": "Secundair eigen beeld via echte subject-alpha; vereist foregroundFrames en secundaire bron. Zonder die inputs expliciet gelabelde synthetische portretsilhouet met duotoonlandschap; geen automatische scenechoice.",
     "inputRequirements": [
       "params.text: eigen tekst; start en duration: plaatsing in seconden.",
       "Vereist foregroundFrames met echte subject-alpha voor de kernfunctie; zonder matte blijft alleen een eenvoudiger galerievoorbeeld over.",

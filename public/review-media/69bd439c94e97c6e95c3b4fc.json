@@ -1,0 +1,192 @@
+{
+  "job": {
+    "title": "Spreker plus walkthrough",
+    "width": 540,
+    "height": 960,
+    "fps": 24,
+    "duration": 9.041666666666666,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/03-walkthrough/source.mp4",
+    "captions": [
+      {
+        "text": " Heetleet",
+        "startMs": 0,
+        "endMs": 640,
+        "confidence": 0.43355927243828773
+      },
+      {
+        "text": " erwind,",
+        "startMs": 640,
+        "endMs": 1100,
+        "confidence": 0.5047840476036072
+      },
+      {
+        "text": " eetsten",
+        "startMs": 1600,
+        "endMs": 2000,
+        "confidence": 0.2733713984489441
+      },
+      {
+        "text": " los",
+        "startMs": 2000,
+        "endMs": 2240,
+        "confidence": 0.32336077094078064
+      },
+      {
+        "text": " er",
+        "startMs": 2240,
+        "endMs": 2440,
+        "confidence": 0.3043549358844757
+      },
+      {
+        "text": " aanvraag,",
+        "startMs": 2440,
+        "endMs": 3260,
+        "confidence": 0.6023516803979874
+      },
+      {
+        "text": " dan",
+        "startMs": 3380,
+        "endMs": 3520,
+        "confidence": 0.7861713767051697
+      },
+      {
+        "text": " dan",
+        "startMs": 3520,
+        "endMs": 3760,
+        "confidence": 0.4080309569835663
+      },
+      {
+        "text": " bij",
+        "startMs": 3760,
+        "endMs": 3900,
+        "confidence": 0.25269225239753723
+      },
+      {
+        "text": " de",
+        "startMs": 3900,
+        "endMs": 4020,
+        "confidence": 0.8294016122817993
+      },
+      {
+        "text": " rekenvolgende",
+        "startMs": 4020,
+        "endMs": 4760,
+        "confidence": 0.48276764526963234
+      },
+      {
+        "text": " stap.",
+        "startMs": 4760,
+        "endMs": 5220,
+        "confidence": 0.5992906093597412
+      },
+      {
+        "text": " Monder",
+        "startMs": 5580,
+        "endMs": 5760,
+        "confidence": 0.45524659752845764
+      },
+      {
+        "text": " nek",
+        "startMs": 5760,
+        "endMs": 6180,
+        "confidence": 0.23885053396224976
+      },
+      {
+        "text": " eetleneel",
+        "startMs": 6180,
+        "endMs": 6840,
+        "confidence": 0.4490788966417313
+      },
+      {
+        "text": " de",
+        "startMs": 6840,
+        "endMs": 7000,
+        "confidence": 0.6269581317901611
+      },
+      {
+        "text": " informatie",
+        "startMs": 7000,
+        "endMs": 7640,
+        "confidence": 0.996004194021225
+      },
+      {
+        "text": " over",
+        "startMs": 7640,
+        "endMs": 7960,
+        "confidence": 0.5252206325531006
+      },
+      {
+        "text": " die",
+        "startMs": 7960,
+        "endMs": 8140,
+        "confidence": 0.4164895713329315
+      },
+      {
+        "text": " event.",
+        "startMs": 8140,
+        "endMs": 8360,
+        "confidence": 0.5367176532745361
+      }
+    ],
+    "effects": [
+      {
+        "id": "prompt-bar",
+        "start": 0.0,
+        "duration": 3.0139,
+        "text": "Nieuwe aanvraag",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "live-cursor",
+        "start": 3.0139,
+        "duration": 3.0139,
+        "text": "Volgende stap",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "odometer-recursion",
+        "start": 6.0278,
+        "duration": 3.0139,
+        "text": "Minder overtypen",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ],
+    "walkthrough": "demos/walkthrough.mp4"
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "script": "Hier zit de winst. Eerst een losse aanvraag. Dan een duidelijke volgende stap. Zonder zes keer dezelfde informatie overtypen.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

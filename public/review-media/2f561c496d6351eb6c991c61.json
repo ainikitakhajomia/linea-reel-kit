@@ -1,0 +1,241 @@
+{
+  "job": {
+    "title": "Kinetic typography",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 7.416666666666667,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/05-kinetic/source.mp4",
+    "captions": [
+      {
+        "text": " Nog",
+        "startMs": 0,
+        "endMs": 260,
+        "confidence": 0.4441030025482178
+      },
+      {
+        "text": " een",
+        "startMs": 260,
+        "endMs": 460,
+        "confidence": 0.888623833656311
+      },
+      {
+        "text": " tablet.",
+        "startMs": 460,
+        "endMs": 820,
+        "confidence": 0.5798256397247314
+      },
+      {
+        "text": " Nog",
+        "startMs": 1340,
+        "endMs": 1480,
+        "confidence": 0.9006630778312683
+      },
+      {
+        "text": " een",
+        "startMs": 1480,
+        "endMs": 1660,
+        "confidence": 0.9754704833030701
+      },
+      {
+        "text": " leisje.",
+        "startMs": 1660,
+        "endMs": 2200,
+        "confidence": 0.5828783810138702
+      },
+      {
+        "text": " Nog",
+        "startMs": 2520,
+        "endMs": 2660,
+        "confidence": 0.9333097338676453
+      },
+      {
+        "text": " een",
+        "startMs": 2660,
+        "endMs": 2880,
+        "confidence": 0.9886718988418579
+      },
+      {
+        "text": " keer",
+        "startMs": 2880,
+        "endMs": 3100,
+        "confidence": 0.7869181632995605
+      },
+      {
+        "text": " kopen",
+        "startMs": 3100,
+        "endMs": 3400,
+        "confidence": 0.3475435823202133
+      },
+      {
+        "text": " even.",
+        "startMs": 3400,
+        "endMs": 3760,
+        "confidence": 0.24812167882919312
+      },
+      {
+        "text": " Of",
+        "startMs": 4160,
+        "endMs": 4280,
+        "confidence": 0.875848114490509
+      },
+      {
+        "text": " je",
+        "startMs": 4280,
+        "endMs": 4440,
+        "confidence": 0.9828275442123413
+      },
+      {
+        "text": " makt",
+        "startMs": 4440,
+        "endMs": 4820,
+        "confidence": 0.5516353845596313
+      },
+      {
+        "text": " ruimte,",
+        "startMs": 4820,
+        "endMs": 5320,
+        "confidence": 0.591545507311821
+      },
+      {
+        "text": " wordt",
+        "startMs": 5380,
+        "endMs": 5520,
+        "confidence": 0.3936014771461487
+      },
+      {
+        "text": " het",
+        "startMs": 5520,
+        "endMs": 5800,
+        "confidence": 0.9724908471107483
+      },
+      {
+        "text": " meer,",
+        "startMs": 5800,
+        "endMs": 6020,
+        "confidence": 0.6860188245773315
+      },
+      {
+        "text": " dat",
+        "startMs": 6280,
+        "endMs": 6420,
+        "confidence": 0.4636022746562958
+      },
+      {
+        "text": " deelt.",
+        "startMs": 6420,
+        "endMs": 6720,
+        "confidence": 0.5307507812976837
+      }
+    ],
+    "effects": [
+      {
+        "id": "giant-captions",
+        "start": 0,
+        "duration": 2.52,
+        "text": "Nog een tablet. Nog een",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "word-stamp",
+        "start": 2.52,
+        "duration": 1.9200000000000004,
+        "text": "NOG EEN LIJSTJE",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "knockout-captions",
+        "start": 4.44,
+        "duration": 2.9766666666666666,
+        "text": "makt ruimte, wordt het meer,",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Nog een tabblad. Nog een lijstje. Nog een keer kopiëren. Of je maakt ruimte voor het werk dat telt.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "nog een tabblad",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 0,
+        "asrToken": "nog",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 2.52
+      },
+      {
+        "phrase": "nog een lijstje",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 6,
+        "asrToken": "nog",
+        "asrOnsetSeconds": 2.52,
+        "start": 2.52,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 1.9200000000000004
+      },
+      {
+        "phrase": "of je maakt",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 13,
+        "asrToken": "makt",
+        "asrOnsetSeconds": 4.44,
+        "start": 4.44,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 2.9766666666666666
+      }
+    ],
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

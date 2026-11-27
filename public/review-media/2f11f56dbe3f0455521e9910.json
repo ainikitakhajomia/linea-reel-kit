@@ -1,0 +1,257 @@
+{
+  "job": {
+    "title": "Spreker plus walkthrough",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 10.125,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/03-walkthrough/source.mp4",
+    "captions": [
+      {
+        "text": " Hier",
+        "startMs": 0,
+        "endMs": 240,
+        "confidence": 0.51304692029953
+      },
+      {
+        "text": " zie",
+        "startMs": 240,
+        "endMs": 500,
+        "confidence": 0.04265359416604042
+      },
+      {
+        "text": " je",
+        "startMs": 500,
+        "endMs": 620,
+        "confidence": 0.7097199559211731
+      },
+      {
+        "text": " de",
+        "startMs": 620,
+        "endMs": 760,
+        "confidence": 0.912272036075592
+      },
+      {
+        "text": " winst.",
+        "startMs": 760,
+        "endMs": 1220,
+        "confidence": 0.9721070826053619
+      },
+      {
+        "text": " Eerste",
+        "startMs": 1620,
+        "endMs": 2100,
+        "confidence": 0.7184149026870728
+      },
+      {
+        "text": " losse",
+        "startMs": 2100,
+        "endMs": 2540,
+        "confidence": 0.6976526528596878
+      },
+      {
+        "text": " aanwraag.",
+        "startMs": 2540,
+        "endMs": 3340,
+        "confidence": 0.6074440330266953
+      },
+      {
+        "text": " Dan",
+        "startMs": 3680,
+        "endMs": 3920,
+        "confidence": 0.941728413105011
+      },
+      {
+        "text": " een",
+        "startMs": 3920,
+        "endMs": 4120,
+        "confidence": 0.8596392869949341
+      },
+      {
+        "text": " duidelijke",
+        "startMs": 4120,
+        "endMs": 4680,
+        "confidence": 0.9173540671666464
+      },
+      {
+        "text": " volgende",
+        "startMs": 4680,
+        "endMs": 5240,
+        "confidence": 0.9149149954319
+      },
+      {
+        "text": " stap.",
+        "startMs": 5240,
+        "endMs": 5620,
+        "confidence": 0.9939877986907959
+      },
+      {
+        "text": " Zonder",
+        "startMs": 6040,
+        "endMs": 6420,
+        "confidence": 0.7201668620109558
+      },
+      {
+        "text": " nes,",
+        "startMs": 6420,
+        "endMs": 6840,
+        "confidence": 0.28602535650134087
+      },
+      {
+        "text": " geef",
+        "startMs": 6960,
+        "endMs": 7180,
+        "confidence": 0.8548510372638702
+      },
+      {
+        "text": " dezelfde",
+        "startMs": 7180,
+        "endMs": 7780,
+        "confidence": 0.9428540666898092
+      },
+      {
+        "text": " informatie",
+        "startMs": 7780,
+        "endMs": 8460,
+        "confidence": 0.9915705025196075
+      },
+      {
+        "text": " over",
+        "startMs": 8460,
+        "endMs": 8760,
+        "confidence": 0.6155281066894531
+      },
+      {
+        "text": " die",
+        "startMs": 8760,
+        "endMs": 9040,
+        "confidence": 0.8439041972160339
+      },
+      {
+        "text": " open.",
+        "startMs": 9040,
+        "endMs": 9300,
+        "confidence": 0.2197100818157196
+      }
+    ],
+    "effects": [
+      {
+        "id": "broll",
+        "src": "demos/walkthrough.mp4",
+        "mediaType": "video",
+        "start": 0,
+        "duration": 10.125
+      },
+      {
+        "id": "intertitle",
+        "start": 0,
+        "duration": 4.68,
+        "text": "Nieuwe aanvraag",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ],
+        "offsetY": -430,
+        "scale": 0.5
+      },
+      {
+        "id": "word-stamp",
+        "start": 4.68,
+        "duration": 1.7400000000000002,
+        "text": "Volgende stap",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ],
+        "offsetY": -350,
+        "scale": 0.6
+      },
+      {
+        "id": "follow-chip",
+        "start": 6.42,
+        "duration": 3.705,
+        "text": "Geen dubbel werk",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ],
+        "offsetY": -400,
+        "scale": 0.65
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Hier zit de winst. Eerst een losse aanvraag. Dan een duidelijke volgende stap. Zonder zes keer dezelfde informatie overtypen.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "hier zit",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 0,
+        "asrToken": "hier",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 4.68
+      },
+      {
+        "phrase": "volgende stap",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 11,
+        "asrToken": "volgende",
+        "asrOnsetSeconds": 4.68,
+        "start": 4.68,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 1.7400000000000002
+      },
+      {
+        "phrase": "overtypen",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 14,
+        "asrToken": "nes",
+        "asrOnsetSeconds": 6.42,
+        "start": 6.42,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 3.705
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "job": {
+    "title": "Storytelling",
+    "width": 540,
+    "height": 960,
+    "fps": 24,
+    "duration": 9.458333333333334,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/08-story/source.mp4",
+    "captions": [
+      {
+        "text": " Mijn",
+        "startMs": 0,
+        "endMs": 320,
+        "confidence": 0.14947546645998955
+      },
+      {
+        "text": " dag",
+        "startMs": 320,
+        "endMs": 560,
+        "confidence": 0.4634515941143036
+      },
+      {
+        "text": " lach",
+        "startMs": 560,
+        "endMs": 780,
+        "confidence": 0.41264358162879944
+      },
+      {
+        "text": " alles",
+        "startMs": 780,
+        "endMs": 1060,
+        "confidence": 0.6440449953079224
+      },
+      {
+        "text": " vertrijd.",
+        "startMs": 1060,
+        "endMs": 1920,
+        "confidence": 0.5421862031022707
+      },
+      {
+        "text": " Op",
+        "startMs": 2240,
+        "endMs": 2340,
+        "confidence": 0.7002100944519043
+      },
+      {
+        "text": " een",
+        "startMs": 2340,
+        "endMs": 2460,
+        "confidence": 0.31407448649406433
+      },
+      {
+        "text": " rijdag",
+        "startMs": 2460,
+        "endMs": 2800,
+        "confidence": 0.5888038724660873
+      },
+      {
+        "text": " mist",
+        "startMs": 2800,
+        "endMs": 3080,
+        "confidence": 0.3751700520515442
+      },
+      {
+        "text": " die",
+        "startMs": 3080,
+        "endMs": 3260,
+        "confidence": 0.7701560258865356
+      },
+      {
+        "text": " de",
+        "startMs": 3260,
+        "endMs": 3440,
+        "confidence": 0.5470442771911621
+      },
+      {
+        "text": " renma",
+        "startMs": 3440,
+        "endMs": 3820,
+        "confidence": 0.31906891241669655
+      },
+      {
+        "text": " te",
+        "startMs": 3820,
+        "endMs": 4000,
+        "confidence": 0.8080058693885803
+      },
+      {
+        "text": " volgende",
+        "startMs": 4000,
+        "endMs": 4500,
+        "confidence": 0.6585052609443665
+      },
+      {
+        "text": " stapma's.",
+        "startMs": 4500,
+        "endMs": 5340,
+        "confidence": 0.6985036432743073
+      },
+      {
+        "text": " We",
+        "startMs": 5580,
+        "endMs": 5660,
+        "confidence": 0.5785342454910278
+      },
+      {
+        "text": " de",
+        "startMs": 5660,
+        "endMs": 5780,
+        "confidence": 0.3538821339607239
+      },
+      {
+        "text": " volgende",
+        "startMs": 5780,
+        "endMs": 6100,
+        "confidence": 0.5828893631696701
+      },
+      {
+        "text": " meteen",
+        "startMs": 6100,
+        "endMs": 6600,
+        "confidence": 0.7785928547382355
+      },
+      {
+        "text": " proces.",
+        "startMs": 6600,
+        "endMs": 7040,
+        "confidence": 0.2011703997850418
+      },
+      {
+        "text": " Niet",
+        "startMs": 7440,
+        "endMs": 7660,
+        "confidence": 0.5582987666130066
+      },
+      {
+        "text": " met",
+        "startMs": 7660,
+        "endMs": 7980,
+        "confidence": 0.9713178873062134
+      },
+      {
+        "text": " mintertols.",
+        "startMs": 7980,
+        "endMs": 8700,
+        "confidence": 0.40624991059303284
+      }
+    ],
+    "effects": [
+      {
+        "id": "screenplay-page",
+        "start": 0.0,
+        "duration": 3.1528,
+        "text": "MAANDAG",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "paper-tear",
+        "start": 3.1528,
+        "duration": 3.1528,
+        "text": "VRIJDAG",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "intertitle",
+        "start": 6.3056,
+        "duration": 3.1528,
+        "text": "Begin met één proces",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "script": "Maandag lag alles verspreid. Op vrijdag wist iedereen wat de volgende stap was. We begonnen met één proces. Niet met twintig tools.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}
