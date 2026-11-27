@@ -1,0 +1,55 @@
+name: Validate and render
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Free open-source system tools
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg espeak-ng
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Meaningful unit and FFmpeg integration checks
+        run: npm test
+      - name: Synthetic speech to edit to motion export
+        run: |
+          python3 scripts/reel.py demo --out public/demo
+          python3 scripts/reel.py edit public/demo/source.mp4 --transcript public/demo/transcript.json --out public/jobs/demo
+          mkdir -p out
+          node src/render.mjs public/jobs/demo/job.json out/talking-head-demo.mp4
+      - name: Browser acceptance for every effect and review UI
+        run: node src/validate-browser.mjs
+      - name: Render all 67 previews
+        run: node src/render-library.mjs public/renders
+      - name: Storyboard, slideshow, carousel and brand checks
+        run: |
+          python3 scripts/story.py storyboard examples/script-nl.txt --out public/jobs/slideshow
+          node src/render.mjs public/jobs/slideshow/job.json out/slideshow.mp4
+          python3 scripts/story.py carousel examples/script-nl.txt --out public/carousels/demo
+          node src/render-carousel.mjs public/carousels/demo out/carousel
+      - name: Check exported streams and make portable review bundle
+        run: |
+          ffprobe -v error -show_streams -show_format -of json out/talking-head-demo.mp4 > out/video-probe.json
+          mkdir -p out/portable-review
+          cp -r src brands vendor research docs package.json package-lock.json public out/portable-review/
+        continue-on-error: false
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: linea-reel-kit-rendered
+          path: |
+            out/
+            public/renders/
+          retention-days: 30

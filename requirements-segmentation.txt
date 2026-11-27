@@ -1,0 +1,3 @@
+# Optional portrait masks only. Use a dedicated Python 3.10–3.12 venv.
+# Apache-2.0 MediaPipe code/model package; transitive packages retain their own licenses.
+mediapipe==0.10.21

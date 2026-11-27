@@ -1,0 +1,15 @@
+node_modules/
+.venv*/
+__pycache__/
+*.pyc
+out/
+public/demo/
+public/jobs/
+public/renders/
+public/carousels/
+research/repositories/
+research/*.html
+research/masterclass-text.txt
+research/masterclass-links.txt
+.DS_Store
+.env

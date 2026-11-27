@@ -1,0 +1,260 @@
+{
+  "source": "https://justyn.ai/masterclass",
+  "usage": "Reference links only. No permission to redistribute media inferred.",
+  "staticMedia": [
+    "https://justyn.ai/masterclass/media/beta/01-deb.jpg",
+    "https://justyn.ai/masterclass/media/beta/02-hpons.jpg",
+    "https://justyn.ai/masterclass/media/beta/03-nivethini.jpg",
+    "https://justyn.ai/masterclass/media/beta/04-stacy.jpg",
+    "https://justyn.ai/masterclass/media/beta/05-sarah.jpg",
+    "https://justyn.ai/masterclass/media/beta/06-rob.jpg",
+    "https://justyn.ai/masterclass/media/beta/07-jiali.jpg",
+    "https://justyn.ai/masterclass/media/beta/08-ryan.jpg",
+    "https://justyn.ai/masterclass/media/beta/09-faith.jpg",
+    "https://justyn.ai/masterclass/media/beta/10-hector.jpg",
+    "https://justyn.ai/masterclass/media/beta/11-derrick.jpg",
+    "https://justyn.ai/masterclass/media/beta/12-ali.jpg",
+    "https://justyn.ai/masterclass/media/beta/13-luchi.jpg",
+    "https://justyn.ai/masterclass/media/beta/14-sarahwoods.jpg",
+    "https://justyn.ai/masterclass/media/beta/15-maverick.jpg",
+    "https://justyn.ai/masterclass/media/beta/16-regina.jpg",
+    "https://justyn.ai/masterclass/media/beta/17-romy.jpg",
+    "https://justyn.ai/masterclass/media/beta/18-rafael.jpg",
+    "https://justyn.ai/masterclass/media/beta/19-brandon.jpg",
+    "https://justyn.ai/masterclass/media/beta/20-sadie.jpg",
+    "https://justyn.ai/masterclass/media/beta/21-sadie2.jpg",
+    "https://justyn.ai/masterclass/media/beta/22-javi.jpg",
+    "https://justyn.ai/masterclass/media/beta/23-creativeceo.jpg",
+    "https://justyn.ai/masterclass/media/beta/24-iceclimbing.jpg",
+    "https://justyn.ai/masterclass/media/beta/25-joshua.jpg",
+    "https://justyn.ai/masterclass/media/beta/26-nick.jpg",
+    "https://justyn.ai/masterclass/media/beta/27-ruthie.jpg",
+    "https://justyn.ai/masterclass/media/beta/28-benz.jpg",
+    "https://justyn.ai/masterclass/media/beta/29-socialcoachstacy.jpg",
+    "https://justyn.ai/masterclass/media/beta/30-jimmy.jpg",
+    "https://justyn.ai/masterclass/media/beta/31-marie.jpg",
+    "https://justyn.ai/masterclass/media/beta/32-gaby.jpg",
+    "https://justyn.ai/masterclass/media/beta/33-moonshot.jpg",
+    "https://justyn.ai/masterclass/media/beta/34-sarahjane.jpg",
+    "https://justyn.ai/masterclass/media/beta/35-jose.jpg",
+    "https://justyn.ai/masterclass/media/beta/36-michelle.jpg",
+    "https://justyn.ai/masterclass/media/proof/01-reel.jpg",
+    "https://justyn.ai/masterclass/media/proof/02-insights.jpg",
+    "https://justyn.ai/masterclass/media/proof/03-comments.jpg",
+    "https://justyn.ai/reel-kit/js/ScrollTrigger.min.js",
+    "https://justyn.ai/reel-kit/js/gsap.min.js",
+    "https://justyn.ai/reel-kit/js/lenis.min.js",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-01.jpg",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-02.jpg",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-03.jpg",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-04.jpg",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-05.jpg",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-06.jpg",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-07.jpg",
+    "https://justyn.ai/reel-kit/media/carousel/claude-editing-08.jpg",
+    "https://justyn.ai/reel-kit/media/edit-depth.jpg",
+    "https://justyn.ai/reel-kit/media/edit-depth.mp4",
+    "https://justyn.ai/reel-kit/media/edit-paper.jpg",
+    "https://justyn.ai/reel-kit/media/edit-paper.mp4",
+    "https://justyn.ai/reel-kit/media/edit-receipt.jpg",
+    "https://justyn.ai/reel-kit/media/edit-receipt.mp4",
+    "https://justyn.ai/reel-kit/media/edit-v3.jpg",
+    "https://justyn.ai/reel-kit/media/edit-v3.mp4",
+    "https://justyn.ai/reel-kit/media/fx/${f[4]}.jpg",
+    "https://justyn.ai/reel-kit/media/fx/${real}.jpg",
+    "https://justyn.ai/reel-kit/media/fx/${real}.mp4",
+    "https://justyn.ai/reel-kit/media/justyn.jpg",
+    "https://justyn.ai/reel-kit/media/layer-plate.jpg",
+    "https://justyn.ai/reel-kit/media/layer-subject.webp",
+    "https://justyn.ai/reel-kit/media/mode-hifi.jpg",
+    "https://justyn.ai/reel-kit/media/mode-hifi.mp4",
+    "https://justyn.ai/reel-kit/media/mode-lofi.jpg",
+    "https://justyn.ai/reel-kit/media/mode-lofi.mp4",
+    "https://justyn.ai/reel-kit/media/mode-showcase.jpg",
+    "https://justyn.ai/reel-kit/media/mode-showcase.mp4",
+    "https://justyn.ai/reel-kit/media/sb/f000.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f001.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f002.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f003.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f004.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f005.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f010.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f011.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f015.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f016.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f017.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f020.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f021.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f022.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f023.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f024.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f025.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f028.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f029.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f035.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f036.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f037.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f042.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f043.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f044.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f045.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f046.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f050.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f051.jpg",
+    "https://justyn.ai/reel-kit/media/sb/f052.jpg",
+    "https://justyn.ai/reel-kit/media/take.jpg",
+    "https://justyn.ai/reel-kit/media/take.mp4"
+  ],
+  "memberReels": [
+    {
+      "slug": "john",
+      "name": "John",
+      "profile": "https://www.instagram.com/johnpontikas/",
+      "video": "https://justyn.ai/masterclass/media/wins/john.mp4"
+    },
+    {
+      "slug": "jeff",
+      "name": "Jeff",
+      "profile": "https://www.instagram.com/jeffevanstn/",
+      "video": "https://justyn.ai/masterclass/media/wins/jeff.mp4"
+    },
+    {
+      "slug": "david",
+      "name": "David",
+      "profile": "https://www.instagram.com/davidleiper/",
+      "video": "https://justyn.ai/masterclass/media/wins/david.mp4"
+    },
+    {
+      "slug": "sarah",
+      "name": "Sarah",
+      "profile": "https://www.instagram.com/moonshot_holistic_wealth/",
+      "video": "https://justyn.ai/masterclass/media/wins/sarah.mp4"
+    },
+    {
+      "slug": "joe",
+      "name": "Joe Scully",
+      "profile": "https://www.instagram.com/josephcscully/",
+      "video": "https://justyn.ai/masterclass/media/wins/joe.mp4"
+    },
+    {
+      "slug": "stephen",
+      "name": "Stephen",
+      "profile": "https://www.instagram.com/kakcollects/",
+      "video": "https://justyn.ai/masterclass/media/wins/stephen.mp4"
+    },
+    {
+      "slug": "paul",
+      "name": "Paul Drake Verge",
+      "profile": "https://www.instagram.com/pauldrakeverge/",
+      "video": "https://justyn.ai/masterclass/media/wins/paul.mp4"
+    },
+    {
+      "slug": "katharina",
+      "name": "Katharina",
+      "profile": "https://www.instagram.com/kathageiger/",
+      "video": "https://justyn.ai/masterclass/media/wins/katharina.mp4"
+    },
+    {
+      "slug": "amelie",
+      "name": "Amelie",
+      "profile": "https://www.instagram.com/amelie.lachapelle.agri/",
+      "video": "https://justyn.ai/masterclass/media/wins/amelie.mp4"
+    },
+    {
+      "slug": "erin",
+      "name": "Dr Erin Oksol",
+      "profile": "https://www.instagram.com/drerinoksol/",
+      "video": "https://justyn.ai/masterclass/media/wins/erin.mp4"
+    },
+    {
+      "slug": "luis",
+      "name": "Luis",
+      "profile": "https://www.instagram.com/luissalascortes.dev/",
+      "video": "https://justyn.ai/masterclass/media/wins/luis.mp4"
+    },
+    {
+      "slug": "daniel",
+      "name": "Daniel Corona",
+      "profile": "https://www.instagram.com/daniel_crna/",
+      "video": "https://justyn.ai/masterclass/media/wins/daniel.mp4"
+    },
+    {
+      "slug": "ryan",
+      "name": "Ryan",
+      "profile": "https://www.instagram.com/relationshipmysteryschool/",
+      "video": "https://justyn.ai/masterclass/media/wins/ryan.mp4"
+    },
+    {
+      "slug": "jasmine",
+      "name": "Jasmine",
+      "profile": "https://www.instagram.com/greenrealestatemom/",
+      "video": "https://justyn.ai/masterclass/media/wins/jasmine.mp4"
+    },
+    {
+      "slug": "zane",
+      "name": "Zan\u00e9",
+      "profile": "https://www.instagram.com/zanemurphynutritionist/",
+      "video": "https://justyn.ai/masterclass/media/wins/zane.mp4"
+    },
+    {
+      "slug": "claudia",
+      "name": "Claudia",
+      "profile": "https://www.instagram.com/aiconclaudia/",
+      "video": "https://justyn.ai/masterclass/media/wins/claudia.mp4"
+    },
+    {
+      "slug": "rose",
+      "name": "Rose",
+      "profile": "https://www.instagram.com/iamroseradford/",
+      "video": "https://justyn.ai/masterclass/media/wins/rose.mp4"
+    },
+    {
+      "slug": "steve",
+      "name": "Steve",
+      "profile": "https://www.instagram.com/steveyoungactual/",
+      "video": "https://justyn.ai/masterclass/media/wins/steve.mp4"
+    },
+    {
+      "slug": "kassia",
+      "name": "Kassia",
+      "profile": "https://www.instagram.com/kassiamthor/",
+      "video": "https://justyn.ai/masterclass/media/wins/kassia.mp4"
+    },
+    {
+      "slug": "rhoda",
+      "name": "Rhoda",
+      "profile": "https://www.instagram.com/rhodathebuilder/",
+      "video": "https://justyn.ai/masterclass/media/wins/rhoda.mp4"
+    },
+    {
+      "slug": "thierry",
+      "name": "Thierry",
+      "profile": "https://www.instagram.com/thierrylorfils.marketing/",
+      "video": "https://justyn.ai/masterclass/media/wins/thierry.mp4"
+    },
+    {
+      "slug": "justin",
+      "name": "Justin",
+      "profile": "https://www.instagram.com/justinhalbert/",
+      "video": "https://justyn.ai/masterclass/media/wins/justin.mp4"
+    },
+    {
+      "slug": "han",
+      "name": "Han",
+      "profile": "https://www.instagram.com/hanpremium/",
+      "video": "https://justyn.ai/masterclass/media/wins/han.mp4"
+    },
+    {
+      "slug": "michael",
+      "name": "Michael",
+      "profile": "https://www.instagram.com/michael_yetman/",
+      "video": "https://justyn.ai/masterclass/media/wins/michael.mp4"
+    },
+    {
+      "slug": "francesca",
+      "name": "Francesca",
+      "profile": "https://www.instagram.com/genvmarketing/",
+      "video": "https://justyn.ai/masterclass/media/wins/francesca.mp4"
+    }
+  ]
+}

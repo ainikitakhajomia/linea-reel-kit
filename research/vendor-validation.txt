@@ -1,0 +1,11 @@
+2026-11-27
+PASS Python stdlib import vendor.askeditor.Timeline
+PASS kept segments: removing [2,3] and [5,7] from 10s yields 7s
+PASS source 8s maps to output 5s; removed 2.5s returns None
+PASS 1s freeze at source 4s yields 8s output; output 3.5s is held source 4s
+PASS JS cueWord matches Dutch diacritic één to een at 0.5s
+PASS JS typeText(Hello,0.5,0,4) == He
+PASS JS countValue(100,0.5) == 87.5; clamps before and after animation
+PASS JS captionGroups handles punctuation and maxWords
+PASS seededRandom repeated seed gives identical value
+No browser/PDF/database rendering performed by repository audit agent.

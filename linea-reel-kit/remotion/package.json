@@ -1,0 +1,5 @@
+{
+ "name":"linea-reel-kit-remotion-adapter","private":true,"type":"module",
+ "scripts":{"studio":"remotion studio src.tsx","render":"remotion render src.tsx Reel"},
+ "dependencies":{"@remotion/cli":"4.0.547","remotion":"4.0.547","react":"19.2.0","react-dom":"19.2.0"}
+}

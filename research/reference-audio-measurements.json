@@ -1,0 +1,12 @@
+{
+  "source": "https://justyn.ai/reel-kit/media/edit-v3.mp4",
+  "date": "2026-11-27",
+  "method": "FFmpeg loudnorm input measurements, decoded original AAC stream; no modified media distributed",
+  "integratedLoudnessLUFS": -14.25,
+  "truePeakDBTP": -0.45,
+  "loudnessRangeLU": 3.20,
+  "codec": "AAC LC",
+  "sampleRate": 48000,
+  "channels": 2,
+  "limitation": "Measurement of this encoded example only; no access to voice or SFX stems; not an audit of all reels"
+}

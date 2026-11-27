@@ -1,0 +1,1344 @@
+[
+  {
+    "id": "kinetic-hook",
+    "name": "Kinetic hook",
+    "category": "typography",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/kinetic-hook.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect kinetic-hook op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "icon-strike",
+    "name": "Icon strike",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/icon-strike.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect icon-strike op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "prompt-bar",
+    "name": "Prompt bar",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/prompt-bar.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect prompt-bar op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "grade-slider",
+    "name": "Grade slider",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/grade-slider.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect grade-slider op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "magazine-cover",
+    "name": "Magazine cover",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/magazine-cover.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect magazine-cover op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "nle-timeline",
+    "name": "Editing timeline",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/nle-timeline.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect nle-timeline op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "file-drop",
+    "name": "File drop",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/file-drop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect file-drop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "odometer-recursion",
+    "name": "Odometer",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/odometer-recursion.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea",
+      "value": 128,
+      "label": "minuten teruggewonnen"
+    },
+    "prompt": "Gebruik effect odometer-recursion op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "mood-curtain",
+    "name": "Mood curtain",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/mood-curtain.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect mood-curtain op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "grid-collapse",
+    "name": "Grid collapse",
+    "category": "layout",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/grid-collapse.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect grid-collapse op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "page-scroll",
+    "name": "Page scroll",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/page-scroll.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect page-scroll op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "comment-thread",
+    "name": "Comment thread",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/comment-thread.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect comment-thread op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "word-stamp",
+    "name": "Word stamp",
+    "category": "typography",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/serif-stamp.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect word-stamp op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "giant-captions",
+    "name": "Giant captions",
+    "category": "captions",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/giant-captions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect giant-captions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "video-card",
+    "name": "Video card",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/video-card.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect video-card op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "comment-cta",
+    "name": "Comment CTA",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/comment-cta.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect comment-cta op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "camera-transitions",
+    "name": "Camera moves",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/camera-transitions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect camera-transitions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "contact-sheet-hook",
+    "name": "Contact sheet hook",
+    "category": "layout",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/contact-sheet-hook.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect contact-sheet-hook op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "receipt-printer",
+    "name": "Receipt printer",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/receipt-printer.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect receipt-printer op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "jiggle-delete",
+    "name": "Jiggle delete",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/jiggle-delete.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect jiggle-delete op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "keycaps",
+    "name": "Keycaps",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/keycaps.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect keycaps op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "projected-film",
+    "name": "Projected film",
+    "category": "film",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/projected-film.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect projected-film op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "film-look",
+    "name": "Film look",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/film-look.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect film-look op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "eyedropper-grade",
+    "name": "Eyedropper grade",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/eyedropper-grade.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect eyedropper-grade op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "reel-cascade",
+    "name": "Reel cascade",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/reel-cascade.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect reel-cascade op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "playing-grid",
+    "name": "Playing grid",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/playing-grid.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect playing-grid op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "reel-feed",
+    "name": "Reel feed",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/reel-feed.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect reel-feed op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "intertitle",
+    "name": "Intertitle",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/intertitle.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect intertitle op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "screenplay-page",
+    "name": "Screenplay page",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/screenplay-page.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect screenplay-page op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "knockout-captions",
+    "name": "Knockout captions",
+    "category": "captions",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/knockout-captions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect knockout-captions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "lens-ring",
+    "name": "Lens ring",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/lens-ring.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect lens-ring op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "grease-pencil-sheet",
+    "name": "Grease pencil",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/grease-pencil-sheet.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect grease-pencil-sheet op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "title-card-dive",
+    "name": "Title card dive",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/title-card-dive.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect title-card-dive op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "picture-dive",
+    "name": "Picture dive",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/picture-dive.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect picture-dive op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "live-markup",
+    "name": "Live markup",
+    "category": "drawing",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/live-markup.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect live-markup op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "storyboard-deck",
+    "name": "Storyboard deck",
+    "category": "layout",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/storyboard-deck.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect storyboard-deck op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "gravity-drop",
+    "name": "Gravity drop",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/gravity-drop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect gravity-drop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "video-backdrop",
+    "name": "Video backdrop",
+    "category": "media",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/video-backdrop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect video-backdrop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "comment-drop",
+    "name": "Comment drop",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/comment-drop.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect comment-drop op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "shape-transitions",
+    "name": "Shape transitions",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/shape-transitions.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect shape-transitions op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "press-front",
+    "name": "Front page",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/press-front.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect press-front op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "paper-tear",
+    "name": "Paper tear",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/paper-tear.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect paper-tear op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "blade-slice",
+    "name": "Blade slice",
+    "category": "transition",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/blade-slice.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect blade-slice op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "day-dial",
+    "name": "Day dial",
+    "category": "infographic",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/day-dial.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect day-dial op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "predict-keys",
+    "name": "Predictive keyboard",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/predict-keys.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect predict-keys op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "impact-frame",
+    "name": "Impact frame",
+    "category": "film",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/impact-frame.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect impact-frame op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "orbit-ring",
+    "name": "Orbit ring",
+    "category": "3d",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/orbit-ring.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect orbit-ring op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "dolly-zoom",
+    "name": "Dolly zoom",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/dolly-zoom.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect dolly-zoom op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "banknote",
+    "name": "Banknote",
+    "category": "editorial",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/banknote.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect banknote op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "voice-note",
+    "name": "Voice note",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/voice-note.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect voice-note op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "letter-dive",
+    "name": "Letter dive",
+    "category": "camera",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/letter-dive.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect letter-dive op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "live-cursor",
+    "name": "Live cursor",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/live-cursor.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect live-cursor op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "head-stack",
+    "name": "Head stack",
+    "category": "physics",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/head-stack.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect head-stack op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "rack-focus",
+    "name": "Rack focus",
+    "category": "grade",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/rack-focus.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect rack-focus op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "code-body",
+    "name": "Code body",
+    "category": "segmentation",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/code-body.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect code-body op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "post-wall",
+    "name": "Post wall",
+    "category": "infographic",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/post-wall.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect post-wall op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "clone-row",
+    "name": "Clone row",
+    "category": "segmentation",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/clone-row.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect clone-row op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "layer-explode",
+    "name": "Layer explode",
+    "category": "3d",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/layer-explode.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect layer-explode op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "sketch-words",
+    "name": "Sketch words",
+    "category": "drawing",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/sketch-words.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect sketch-words op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "blow-away",
+    "name": "Blow away",
+    "category": "particles",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/blow-away.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect blow-away op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "incoming-call",
+    "name": "Incoming call",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/incoming-call.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect incoming-call op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "search-suggest",
+    "name": "Search suggest",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/search-suggest.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect search-suggest op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "double-exposure",
+    "name": "Double exposure",
+    "category": "segmentation",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/double-exposure.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect double-exposure op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "shockwave",
+    "name": "Shockwave",
+    "category": "distortion",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/shockwave.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect shockwave op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "room-doors",
+    "name": "Room doors",
+    "category": "3d",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/room-doors.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect room-doors op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "finger-draw",
+    "name": "Finger draw",
+    "category": "tracking",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/finger-draw.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect finger-draw op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  },
+  {
+    "id": "follow-chip",
+    "name": "Follow chip",
+    "category": "interface",
+    "status": "independent-baseline",
+    "duration": 2.4,
+    "implementation": "src/effects.mjs → drawEffect()",
+    "origin": "Independent Studio Linea Canvas recipe; MIT. Timing utilities adapted from MIT motion-video-styles.",
+    "license": "MIT (code only); reference media remains owner copyright",
+    "reference": "https://justyn.ai/reel-kit/media/fx/follow-chip.mp4",
+    "source": "https://justyn.ai/masterclass",
+    "referenceAnalysis": null,
+    "parameters": {
+      "text": "Meer tijd. Meer impact.",
+      "duration": 2.4,
+      "brand": "studio-linea"
+    },
+    "prompt": "Gebruik effect follow-chip op de belangrijkste zin, in Studio Linea-stijl. Pas tekst en timing aan.",
+    "quality": "Functional independent recipe; NOT a verified reproduction or equivalent quality claim. See docs/visual-acceptance.md."
+  }
+]

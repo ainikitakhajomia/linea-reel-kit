@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/AskEditor/ai-video-editing-skills",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "fx/core/timeline.py",
+      "sha256": "accc85ff5582db5b507fd5c317018570daa42631fd453e16ad9dd3c1487d7ae6",
+      "source": "https://github.com/AskEditor/ai-video-editing-skills/blob/e20000b262fb5f2b7e0e87f9354d44bc00e545ca/fx/core/timeline.py"
+    }
+  ],
+  "checked_on": "2026-11-27",
+  "commit": "e20000b262fb5f2b7e0e87f9354d44bc00e545ca"
+}

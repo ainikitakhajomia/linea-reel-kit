@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/tecnomanu/motion-video-styles",
+  "license": "MIT",
+  "files": [
+    {
+      "path": "skill/motion-video-styles/engine/common.js",
+      "sha256": "3713e1d0fd97dc8f045919bd0ff11db429fc5d177144e5acb34fe004d50e5bbe",
+      "source": "https://github.com/tecnomanu/motion-video-styles/blob/57d76f6a18a4e3a1d1a1657e3bfc80934b0b9e05/skill/motion-video-styles/engine/common.js"
+    }
+  ],
+  "checked_on": "2026-11-27",
+  "commit": "57d76f6a18a4e3a1d1a1657e3bfc80934b0b9e05"
+}
