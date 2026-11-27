@@ -329,8 +329,8 @@ def command_demo(args):
     out.mkdir(parents=True, exist_ok=True)
     text = "Build better stories. From idea to impact. Make every frame count."
     audio, spoken = out / "speech.wav", False
-    if shutil.which("espeak"):
-        run(["espeak", "-v", "en", "-s", "145", "-w", audio, text])
+    if shutil.which("espeak") or shutil.which("espeak-ng"):
+        run([shutil.which("espeak") or shutil.which("espeak-ng"), "-v", "en", "-s", "145", "-w", audio, text])
         spoken = True
     elif shutil.which("say"):
         aiff = out / "speech.aiff"

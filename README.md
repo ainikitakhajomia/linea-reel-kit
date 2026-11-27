@@ -56,7 +56,7 @@ Het eerste gebruik downloadt gratis modelgewichten. Daarna werkt inference lokaa
 ## Claude Code en Codex
 
 ```sh
-python3 scripts/install-skills.py --codex --claude
+python3 scripts/install-skills.py --repo "$PWD" --codex --claude
 ```
 
 De installer koppelt de skill aan deze checkout en overschrijft geen bestaande skill zonder `--force`. Na verplaatsen opnieuw installeren. De agent orkestreert de lokale scripts; er draait geen betaalde autonome API op de achtergrond.

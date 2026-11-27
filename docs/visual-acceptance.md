@@ -66,12 +66,14 @@ Voor elk betekenisvol visueel accent: noteer actieframe, geluidsonset en stemniv
 
 Gebruik per effect/variant een entry met: effect-ID, codecommit, input/output-hashes, recipe/functioneel/geaccepteerd-status, alle rubricscores, gemeten onsets, exportinstellingen, beperkingen, reviewer en datum. Voeg een eigen MP4-preview toe en een publieke bronlink. Een rij in de referentie-inventaris mag niet automatisch naar “geïmplementeerd” of “gelijkwaardig” promoveren.
 
-Totdat dit register ingevuld is, zijn de 67 lokale recipes een uitvoerbare ontwikkelbibliotheek. De gebruiker kan de voortgang bekijken, maar krijgt geen onbewezen belofte van identieke kwaliteit.
+Voor de broninspectie per recipe, inclusief concrete stand-ins, zie [effect-status.md](effect-status.md). Totdat dit register ingevuld is, zijn de 67 lokale recipes een uitvoerbare ontwikkelbibliotheek. De gebruiker kan de voortgang bekijken, maar krijgt geen onbewezen belofte van identieke kwaliteit.
 
 
 ## Uitgevoerde recipeverbetering en nog vereiste controle
 
 De huidige Canvas-bron bevat echte strike-paths, een offscreen tekstuitsparing, letter-orbit met rear/front-passes, tweezijdig rafelig papier met schaduw en achtergrondblur met een scherp foreground-pad. `node --check src/effects.mjs` is geslaagd. Een lokale browsercheck kon niet starten doordat de pinned Chromium-binary ontbreekt; er is daardoor geen browser- of renderbewijs uit die poging. Volgens de workspace-instructies moeten browser-/rendercontroles op de geïsoleerde runner worden uitgevoerd.
+
+De actuele test-/Actions-status staat bij de levering en het gekoppelde runresultaat; deze broninspectie stelt geen eigen geslaagd of mislukt workflowresultaat vast. Inmiddels bestaat ook `scripts/segment.py`: FFmpeg-chromakey levert werkelijk geteste alpha-PNG-frames, en MediaPipe is een geïmplementeerde maar nog niet uitgevoerde optionele portrait-route. Zie [segmentation.md](segmentation.md).
 
 De resterende kwaliteitsgrenzen zijn concreet:
 
@@ -79,5 +81,5 @@ De resterende kwaliteitsgrenzen zijn concreet:
 - Knockout: de uitsparing gebruikt echte compositing, maar fontgrootte/regelverdeling moeten op eigen woorden worden beoordeeld.
 - Orbit: de twee depthpasses werken alleen geloofwaardig met een passende foreground-alpha; een vaste ringpositie volgt het hoofd niet automatisch.
 - Paper tear: independent paper panels met onregelmatige randen zijn geen fysische simulatie. Een vorige shot/image kan worden meegegeven; de renderer moet die laag ook werkelijk laden om een shottransition te bewijzen.
-- Rack focus: een aangeleverde foregroundlaag wordt scherp over een vervaagde bron getekend. Geen zelfgemaakte matte aanwezig betekent synthetische demo, geen geslaagde automatische subject-separatie.
+- Rack focus: een aangeleverde foregroundlaag wordt scherp over een vervaagde bron getekend. De chromakey-route kan zo’n echte alpha-laag maken; dat bewijst nog geen natuurlijke portrait-maskkwaliteit. Zonder passende matte blijft de standalonepreview een synthetische demo.
 - Finger draw blijft authored graphics zonder fingertiptracking.
