@@ -9,7 +9,7 @@ def keep(path):
     target=DEST/(digest[:24]+path.suffix.lower())
     if not target.exists():shutil.copyfile(path,target)
     return 'review-media/'+target.name
-sources=[('corrected','Gecorrigeerd · small ASR · 1080p','46048561317',ROOT/'out/recovered/latest'),('native','Eerdere versie · 1080p','46047685973',ROOT/'out/recovered/previous'),('first','Eerste versie · 540p','46046650541',Path('/Users/nikitakhajomia/linea-dev/worktrees/mattia/task-20261127-175400-eededbe663/linea-reel-kit/out/rendered-first'))]
+sources=[('corrected','Gecorrigeerd · small ASR · 1080p','46048561317',ROOT/'out/recovered/latest'),('native','Eerdere versie · 1080p','46047685973',ROOT/'out/recovered/previous'),('first','Eerste versie · 540p · visueel afgekeurd','46046650541',Path('/Users/nikitakhajomia/linea-dev/worktrees/mattia/task-20261127-175400-eededbe663/linea-reel-kit/out/rendered-first'))]
 result={'effects':{},'films':[],'extras':[],'carousels':[],'provenance':'Original synthetic demonstrations from preserved GitHub Actions outputs. No client footage. Reference media is linked directly, never copied.','sources':[]}
 films={}
 for key,label,run,base in sources:

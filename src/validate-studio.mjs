@@ -3,6 +3,8 @@ import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {mkdir,writeFile} from 'node:fs/promises';
 import {createServer} from './server.mjs';
+import {spawnSync} from 'node:child_process';
+import {resolve} from 'node:path';
 await mkdir('out/studio-qa',{recursive:true});
 const server=process.argv[2]?null:await createServer(4173),url=process.argv[2]||'http://127.0.0.1:4173/';
 const browser=await chromium.launch({args:['--autoplay-policy=no-user-gesture-required']}),page=await browser.newPage({viewport:{width:1600,height:1100}}),errors=[],failed=[];
@@ -34,6 +36,15 @@ try{
  }
  // Web Audio actually decodes non-silent audio; no claim about a human listening.
  report.audioSignal=await page.evaluate(async path=>{const ctx=new AudioContext();const b=await ctx.decodeAudioData(await (await fetch(new URL('public/'+path,location.href))).arrayBuffer());const samples=b.getChannelData(0);let peak=0;for(const s of samples)peak=Math.max(peak,Math.abs(s));await ctx.close();return {channels:b.numberOfChannels,duration:b.duration,peak};},films[0]);assert.ok(report.audioSignal.peak>.001);
+ report.audioStreams=[];
+ for(const path of [...new Set(films)]){
+  const probe=spawnSync('ffprobe',['-v','error','-show_streams','-of','json',resolve('public',path)],{encoding:'utf8'});if(probe.status!==0)throw Error('Cannot inspect audio streams: '+path);
+  const streams=JSON.parse(probe.stdout).streams.filter(s=>s.codec_type==='audio');
+  if(!streams.length){report.audioStreams.push({path,audio:false});continue;}
+  const signal=await page.evaluate(async path=>{const ctx=new AudioContext();const buffer=await ctx.decodeAudioData(await (await fetch(new URL('public/'+path,location.href))).arrayBuffer());let peak=0;for(const value of buffer.getChannelData(0))peak=Math.max(peak,Math.abs(value));await ctx.close();return {channels:buffer.numberOfChannels,peak,duration:buffer.duration};},path);
+  assert.ok(signal.peak>.001,'Existing audio must decode and contain signal: '+path);report.audioStreams.push({path,audio:true,...signal});
+ }
+
  await page.locator('.open').first().click();await page.getByRole('button',{name:'Bron naast eindresultaat'}).click();assert.equal(await page.locator('#comparison video').count(),2);assert.ok(await page.locator('.storyboard article').count()>0);await page.screenshot({path:'out/studio-qa/workflow.png'});await page.locator('#close').click();
  await page.setViewportSize({width:390,height:844});await page.locator('nav [data-pane="effects"]').click();assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:'out/studio-qa/mobile.png'});
  assert.equal(errors.length,0,errors.join('\n'));assert.equal(failed.length,0,JSON.stringify(failed));console.log(JSON.stringify(report));

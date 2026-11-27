@@ -32,5 +32,5 @@ if(manifest){
  }
  await emit('public/demos/manifest.json',JSON.stringify(safe,null,2)+'\n');
 }
-await emit('build.json',JSON.stringify({sourceCommit:process.env.SOURCE_COMMIT||null,syntheticDemos:manifest?.length||0,basePath:prefix},null,2)+'\n');
-console.log(`Static review assembled in ${destination}; ${manifest?.length||0} synthetic films. No arbitrary public/ files copied.`);
+await emit('build.json',JSON.stringify({sourceCommit:process.env.SOURCE_COMMIT||null,syntheticDemos:reviewManifest.films.length,basePath:prefix},null,2)+'\n');
+console.log(`Static review assembled in ${destination}; ${reviewManifest.films.length} existing synthetic films. No arbitrary public/ files copied.`);

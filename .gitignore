@@ -15,3 +15,5 @@ research/masterclass-links.txt
 .env
 
 public/demos/
+
+/node_modules
