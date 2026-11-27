@@ -12,7 +12,7 @@ export function validateJob(job){
  for(const [key,fallback,max] of [['width',720,2160],['height',1280,3840],['fps',30,60]]){const n=job[key]??fallback;if(!Number.isInteger(n)||n<1||n>max)throw new Error(`Invalid ${key}`);job[key]=n;}
  if(job.width%2||job.height%2)throw new Error('Dimensions must be even for yuv420p');
  if(!Number.isFinite(job.duration)||job.duration<=0||job.duration>600)throw new Error('duration must be >0 and <=600 seconds');
- const paths=[job.video,job.walkthrough,job.foregroundFrames,...(job.effects||[]).filter(e=>e.src).map(e=>e.src),...(job.effects||[]).flatMap(e=>e.mediaSources||e.params?.mediaSources||[])].filter(Boolean);
+ const paths=[job.video,job.walkthrough,job.previous,job.next,job.background,job.foregroundFrames,...(job.effects||[]).filter(e=>e.src).map(e=>e.src),...(job.effects||[]).flatMap(e=>e.mediaSources||e.params?.mediaSources||[])].filter(Boolean);
  for(const p of paths)if(typeof p!=='string'||p.includes('..')||p.startsWith('/')||p.includes('://')||p.includes('\\'))throw new Error('Media must be a relative path inside public/');
  for(const e of job.effects||[])if(typeof e.id!=='string'||!Number.isFinite(e.start)||e.start<0||!Number.isFinite(e.duration)||e.duration<=0)throw new Error('Invalid effect timing');
  return job;

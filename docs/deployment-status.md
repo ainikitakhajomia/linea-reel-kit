@@ -1,0 +1,7 @@
+# Hostingcontrole — 27 november 2026
+
+De bestaande GitHub-repository is `ainikitakhajomia/linea-reel-kit`. Tijdens de overname leverde `gh api repos/ainikitakhajomia/linea-reel-kit/deployments` een lege lijst op. De gecombineerde commitstatus voor `main` bevatte geen Vercel-statussen; de check-runs bevatten alleen de bestaande GitHub Actions-rendercontrole. Er was geen lokaal beschikbare Vercel-CLI of gevonden lokale CLI-authenticatiemap. Zoekopdrachten naar `"linea-reel-kit"` in het verbonden Gmail-account leverden geen berichten op, ook zonder afzenderfilter.
+
+Daarmee is geen bestaande Vercel-deployment of automatische integratie bevestigd. Een Vercel-mail kan betrekking hebben op een ander verbonden account of een mislukte autorisatie; de afwezigheid van GitHub-metadata bewijst niet dat er nergens een Vercel-project bestaat. Er is geen nieuw Vercel-project gemaakt en er is geen betaald product ingeschakeld.
+
+Voor een latere controle: bekijk de projectpagina in het juiste Vercel-account of lees de concrete mail wanneer die beschikbaar is. Controleer daarna de opgegeven deployment-URL met een schone browser op de geïsoleerde runner. Een HTTP-response alleen is geen visuele acceptatie. Publiceer uitsluitend een expliciet opgebouwde statische bibliotheek; de repositoryroot kan genegeerde lokale media bevatten en mag nooit rechtstreeks als publiek directory worden gebruikt. Houd videorendering op de geïsoleerde runner.

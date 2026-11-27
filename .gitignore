@@ -13,3 +13,5 @@ research/masterclass-text.txt
 research/masterclass-links.txt
 .DS_Store
 .env
+
+public/demos/
