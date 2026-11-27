@@ -60,7 +60,7 @@ Counts bij deze inspectie: 39 basisanimatie, 18 beeldoperatie, 10 stand-in. Geen
 | 48 | `dolly-zoom` | Beeldoperatie | Achtergrond en foreground-alpha hebben onafhankelijk tegengestelde schaal. Vereist schone `background` plus matte voor een bruikbare echte shot; zonder die inputs blijft dit een synthetische/ghostgevoelige demonstratie, geen gereconstrueerde 3D-perspectiefwissel. |
 | 49 | `banknote` | Basisanimatie | Eigen foreground/video in monochroom medaillon en oplopend configureerbaar bedrag; geen engraving/displacement. |
 | 50 | `voice-note` | Basisanimatie | Eigen waveformachtige balk; geen uit stemaudio afgeleide waveform of transcript/send-state. |
-| 51 | `letter-dive` | Beeldoperatie | Echte footage via source-in door een sterk inzoomend woordmasker. Zonder media deterministisch kleurverloop; geen automatische keuze/tracking van een glyphopening of 3D camera. |
+| 51 | `letter-dive` | Beeldoperatie | Echte footage via source-in door een sterk inzoomend woordmasker, met late crossfade naar volledig bronbeeld om een lege eindframe te voorkomen. Zonder media deterministisch kleurverloop; geen automatische keuze/tracking van een glyphopening of 3D camera. |
 | 52 | `live-cursor` | Basisanimatie | Pointerpad en clickring op kaart; geen automatisch geselecteerde/mobiele subjectcutout. |
 | 53 | `head-stack` | Stand-in | Eigen subject-alpha of cropped videoportretten; nog geen gelabelde tiles met stacking/topplephysics. |
 | 54 | `rack-focus` | Beeldoperatie | Achtergrondblur en scherpe aangeleverde alpha; zonder matte synthetische demo; geen autofocus/segmentation intern. |
@@ -108,3 +108,5 @@ Deze bronwijzigingen zijn door syntax- en pure unitcontroles gecontroleerd. Visu
 - `letter-dive` gebruikt een echte tekst-alpha met bronmedia via source-in. `double-exposure` behoudt zijn secundaire beeld nu onder een zachte accenttint; de eerdere opaque fill overschreef dat beeld.
 - `kinetic-hook` en `giant-captions` accepteren `wordTimes: [{start: 0.1}, …]` in lokale seconden of `startMs` in lokale milliseconden. Met `syncWords: true` op het effect worden captionwoordtijden binnen het effectinterval gebruikt. De auteur moet de effecttekst en captionwoorden inhoudelijk laten overeenkomen; dit is geen automatische tekstalignment.
 - De gedeelde media-loader wacht op geladen frames, meldt timeout/loadfouten, begrenst seeks en voorkomt dat scrubben naar exact het einde een niet-bestaand foregroundframe vraagt. Stage wacht op geladen lokale fonts voordat een job start.
+
+Na inspectie van de galerierenders is de no-media double-exposure-stand-in vervangen door een contrastrijke, expliciet synthetisch gelabelde portretsilhouet met geanimeerd duotoonlandschap. De media-backed alphaoperatie blijft afzonderlijk. Letter-dive gebruikt een late crossfade naar volledig bronbeeld; dit voorkomt een lege eindframe, maar is geen automatische camera door een echte glyphopening. Deze wijzigingen vragen nieuwe isolated-runner beelden.

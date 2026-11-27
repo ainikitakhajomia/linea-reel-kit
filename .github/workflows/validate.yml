@@ -46,8 +46,13 @@ jobs:
       - name: Original synthetic editorial demonstrations with actual EN and NL ASR
         run: |
           pip install Pillow==11.3.0 -r requirements-transcription.txt
-          python3 scripts/demos.py --asr
+          python3 scripts/demos.py --asr --scale 2
+          python3 scripts/transcript-qa.py public/demos/manifest.json --out out/transcription-qa.json
           node src/render-demos.mjs public/demos
+      - name: Build allowlisted static review
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: node scripts/build-static.mjs out/site /linea-reel-kit
       - name: Portrait segmentation inference (synthetic fixture, no quality claim)
         run: |
           pip install -r requirements-segmentation.txt

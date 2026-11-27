@@ -45,3 +45,13 @@ git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push or
 ## Eerlijke grenzen
 
 67 recepten zijn geen 67 premium geaccepteerde reproducties. Zie `docs/effect-status.md` voor basisanimatie / beeldoperatie / stand-in. Geen representatieve eigen talking-headopnamen beschikbaar: illustratieve spreker, synthetische stem en concept-UI bewijzen geen portretkwaliteit. Tracken, echte fysieke 3D, subject-particles, semantic takes en hoogwaardige referentiematching blijven deels/open. Demo 9 is 2.5D; noem die geen echte 3D-engine. Alleen publiek toegankelijke referenties gelinkt; geen beschermde clips opnieuw gepubliceerd. Geen betaalde APIs, klantmedia of credentials toevoegen.
+
+## Controlepunt na eerste volledige groene herstelrun
+
+De volledige workflow `46046650541` op `d8cad22` is groen: alle 67 exports, compositing, tien complete 540×960 synthetische films met echte NL/EN-ASR, audio/media-QA en portrait-inference. Artifact `linea-reel-kit-rendered`, ca. 79 MB. Dit is technisch bewijs, geen menselijke portret- of premiumacceptatie.
+
+De openbare statische preview is aangemaakt op GitHub Pages: https://ainikitakhajomia.github.io/linea-reel-kit/ . De Pages-build `46046889400` is groen. Hosting bevat uitsluitend allowlist-code; demo's worden na validatie toegevoegd. Vercel blijft onbevestigd. `scripts/build-static.mjs out/site /linea-reel-kit` is het publicatiepad. `src/validate-hosted.mjs` controleert daadwerkelijk scrollen/afspelen van alle 67 kaarten op Linux. Volgende commit voegt dit toe aan previewworkflow.
+
+Globale skills opnieuw geïnstalleerd met `python3 scripts/install-skills.py --repo "$PWD" --codex --claude --force`; Codex-home is `/Users/nikitakhajomia/.codex-mattia`, Claude-home `/Users/nikitakhajomia/.claude`.
+
+Nieuwe lokale, nog te pushen iteratie: 67 eerlijke cataloguslabels en inputvoorwaarden, uitwerkingsfilter, standaard double-exposurecontrast en letter-dive-eindbeeld, vier exportcontactbladen met FFprobe/framecounts/SHA per MP4, posters en native1080×1920 @24fps demo's. De eerste gedownloade interface/compositie/all67-screenshots zijn door root visueel bekeken; volledige nieuwe exportcontactbladen nog niet.

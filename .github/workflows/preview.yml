@@ -17,6 +17,8 @@ jobs:
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - run: mkdir -p out && node src/validate-browser.mjs && node src/validate-composition.mjs
+      - name: Verify actual public static preview
+        run: node src/validate-hosted.mjs https://ainikitakhajomia.github.io/linea-reel-kit/
       - uses: actions/upload-artifact@v4
         if: always()
         with:

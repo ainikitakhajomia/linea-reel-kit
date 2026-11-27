@@ -19,14 +19,18 @@ try{
    const exposure=shots.find(s=>s.id==='double-exposure'&&s.time===1.2);
    const captionJob={duration:2.4,noBrand:true,captions:[{text:'Een',startMs:0,endMs:500},{text:'helder',startMs:500,endMs:1500},{text:'verhaal.',startMs:1500,endMs:2400}]};
    drawFrame(c,captionJob,.8,{video:blue});shots.push({id:'captions',time:.8,png:canvas.toDataURL()});
-   return {shots,exposurePixel:exposure.center};
+   drawFrame(c,{duration:2.4,noBrand:true,effects:[{id:'double-exposure',start:0,duration:2.4}]},1.2,{});const syntheticExposurePixel=[...c.getImageData(360,700,1,1).data];shots.push({id:'double-exposure-synthetic',time:1.2,png:canvas.toDataURL()});
+   drawFrame(c,{duration:2.4,noBrand:true,effects:[{id:'letter-dive',start:0,duration:2.4,text:'OPEN'}]},1.6,media);const diveEdgePixel=[...c.getImageData(50,50,1,1).data];
+   return {shots,exposurePixel:exposure.center,syntheticExposurePixel,diveEdgePixel};
  });
  assert.ok(results.exposurePixel[0]>results.exposurePixel[2]*1.5,'Double exposure must retain red secondary footage instead of opaque blue accent');
- const byId=Object.groupBy(results.shots.filter(s=>s.id!=='captions'),s=>s.id);for(const [id,shots]of Object.entries(byId))assert.notEqual(shots[0].png,shots[1].png,id+' media path must animate');
+ assert.ok(results.syntheticExposurePixel[2]<220,'Synthetic exposure silhouette must contrast with ivory background');
+ assert.ok(results.diveEdgePixel[0]>results.diveEdgePixel[2]*1.5,'Late letter dive must complete to full secondary image, including edges');
+ const byId=Object.groupBy(results.shots.filter(s=>!['captions','double-exposure-synthetic'].includes(s.id)),s=>s.id);for(const [id,shots]of Object.entries(byId))assert.notEqual(shots[0].png,shots[1].png,id+' media path must animate');
  for(const shot of results.shots)await writeFile(`out/composition-${shot.id}-${shot.time}.png`,Buffer.from(shot.png.split(',')[1],'base64'));
  await page.setContent('<body style="margin:0;background:#f6f5f1;font:15px Arial;padding:24px"><h1>Owned synthetic media · compositing regressions</h1><div id="shots" style="display:grid;grid-template-columns:repeat(9,1fr);gap:12px"></div></body>');
  await page.evaluate(shots=>{for(const shot of shots){const card=document.createElement('div'),label=document.createElement('p'),img=document.createElement('img');label.textContent=`${shot.id} / ${shot.time}s`;img.src=shot.png;img.style.width='100%';card.append(label,img);document.querySelector('#shots').append(card);}},results.shots);
  await page.screenshot({path:'out/composition-contact-sheet.png',fullPage:true});
- await writeFile('out/composition-validation.json',JSON.stringify({secondaryImageRetained:true,exposurePixel:results.exposurePixel,animatedMediaPaths:Object.keys(byId),fixtures:'Owned procedural RGB sources and subject alpha; no real portrait quality claim'},null,2));
+ await writeFile('out/composition-validation.json',JSON.stringify({secondaryImageRetained:true,exposurePixel:results.exposurePixel,syntheticExposurePixel:results.syntheticExposurePixel,diveEdgePixel:results.diveEdgePixel,animatedMediaPaths:Object.keys(byId),fixtures:'Owned procedural RGB sources and subject alpha; no real portrait quality claim'},null,2));
  console.log('Media-backed camera, mask, exposure, alpha and caption fixtures passed');
 }finally{await browser.close();await new Promise(r=>server.close(r));}

@@ -86,3 +86,12 @@ Voor “beter dan Justyn” op cutkwaliteit, teksttracking, visuele afwerking, s
 ## Compositieherstel na hervatten
 
 De preview en export delen nu een camera-model met vaste punch, settle-cuts en afzonderlijke achtergrond-/subjectzoom; de laatste vereist een schone achtergrond en alpha. Tekstmasker-dive en de secundaire beeldlaag in double exposure zijn daadwerkelijke compositie-operaties. Iris/blinds/doors/clock kunnen aangeleverde volgende media onthullen. Dit verbetert bruikbaarheid, maar bewijst geen visuele gelijkwaardigheid met de referenties. Met name tracking, echte 3D geometrie, fysische letters, subjectparticles en automatische hoogwaardige montage blijven open. Zie de inputvoorwaarden en resterende grenzen in [effect-status.md](effect-status.md).
+
+
+## Herinspectie van de bewaarde bewegingssamples
+
+Bij hervatten is de actuele publieke HTML-catalogus opnieuw vergeleken: dezelfde 67 IDs. De reeds gemaakte contact sheets zijn opnieuw visueel geïnspecteerd: zes tijdsamples per effect, plus de fijnere kinetic-hook/orbit-ring/paper-tear-sequenties en de showcase/hi-fi/depth-overzichten. Er is geen nieuwe lokale browser- of FFmpeg-render uitgevoerd. De voorbeelden blijven privaat in tijdelijke researchopslag; alleen observaties en links worden gepubliceerd. Zes frames bewijzen geen correcte lip-sync, exacte easing, volledige tracking of identieke uitvoer. Zie [broncontrole](../research/resumption-source-check.json).
+
+De zichtbare kloof blijft aanzienlijk: de referenties verbinden een echte spreker, klein gezette captions, redactionele serif/sans-hiërarchie en inhoudelijke schermartefacten binnen dezelfde shot. De lokale galerij toont vooral losse, synthetische recepten. Keycaps/head-stack tonen in de referenties fysiek gestapelde tiles, blow-away laat een persoon in fragmenten verdwijnen, impact-frame verwerkt werkelijk bronbeeld, en voice-note toont een afspeelbare waveformvorm. De lokale varianten leveren die kernfuncties nog niet allemaal; de catalogus benoemt nu per effect de concrete afwijking en benodigde inputs.
+
+`src/catalog.json` bevat naast de bestaande compatibiliteitsstatus nu `maturity`, `maturityLabel`, `limitations`, `inputRequirements` en `acceptanceStatus`. De 39 basisanimaties, 18 beeldoperaties en 10 stand-ins beschrijven broninspectie, geen premiumacceptatie. Iedere `quality`-tekst is effect-specifiek; het oude algemene “Functional independent recipe” is verwijderd.

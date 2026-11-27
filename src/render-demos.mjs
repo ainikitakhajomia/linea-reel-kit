@@ -21,6 +21,7 @@ try{
   if(!qa.audio.present||qa.video.width!==job.width||qa.video.height!==job.height||Math.abs((qa.video.averageFPS||0)-job.fps)>.01||Math.abs(qa.durationSeconds-job.duration)>.12||Math.abs(qa.containerAudioMinusVideoStartMs||0)>100)throw new Error(`Export stream mismatch: ${demo.id}`);
   // Full export contact sheet for visual inspection, rather than gallery-only evidence.
   run(['ffmpeg','-hide_banner','-loglevel','error','-y','-i',`${dir}/final.mp4`,'-vf',`fps=1/${job.duration/6},scale=180:-2,tile=6x1`,'-frames:v','1',`${dir}/contact.jpg`]);
+  run(['ffmpeg','-hide_banner','-loglevel','error','-y','-ss',String(Math.min(1,job.duration/3)),'-i',`${dir}/final.mp4`,'-frames:v','1',`${dir}/poster.jpg`]);
   await rm(`${dir}/silent-sfx.mp4`);
   report.push({id:demo.id,output:demo.video,...qa});
  }
