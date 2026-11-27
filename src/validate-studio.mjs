@@ -8,7 +8,7 @@ import {resolve} from 'node:path';
 await mkdir('out/studio-qa',{recursive:true});
 const server=process.argv[2]?null:await createServer(4173),url=process.argv[2]||'http://127.0.0.1:4173/';
 const browser=await chromium.launch({args:['--autoplay-policy=no-user-gesture-required']}),page=await browser.newPage({viewport:{width:1600,height:1100}}),errors=[],failed=[];
-page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});});
+page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push('console: '+m.text());});page.on('response',r=>{if(r.status()>=400)failed.push({url:r.url(),status:r.status()});});
 const report={url,effects:0,filmExports:0,sourceVideos:0,referenceVideos:0,audioDecoded:0,fullscreen:false,navigation:[],errors,failed};
 async function play(v){await v.scrollIntoViewIfNeeded();await v.evaluate(async v=>{v.muted=true;v.currentTime=0;await v.play();});await page.waitForTimeout(180);await v.evaluate(v=>new Promise((resolve,reject)=>{const deadline=performance.now()+10000;function check(){if(v.currentTime>0&&v.videoWidth>0)resolve();else if(performance.now()>deadline)reject(Error('Video did not advance'));else requestAnimationFrame(check);}check();}));assert.ok(await v.evaluate(v=>v.videoHeight>0));await v.evaluate(v=>v.pause());}
 try{
