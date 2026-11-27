@@ -14,7 +14,7 @@ try{
  }
  await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:'out/hosted-library.png'});
  await page.locator('#search').fill('orbit');assert.equal(await page.locator('.card').count(),1);await page.locator('.card').first().click();await page.locator('#dtext').fill('Een nieuw perspectief');await page.locator('#detailscrub').fill('1.2');await page.screenshot({path:'out/hosted-inspector.png'});await page.locator('#close').click();await page.locator('#search').fill('');
- const response=await context.request.get(new URL('public/demos/manifest.json',url));let demos=[];
+ const response=await context.request.get(new URL('public/demos/manifest.json',url).href);let demos=[];
  if(response.ok()){
   demos=await response.json();assert.equal(demos.length,10);await page.locator('#demobutton').click();await page.waitForSelector('.democard');
   for(const video of await page.locator('.democard video').all()){
