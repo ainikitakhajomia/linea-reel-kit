@@ -1,9 +1,7 @@
 <!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:transparent}canvas{display:block}</style></head><body><canvas id="stage"></canvas><script type="module">
-import {drawFrame} from './effects.mjs';
+import {drawFrame} from './effects.mjs';import {loadMedia,updateMedia} from './media.mjs';
 const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d');let job,media={};
-async function loadVideo(path){const v=document.createElement('video');v.muted=true;v.preload='auto';v.src='/public/'+path;await new Promise((ok,bad)=>{v.onloadeddata=ok;v.onerror=()=>bad(new Error('Cannot load video: '+path));});return v;}
-async function seek(v,time){const target=Math.min(time,Math.max(0,v.duration-.035));if(Math.abs(v.currentTime-target)<.0001&&v.readyState>=2)return;await new Promise((ok,bad)=>{let timer=setTimeout(()=>bad(new Error('Video seek timeout')),10000);v.onseeked=()=>{clearTimeout(timer);ok();};v.currentTime=target;});}
-window.setJob=async value=>{job=value;canvas.width=job.width||720;canvas.height=job.height||1280;media={};if(job.video)media.video=await loadVideo(job.video);if(job.walkthrough)media.walkthrough=await loadVideo(job.walkthrough);for(const e of job.effects||[])if(e.id==='broll'&&e.src){if(e.mediaType==='image'){const im=new Image();im.src='/public/'+e.src;await im.decode();media[e.src]=im;}else media[e.src]=await loadVideo(e.src);}return true;};
-window.frame=async time=>{for(const [key,v] of Object.entries(media)){if(v instanceof HTMLVideoElement){const e=job.effects?.find(x=>x.src===key);await seek(v,e?Math.max(0,time-e.start):time);}}if(job.foregroundFrames){const path=job.foregroundFrames.replace('%06d',String(Math.round(time*(job.fps||30))).padStart(6,'0'));const im=new Image();im.src='/public/'+path;await im.decode();media.foreground=im;}drawFrame(ctx,job,time,media);return canvas.toDataURL('image/png').split(',')[1];};
+window.setJob=async value=>{job=value;canvas.width=job.width||720;canvas.height=job.height||1280;media=await loadMedia(job);return true;};
+window.frame=async time=>{await updateMedia(media,job,time);drawFrame(ctx,job,time,media);return canvas.toDataURL('image/png').split(',')[1];};
 window.ready=true;
 </script></body></html>
