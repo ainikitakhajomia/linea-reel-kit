@@ -1,0 +1,4641 @@
+{
+  "effects": {
+    "kinetic-hook": {
+      "video": "review-media/0b3a9677b23d9c69da885ad2.mp4",
+      "poster": "review-media/c4872529272863042ad43d63.jpg"
+    },
+    "icon-strike": {
+      "video": "review-media/76a807c2c81245126315cc06.mp4",
+      "poster": "review-media/bf9a01fe6654ab7677b0d753.jpg"
+    },
+    "prompt-bar": {
+      "video": "review-media/7aa452aecf7240f5f5deb686.mp4",
+      "poster": "review-media/80674c9b00b835acaf45346f.jpg"
+    },
+    "grade-slider": {
+      "video": "review-media/e56f0778243055fd272f9a75.mp4",
+      "poster": "review-media/3c97153e9228ec930d1c73a8.jpg"
+    },
+    "magazine-cover": {
+      "video": "review-media/858c24b1b4327f1c5af62088.mp4",
+      "poster": "review-media/3cc76c4e8933d75b8f6b8491.jpg"
+    },
+    "nle-timeline": {
+      "video": "review-media/8122181e58842162040910b3.mp4",
+      "poster": "review-media/888347ca46c51b47226cd4b1.jpg"
+    },
+    "file-drop": {
+      "video": "review-media/5158ff251f4956083d6f5f01.mp4",
+      "poster": "review-media/c01422a25271131884acd18c.jpg"
+    },
+    "odometer-recursion": {
+      "video": "review-media/b311198c0b04b18b08dc66cb.mp4",
+      "poster": "review-media/3f6f16121f7842b8ce3fbdea.jpg"
+    },
+    "mood-curtain": {
+      "video": "review-media/8113b92ec16772714778d97f.mp4",
+      "poster": "review-media/2e4c2b86c5dffae179d986df.jpg"
+    },
+    "grid-collapse": {
+      "video": "review-media/e32a0fd6004e2034a261e351.mp4",
+      "poster": "review-media/e55f0b612af4d46550dda395.jpg"
+    },
+    "page-scroll": {
+      "video": "review-media/32bfdbd959ae4aa82e41a225.mp4",
+      "poster": "review-media/ef8818da1ee078ada8437a95.jpg"
+    },
+    "comment-thread": {
+      "video": "review-media/21bb9f0eabdd946a8f12a2c6.mp4",
+      "poster": "review-media/53179182f62cf5b57bec8251.jpg"
+    },
+    "word-stamp": {
+      "video": "review-media/a26d07300592d4679a01e6f1.mp4",
+      "poster": "review-media/850141ae193f4c7cdaa8923d.jpg"
+    },
+    "giant-captions": {
+      "video": "review-media/623511b77900909d3938dbbd.mp4",
+      "poster": "review-media/6595563dd12db155b86fabf6.jpg"
+    },
+    "video-card": {
+      "video": "review-media/5e22b27a2a5d1783f6a64a6d.mp4",
+      "poster": "review-media/673ece28534a3ec3417d1b0b.jpg"
+    },
+    "comment-cta": {
+      "video": "review-media/1602bc0837ab82eb3b0caca8.mp4",
+      "poster": "review-media/b05360b5c9e26b0c72ba6038.jpg"
+    },
+    "camera-transitions": {
+      "video": "review-media/d8afa0ce95a4a9d0159615eb.mp4",
+      "poster": "review-media/81cd670e49210f9ce486c2ec.jpg"
+    },
+    "contact-sheet-hook": {
+      "video": "review-media/1c928b801c2a773ac93dd259.mp4",
+      "poster": "review-media/61b3c067ffc327514ca50190.jpg"
+    },
+    "receipt-printer": {
+      "video": "review-media/10625bb87875427121c34de1.mp4",
+      "poster": "review-media/bdbb5ee3cdca267801b8d8d7.jpg"
+    },
+    "jiggle-delete": {
+      "video": "review-media/e89a755fcd7acad77e5de21a.mp4",
+      "poster": "review-media/ce3d92e91271b9bf6d6f59bd.jpg"
+    },
+    "keycaps": {
+      "video": "review-media/a033aceaf52c87130bf391eb.mp4",
+      "poster": "review-media/5503f29133d2b28bded7b453.jpg"
+    },
+    "projected-film": {
+      "video": "review-media/8a34edf34db579a53509cc4f.mp4",
+      "poster": "review-media/c2d43e7380d067eb3fedc3a9.jpg"
+    },
+    "film-look": {
+      "video": "review-media/165ac5464620c9938769bf05.mp4",
+      "poster": "review-media/86f371ead638df52b3f81861.jpg"
+    },
+    "eyedropper-grade": {
+      "video": "review-media/92f701f539570942cac593b5.mp4",
+      "poster": "review-media/80c7b74c8269a87579b1aa32.jpg"
+    },
+    "reel-cascade": {
+      "video": "review-media/3edc0c686db263819bbbb5ca.mp4",
+      "poster": "review-media/6127935340f62d4b2215bf27.jpg"
+    },
+    "playing-grid": {
+      "video": "review-media/e6793f5da8b76fee77a5e122.mp4",
+      "poster": "review-media/5caf4210c65f99653dac91c3.jpg"
+    },
+    "reel-feed": {
+      "video": "review-media/f0675f323178b5dd48761e48.mp4",
+      "poster": "review-media/937824bf1078f6023cbb0095.jpg"
+    },
+    "intertitle": {
+      "video": "review-media/d48d090ddd51c44990aa3ce7.mp4",
+      "poster": "review-media/82807e0e647bbe6020b31859.jpg"
+    },
+    "screenplay-page": {
+      "video": "review-media/cb0f04f5590f3460bb59fe2f.mp4",
+      "poster": "review-media/93c182b972cb0c88be7510cb.jpg"
+    },
+    "knockout-captions": {
+      "video": "review-media/10ab1f475d84ce15637b5efc.mp4",
+      "poster": "review-media/188df05d307f7d384dd74fd1.jpg"
+    },
+    "lens-ring": {
+      "video": "review-media/513400ae5d9f341634947db7.mp4",
+      "poster": "review-media/907731ae68dd65d3bb37fd95.jpg"
+    },
+    "grease-pencil-sheet": {
+      "video": "review-media/e4f17548f498bb6c2f65ee3b.mp4",
+      "poster": "review-media/d244368040ce4f12a0373b57.jpg"
+    },
+    "title-card-dive": {
+      "video": "review-media/0afc1fece4d2899eeed08f0c.mp4",
+      "poster": "review-media/4bb88f61637e799139edd00c.jpg"
+    },
+    "picture-dive": {
+      "video": "review-media/066c06a52da8ae1b7b41c7f0.mp4",
+      "poster": "review-media/e30475d6aabc5d0b5616f7cb.jpg"
+    },
+    "live-markup": {
+      "video": "review-media/5b4c7806cbb0a2c43a2369b8.mp4",
+      "poster": "review-media/30983f5eaf4395253aff8814.jpg"
+    },
+    "storyboard-deck": {
+      "video": "review-media/1d9e4a7bca9f84ed9cde9437.mp4",
+      "poster": "review-media/fb3777965a348c1bbdf964de.jpg"
+    },
+    "gravity-drop": {
+      "video": "review-media/6c7f84b0a026ac0dce809023.mp4",
+      "poster": "review-media/b1f8337e45d695e9d7f5d00a.jpg"
+    },
+    "video-backdrop": {
+      "video": "review-media/c94ea889ee286de3c6d3d79c.mp4",
+      "poster": "review-media/ab46237a8d3531ad1eda46f6.jpg"
+    },
+    "comment-drop": {
+      "video": "review-media/21bb9f0eabdd946a8f12a2c6.mp4",
+      "poster": "review-media/53179182f62cf5b57bec8251.jpg"
+    },
+    "shape-transitions": {
+      "video": "review-media/84092d979f4cbb39672f0525.mp4",
+      "poster": "review-media/fcd06bf83c407448535e2b11.jpg"
+    },
+    "press-front": {
+      "video": "review-media/28191fb35c32cdcab6523c15.mp4",
+      "poster": "review-media/ffbdc04c117ecbe90c72cd28.jpg"
+    },
+    "paper-tear": {
+      "video": "review-media/100d3cfcfc5efdcda4a29b1f.mp4",
+      "poster": "review-media/dddccebe7c41f428c90f8e0d.jpg"
+    },
+    "blade-slice": {
+      "video": "review-media/4e7967a52a42a0d3644adb52.mp4",
+      "poster": "review-media/df428c46787ef6ccd9bea0a5.jpg"
+    },
+    "day-dial": {
+      "video": "review-media/31641d22122e628c8dfbb00d.mp4",
+      "poster": "review-media/0960b3e471587b38c1a1cfdc.jpg"
+    },
+    "predict-keys": {
+      "video": "review-media/e9391818ca0fb9d2d4d53dd9.mp4",
+      "poster": "review-media/9ee9b5efa8c9af633daad38b.jpg"
+    },
+    "impact-frame": {
+      "video": "review-media/2c70f126d4281fd1077b17cd.mp4",
+      "poster": "review-media/22b0b021b71a2f1fc9a8e2d6.jpg"
+    },
+    "orbit-ring": {
+      "video": "review-media/e134e5140e00a7a63f533b28.mp4",
+      "poster": "review-media/3d62df3525bb930d5fac84e8.jpg"
+    },
+    "dolly-zoom": {
+      "video": "review-media/bcd4c399b5e44bc799db46b0.mp4",
+      "poster": "review-media/c0c7de4f94631e2b50105fca.jpg"
+    },
+    "banknote": {
+      "video": "review-media/12d91b139919646a9b948b7f.mp4",
+      "poster": "review-media/a489d38192292ce3d7babd2d.jpg"
+    },
+    "voice-note": {
+      "video": "review-media/fce16874c7eafbc1e4c0b59d.mp4",
+      "poster": "review-media/27bf993c89cbe4f70b837bf4.jpg"
+    },
+    "letter-dive": {
+      "video": "review-media/d1f9ac50ec79cb4779d75634.mp4",
+      "poster": "review-media/88d59bab4be0cb2de54ca8b4.jpg"
+    },
+    "live-cursor": {
+      "video": "review-media/a68df4bcfdbacf1581c749ef.mp4",
+      "poster": "review-media/7f7765e00e80034f9fec2541.jpg"
+    },
+    "head-stack": {
+      "video": "review-media/e7987afb24b87118327fbfdd.mp4",
+      "poster": "review-media/749d6a39e5acea7b1c500b48.jpg"
+    },
+    "rack-focus": {
+      "video": "review-media/78f70883781a3e0da96558d3.mp4",
+      "poster": "review-media/4e6d58605cb65172d18229c2.jpg"
+    },
+    "code-body": {
+      "video": "review-media/8128d6fd8be58605bc00f4fa.mp4",
+      "poster": "review-media/8b3ed2c108ece568fee491e7.jpg"
+    },
+    "post-wall": {
+      "video": "review-media/546f691419b2e6af63c12348.mp4",
+      "poster": "review-media/4818e63918790191de2ed1fd.jpg"
+    },
+    "clone-row": {
+      "video": "review-media/03823a7f29d583243d72f448.mp4",
+      "poster": "review-media/2aea22a5a64905e47fb6389a.jpg"
+    },
+    "layer-explode": {
+      "video": "review-media/116598e7bbf21a2e0d10de91.mp4",
+      "poster": "review-media/d8429a4e8c3fb7d07d381486.jpg"
+    },
+    "sketch-words": {
+      "video": "review-media/3172f8db2d9cf78ec929e82f.mp4",
+      "poster": "review-media/511188232f25f73b0265fd5b.jpg"
+    },
+    "blow-away": {
+      "video": "review-media/6b44f25b5691458c4209405b.mp4",
+      "poster": "review-media/09636690852f0e453e8998a1.jpg"
+    },
+    "incoming-call": {
+      "video": "review-media/4b8db5aa1c27cfe4a2f8800d.mp4",
+      "poster": "review-media/cf080fca0cde49dda9bda2f6.jpg"
+    },
+    "search-suggest": {
+      "video": "review-media/58ae452c15038dcece8d991b.mp4",
+      "poster": "review-media/249b045d40019950ced324e2.jpg"
+    },
+    "double-exposure": {
+      "video": "review-media/fa60ed3fef7e7433286a0da3.mp4",
+      "poster": "review-media/5746b2472bfc951dd8240a82.jpg"
+    },
+    "shockwave": {
+      "video": "review-media/7cda8abc1c53543257bc2edb.mp4",
+      "poster": "review-media/a8bee119bd8a986eb9229a92.jpg"
+    },
+    "room-doors": {
+      "video": "review-media/cad32a4671b8d29a567660a7.mp4",
+      "poster": "review-media/3cc1e93b57c324598d4c68c9.jpg"
+    },
+    "finger-draw": {
+      "video": "review-media/b62f9f667d2f7ea2df30bf70.mp4",
+      "poster": "review-media/589cf494d6ba13fbd2488991.jpg"
+    },
+    "follow-chip": {
+      "video": "review-media/9656ad0f6a4acb2ac84b6632.mp4",
+      "poster": "review-media/11b4acb5efee6e6c7d1a1748.jpg"
+    }
+  },
+  "films": [
+    {
+      "id": "01-talking-head",
+      "title": "Dynamische captions",
+      "script": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/a4914ed78647415a21543be5.mp4",
+          "duration": 6.916666666666667,
+          "effects": [
+            {
+              "id": "camera-transitions",
+              "start": 0,
+              "duration": 2.82,
+              "text": "Die ene taak",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "word-stamp",
+              "start": 2.82,
+              "duration": 1.7799999999999998,
+              "text": "Elke week?",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ],
+              "offsetY": -300,
+              "scale": 0.85
+            },
+            {
+              "id": "follow-chip",
+              "start": 4.6,
+              "duration": 2.3166666666666673,
+              "text": "Pak die eerst",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ],
+              "offsetY": -300,
+              "scale": 0.85
+            }
+          ],
+          "captions": [
+            {
+              "text": " Je",
+              "startMs": 0,
+              "endMs": 120,
+              "confidence": 0.6755700707435608
+            },
+            {
+              "text": " hebt",
+              "startMs": 120,
+              "endMs": 440,
+              "confidence": 0.9939007759094238
+            },
+            {
+              "text": " geen",
+              "startMs": 440,
+              "endMs": 740,
+              "confidence": 0.9833173155784607
+            },
+            {
+              "text": " extra",
+              "startMs": 740,
+              "endMs": 1260,
+              "confidence": 0.9208304286003113
+            },
+            {
+              "text": " merkdag",
+              "startMs": 1260,
+              "endMs": 1940,
+              "confidence": 0.6544595211744308
+            },
+            {
+              "text": " nodig.",
+              "startMs": 1940,
+              "endMs": 2320,
+              "confidence": 0.997515082359314
+            },
+            {
+              "text": " Begin",
+              "startMs": 2820,
+              "endMs": 3140,
+              "confidence": 0.9768313765525818
+            },
+            {
+              "text": " met",
+              "startMs": 3140,
+              "endMs": 3540,
+              "confidence": 0.9970448613166809
+            },
+            {
+              "text": " die",
+              "startMs": 3540,
+              "endMs": 3740,
+              "confidence": 0.7447740435600281
+            },
+            {
+              "text": " ene",
+              "startMs": 3740,
+              "endMs": 4040,
+              "confidence": 0.9491068720817566
+            },
+            {
+              "text": " taak",
+              "startMs": 4040,
+              "endMs": 4360,
+              "confidence": 0.9281215667724609
+            },
+            {
+              "text": " die",
+              "startMs": 4360,
+              "endMs": 4480,
+              "confidence": 0.9667506814002991
+            },
+            {
+              "text": " je",
+              "startMs": 4480,
+              "endMs": 4600,
+              "confidence": 0.9800439476966858
+            },
+            {
+              "text": " elke",
+              "startMs": 4600,
+              "endMs": 5000,
+              "confidence": 0.9947540462017059
+            },
+            {
+              "text": " week",
+              "startMs": 5000,
+              "endMs": 5320,
+              "confidence": 0.844371497631073
+            },
+            {
+              "text": " opnieuw",
+              "startMs": 5320,
+              "endMs": 5800,
+              "confidence": 0.9930727879206339
+            },
+            {
+              "text": " doet.",
+              "startMs": 5800,
+              "endMs": 6020,
+              "confidence": 0.965094804763794
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "je hebt",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "je",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.82
+              },
+              {
+                "phrase": "begin",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 6,
+                "asrToken": "begin",
+                "asrOnsetSeconds": 2.82,
+                "start": 2.82,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 1.7799999999999998
+              },
+              {
+                "phrase": "elke week",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 13,
+                "asrToken": "elke",
+                "asrOnsetSeconds": 4.6,
+                "start": 4.6,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.3166666666666673
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/8f1e21ab51fc628910f2ee74.mp4",
+          "poster": "review-media/56d6949884c863760bc571ee.jpg",
+          "job": "review-media/2ab8f8ef6c120005f79cc3b2.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/575c345ea695acc5fdff365d.mp4",
+          "duration": 6.208333333333333,
+          "effects": [
+            {
+              "id": "camera-transitions",
+              "start": 0.0,
+              "duration": 2.0694,
+              "text": "Die ene taak",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "word-stamp",
+              "start": 2.0694,
+              "duration": 2.0694,
+              "text": "Elke week?",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "follow-chip",
+              "start": 4.1389,
+              "duration": 2.0694,
+              "text": "Pak die eerst",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Je",
+              "startMs": 0,
+              "endMs": 200,
+              "confidence": 0.11567886918783188
+            },
+            {
+              "text": " hebt",
+              "startMs": 200,
+              "endMs": 480,
+              "confidence": 0.9690091013908386
+            },
+            {
+              "text": " geen",
+              "startMs": 480,
+              "endMs": 820,
+              "confidence": 0.7484920024871826
+            },
+            {
+              "text": " extra",
+              "startMs": 820,
+              "endMs": 1200,
+              "confidence": 0.9497361183166504
+            },
+            {
+              "text": " merke",
+              "startMs": 1200,
+              "endMs": 1720,
+              "confidence": 0.3305073082447052
+            },
+            {
+              "text": " dag",
+              "startMs": 1720,
+              "endMs": 1920,
+              "confidence": 0.4809975028038025
+            },
+            {
+              "text": " nodig.",
+              "startMs": 1920,
+              "endMs": 2260,
+              "confidence": 0.9256376624107361
+            },
+            {
+              "text": " We",
+              "startMs": 2720,
+              "endMs": 2760,
+              "confidence": 0.12704013288021088
+            },
+            {
+              "text": " beginnen",
+              "startMs": 2760,
+              "endMs": 3040,
+              "confidence": 0.46859830617904663
+            },
+            {
+              "text": " met",
+              "startMs": 3040,
+              "endMs": 3300,
+              "confidence": 0.9966248273849487
+            },
+            {
+              "text": " wie",
+              "startMs": 3300,
+              "endMs": 3480,
+              "confidence": 0.3349411189556122
+            },
+            {
+              "text": " een",
+              "startMs": 3480,
+              "endMs": 3640,
+              "confidence": 0.706406831741333
+            },
+            {
+              "text": " taak",
+              "startMs": 3640,
+              "endMs": 3940,
+              "confidence": 0.5011574998497963
+            },
+            {
+              "text": " die",
+              "startMs": 3940,
+              "endMs": 4120,
+              "confidence": 0.739534854888916
+            },
+            {
+              "text": " je",
+              "startMs": 4120,
+              "endMs": 4260,
+              "confidence": 0.6153165102005005
+            },
+            {
+              "text": " elke",
+              "startMs": 4260,
+              "endMs": 4540,
+              "confidence": 0.7183172106742859
+            },
+            {
+              "text": " maak",
+              "startMs": 4540,
+              "endMs": 4860,
+              "confidence": 0.3302451968193054
+            },
+            {
+              "text": " opnieuw",
+              "startMs": 4860,
+              "endMs": 5260,
+              "confidence": 0.7797086437543234
+            },
+            {
+              "text": " doet.",
+              "startMs": 5260,
+              "endMs": 5480,
+              "confidence": 0.4151853919029236
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/757b399a9d42520099e54eac.mp4",
+          "job": "review-media/21795908c9391627d293effb.json"
+        }
+      ]
+    },
+    {
+      "id": "02-behind-speaker",
+      "title": "Tekst achter de spreker",
+      "script": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/399c77999929a6f4b65a691b.mp4",
+          "duration": 8.0,
+          "effects": [
+            {
+              "id": "kinetic-hook",
+              "start": 0,
+              "duration": 2.76,
+              "text": "Dit staat niet voor je",
+              "params": {
+                "syncWords": true
+              },
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "orbit-ring",
+              "start": 2.76,
+              "duration": 2.0,
+              "text": "HET VERHAAL",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "giant-captions",
+              "start": 4.76,
+              "duration": 3.24,
+              "text": "het behaal letterlijk op de",
+              "params": {
+                "syncWords": true
+              },
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Dit",
+              "startMs": 0,
+              "endMs": 180,
+              "confidence": 0.8231840133666992
+            },
+            {
+              "text": " staat",
+              "startMs": 180,
+              "endMs": 460,
+              "confidence": 0.8061727285385132
+            },
+            {
+              "text": " niet",
+              "startMs": 460,
+              "endMs": 740,
+              "confidence": 0.993224561214447
+            },
+            {
+              "text": " voor",
+              "startMs": 740,
+              "endMs": 1160,
+              "confidence": 0.2656201720237732
+            },
+            {
+              "text": " je",
+              "startMs": 1160,
+              "endMs": 1380,
+              "confidence": 0.9526950120925903
+            },
+            {
+              "text": " neus.",
+              "startMs": 1380,
+              "endMs": 2160,
+              "confidence": 0.9209526181221008
+            },
+            {
+              "text": " Het",
+              "startMs": 2240,
+              "endMs": 2440,
+              "confidence": 0.8627545237541199
+            },
+            {
+              "text": " staat",
+              "startMs": 2440,
+              "endMs": 2760,
+              "confidence": 0.980445921421051
+            },
+            {
+              "text": " achter",
+              "startMs": 2760,
+              "endMs": 3220,
+              "confidence": 0.9680336713790894
+            },
+            {
+              "text": " mij.",
+              "startMs": 3220,
+              "endMs": 3560,
+              "confidence": 0.9616455435752869
+            },
+            {
+              "text": " Zo",
+              "startMs": 4120,
+              "endMs": 4320,
+              "confidence": 0.6846810579299927
+            },
+            {
+              "text": " blijft",
+              "startMs": 4320,
+              "endMs": 4760,
+              "confidence": 0.9854936301708221
+            },
+            {
+              "text": " het",
+              "startMs": 4760,
+              "endMs": 4960,
+              "confidence": 0.9938814640045166
+            },
+            {
+              "text": " behaal",
+              "startMs": 4960,
+              "endMs": 5560,
+              "confidence": 0.7443130811055502
+            },
+            {
+              "text": " letterlijk",
+              "startMs": 5560,
+              "endMs": 6080,
+              "confidence": 0.5844789147377014
+            },
+            {
+              "text": " op",
+              "startMs": 6080,
+              "endMs": 6260,
+              "confidence": 0.9781226515769958
+            },
+            {
+              "text": " de",
+              "startMs": 6260,
+              "endMs": 6440,
+              "confidence": 0.9659519791603088
+            },
+            {
+              "text": " voorbond.",
+              "startMs": 6440,
+              "endMs": 7160,
+              "confidence": 0.5131931975483894
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "dit staat",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "dit",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.76
+              },
+              {
+                "phrase": "achter mij",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 8,
+                "asrToken": "achter",
+                "asrOnsetSeconds": 2.76,
+                "start": 2.76,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.0
+              },
+              {
+                "phrase": "voorgrond",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 12,
+                "asrToken": "het",
+                "asrOnsetSeconds": 4.76,
+                "start": 4.76,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 3.24
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/9efbfe2ebc8c5d273046306c.mp4",
+          "poster": "review-media/759b1a8e0419283eb07ef52c.jpg",
+          "job": "review-media/2d0a86d092adc5856609dbcb.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/6fcd8aeebd81fb665b62b757.mp4",
+          "duration": 7.125,
+          "effects": [
+            {
+              "id": "kinetic-hook",
+              "start": 0.0,
+              "duration": 2.375,
+              "text": "ACHTER MIJ",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "orbit-ring",
+              "start": 2.375,
+              "duration": 2.375,
+              "text": "HET VERHAAL",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "giant-captions",
+              "start": 4.75,
+              "duration": 2.375,
+              "text": "BLIJFT VOORAAN",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Dit",
+              "startMs": 0,
+              "endMs": 280,
+              "confidence": 0.48698049783706665
+            },
+            {
+              "text": " staat",
+              "startMs": 280,
+              "endMs": 540,
+              "confidence": 0.5874809622764587
+            },
+            {
+              "text": " niet,",
+              "startMs": 540,
+              "endMs": 740,
+              "confidence": 0.9574764370918274
+            },
+            {
+              "text": " wat",
+              "startMs": 1000,
+              "endMs": 1100,
+              "confidence": 0.2975950539112091
+            },
+            {
+              "text": " je",
+              "startMs": 1100,
+              "endMs": 1300,
+              "confidence": 0.7536858320236206
+            },
+            {
+              "text": " nu",
+              "startMs": 1300,
+              "endMs": 1620,
+              "confidence": 0.8870372176170349
+            },
+            {
+              "text": " is,",
+              "startMs": 1620,
+              "endMs": 2040,
+              "confidence": 0.4071517586708069
+            },
+            {
+              "text": " dat",
+              "startMs": 2060,
+              "endMs": 2220,
+              "confidence": 0.31671881675720215
+            },
+            {
+              "text": " staat",
+              "startMs": 2220,
+              "endMs": 2560,
+              "confidence": 0.9740129709243774
+            },
+            {
+              "text": " achter",
+              "startMs": 2560,
+              "endMs": 2920,
+              "confidence": 0.8157389760017395
+            },
+            {
+              "text": " me.",
+              "startMs": 2920,
+              "endMs": 3320,
+              "confidence": 0.5792778134346008
+            },
+            {
+              "text": " Wobblijft,",
+              "startMs": 3720,
+              "endMs": 4240,
+              "confidence": 0.47971147298812866
+            },
+            {
+              "text": " dat",
+              "startMs": 4400,
+              "endMs": 4480,
+              "confidence": 0.9803860783576965
+            },
+            {
+              "text": " moet",
+              "startMs": 4480,
+              "endMs": 4700,
+              "confidence": 0.12554854154586792
+            },
+            {
+              "text": " houden,",
+              "startMs": 4700,
+              "endMs": 5100,
+              "confidence": 0.6233337223529816
+            },
+            {
+              "text": " dat",
+              "startMs": 5140,
+              "endMs": 5260,
+              "confidence": 0.7694174647331238
+            },
+            {
+              "text": " ik",
+              "startMs": 5260,
+              "endMs": 5420,
+              "confidence": 0.0524410679936409
+            },
+            {
+              "text": " op",
+              "startMs": 5420,
+              "endMs": 5640,
+              "confidence": 0.36509305238723755
+            },
+            {
+              "text": " de",
+              "startMs": 5640,
+              "endMs": 5840,
+              "confidence": 0.6218355894088745
+            },
+            {
+              "text": " morgen",
+              "startMs": 5840,
+              "endMs": 6140,
+              "confidence": 0.37955155968666077
+            },
+            {
+              "text": " ont.",
+              "startMs": 6140,
+              "endMs": 6440,
+              "confidence": 0.5143911838531494
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/5eb46b15ecb88cd08126f875.mp4",
+          "job": "review-media/cfd9581c56ee88a91cd5c39d.json"
+        }
+      ]
+    },
+    {
+      "id": "03-walkthrough",
+      "title": "Spreker plus walkthrough",
+      "script": "Hier zit de winst. Eerst een losse aanvraag. Dan een duidelijke volgende stap. Zonder zes keer dezelfde informatie overtypen.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/a88d956ec502737da7f2096f.mp4",
+          "duration": 10.125,
+          "effects": [
+            {
+              "id": "broll",
+              "src": "demos/walkthrough.mp4",
+              "mediaType": "video",
+              "start": 0,
+              "duration": 10.125
+            },
+            {
+              "id": "intertitle",
+              "start": 0,
+              "duration": 4.68,
+              "text": "Nieuwe aanvraag",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ],
+              "offsetY": -430,
+              "scale": 0.5
+            },
+            {
+              "id": "word-stamp",
+              "start": 4.68,
+              "duration": 1.7400000000000002,
+              "text": "Volgende stap",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ],
+              "offsetY": -350,
+              "scale": 0.6
+            },
+            {
+              "id": "follow-chip",
+              "start": 6.42,
+              "duration": 3.705,
+              "text": "Geen dubbel werk",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ],
+              "offsetY": -400,
+              "scale": 0.65
+            }
+          ],
+          "captions": [
+            {
+              "text": " Hier",
+              "startMs": 0,
+              "endMs": 240,
+              "confidence": 0.51304692029953
+            },
+            {
+              "text": " zie",
+              "startMs": 240,
+              "endMs": 500,
+              "confidence": 0.04265359416604042
+            },
+            {
+              "text": " je",
+              "startMs": 500,
+              "endMs": 620,
+              "confidence": 0.7097199559211731
+            },
+            {
+              "text": " de",
+              "startMs": 620,
+              "endMs": 760,
+              "confidence": 0.912272036075592
+            },
+            {
+              "text": " winst.",
+              "startMs": 760,
+              "endMs": 1220,
+              "confidence": 0.9721070826053619
+            },
+            {
+              "text": " Eerste",
+              "startMs": 1620,
+              "endMs": 2100,
+              "confidence": 0.7184149026870728
+            },
+            {
+              "text": " losse",
+              "startMs": 2100,
+              "endMs": 2540,
+              "confidence": 0.6976526528596878
+            },
+            {
+              "text": " aanwraag.",
+              "startMs": 2540,
+              "endMs": 3340,
+              "confidence": 0.6074440330266953
+            },
+            {
+              "text": " Dan",
+              "startMs": 3680,
+              "endMs": 3920,
+              "confidence": 0.941728413105011
+            },
+            {
+              "text": " een",
+              "startMs": 3920,
+              "endMs": 4120,
+              "confidence": 0.8596392869949341
+            },
+            {
+              "text": " duidelijke",
+              "startMs": 4120,
+              "endMs": 4680,
+              "confidence": 0.9173540671666464
+            },
+            {
+              "text": " volgende",
+              "startMs": 4680,
+              "endMs": 5240,
+              "confidence": 0.9149149954319
+            },
+            {
+              "text": " stap.",
+              "startMs": 5240,
+              "endMs": 5620,
+              "confidence": 0.9939877986907959
+            },
+            {
+              "text": " Zonder",
+              "startMs": 6040,
+              "endMs": 6420,
+              "confidence": 0.7201668620109558
+            },
+            {
+              "text": " nes,",
+              "startMs": 6420,
+              "endMs": 6840,
+              "confidence": 0.28602535650134087
+            },
+            {
+              "text": " geef",
+              "startMs": 6960,
+              "endMs": 7180,
+              "confidence": 0.8548510372638702
+            },
+            {
+              "text": " dezelfde",
+              "startMs": 7180,
+              "endMs": 7780,
+              "confidence": 0.9428540666898092
+            },
+            {
+              "text": " informatie",
+              "startMs": 7780,
+              "endMs": 8460,
+              "confidence": 0.9915705025196075
+            },
+            {
+              "text": " over",
+              "startMs": 8460,
+              "endMs": 8760,
+              "confidence": 0.6155281066894531
+            },
+            {
+              "text": " die",
+              "startMs": 8760,
+              "endMs": 9040,
+              "confidence": 0.8439041972160339
+            },
+            {
+              "text": " open.",
+              "startMs": 9040,
+              "endMs": 9300,
+              "confidence": 0.2197100818157196
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Hier zit de winst. Eerst een losse aanvraag. Dan een duidelijke volgende stap. Zonder zes keer dezelfde informatie overtypen.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Hier zit de winst. Eerst een losse aanvraag. Dan een duidelijke volgende stap. Zonder zes keer dezelfde informatie overtypen.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "hier zit",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 0,
+                "asrToken": "hier",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 4.68
+              },
+              {
+                "phrase": "volgende stap",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 11,
+                "asrToken": "volgende",
+                "asrOnsetSeconds": 4.68,
+                "start": 4.68,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 1.7400000000000002
+              },
+              {
+                "phrase": "overtypen",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 14,
+                "asrToken": "nes",
+                "asrOnsetSeconds": 6.42,
+                "start": 6.42,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 3.705
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/367a1ec14699cb0ce2bfeeec.mp4",
+          "poster": "review-media/6ae5172f765bf926b9de3ee2.jpg",
+          "job": "review-media/2f11f56dbe3f0455521e9910.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/3608db3e2c886907145f81f4.mp4",
+          "duration": 9.041666666666666,
+          "effects": [
+            {
+              "id": "prompt-bar",
+              "start": 0.0,
+              "duration": 3.0139,
+              "text": "Nieuwe aanvraag",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "live-cursor",
+              "start": 3.0139,
+              "duration": 3.0139,
+              "text": "Volgende stap",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "odometer-recursion",
+              "start": 6.0278,
+              "duration": 3.0139,
+              "text": "Minder overtypen",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Heetleet",
+              "startMs": 0,
+              "endMs": 640,
+              "confidence": 0.43355927243828773
+            },
+            {
+              "text": " erwind,",
+              "startMs": 640,
+              "endMs": 1100,
+              "confidence": 0.5047840476036072
+            },
+            {
+              "text": " eetsten",
+              "startMs": 1600,
+              "endMs": 2000,
+              "confidence": 0.2733713984489441
+            },
+            {
+              "text": " los",
+              "startMs": 2000,
+              "endMs": 2240,
+              "confidence": 0.32336077094078064
+            },
+            {
+              "text": " er",
+              "startMs": 2240,
+              "endMs": 2440,
+              "confidence": 0.3043549358844757
+            },
+            {
+              "text": " aanvraag,",
+              "startMs": 2440,
+              "endMs": 3260,
+              "confidence": 0.6023516803979874
+            },
+            {
+              "text": " dan",
+              "startMs": 3380,
+              "endMs": 3520,
+              "confidence": 0.7861713767051697
+            },
+            {
+              "text": " dan",
+              "startMs": 3520,
+              "endMs": 3760,
+              "confidence": 0.4080309569835663
+            },
+            {
+              "text": " bij",
+              "startMs": 3760,
+              "endMs": 3900,
+              "confidence": 0.25269225239753723
+            },
+            {
+              "text": " de",
+              "startMs": 3900,
+              "endMs": 4020,
+              "confidence": 0.8294016122817993
+            },
+            {
+              "text": " rekenvolgende",
+              "startMs": 4020,
+              "endMs": 4760,
+              "confidence": 0.48276764526963234
+            },
+            {
+              "text": " stap.",
+              "startMs": 4760,
+              "endMs": 5220,
+              "confidence": 0.5992906093597412
+            },
+            {
+              "text": " Monder",
+              "startMs": 5580,
+              "endMs": 5760,
+              "confidence": 0.45524659752845764
+            },
+            {
+              "text": " nek",
+              "startMs": 5760,
+              "endMs": 6180,
+              "confidence": 0.23885053396224976
+            },
+            {
+              "text": " eetleneel",
+              "startMs": 6180,
+              "endMs": 6840,
+              "confidence": 0.4490788966417313
+            },
+            {
+              "text": " de",
+              "startMs": 6840,
+              "endMs": 7000,
+              "confidence": 0.6269581317901611
+            },
+            {
+              "text": " informatie",
+              "startMs": 7000,
+              "endMs": 7640,
+              "confidence": 0.996004194021225
+            },
+            {
+              "text": " over",
+              "startMs": 7640,
+              "endMs": 7960,
+              "confidence": 0.5252206325531006
+            },
+            {
+              "text": " die",
+              "startMs": 7960,
+              "endMs": 8140,
+              "confidence": 0.4164895713329315
+            },
+            {
+              "text": " event.",
+              "startMs": 8140,
+              "endMs": 8360,
+              "confidence": 0.5367176532745361
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Hier zit de winst. Eerst een losse aanvraag. Dan een duidelijke volgende stap. Zonder zes keer dezelfde informatie overtypen.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Hier zit de winst. Eerst een losse aanvraag. Dan een duidelijke volgende stap. Zonder zes keer dezelfde informatie overtypen.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/84e6155002090ffcb1c204a4.mp4",
+          "job": "review-media/69bd439c94e97c6e95c3b4fc.json"
+        }
+      ]
+    },
+    {
+      "id": "04-product",
+      "title": "SaaS productverhaal",
+      "script": "Your inbox is not a workflow. Put the next step where your team can see it. Then get back to the work.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/b348e8e749e751b46e55cbb6.mp4",
+          "duration": 7.583333333333333,
+          "effects": [
+            {
+              "id": "file-drop",
+              "start": 0,
+              "duration": 2.6,
+              "text": "One place",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "video-card",
+              "start": 2.6,
+              "duration": 3.18,
+              "text": "A clear next step",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "layer-explode",
+              "start": 5.78,
+              "duration": 1.8033333333333328,
+              "text": "Back to the work",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Your",
+              "startMs": 0,
+              "endMs": 180,
+              "confidence": 0.5247984528541565
+            },
+            {
+              "text": " inbox",
+              "startMs": 180,
+              "endMs": 440,
+              "confidence": 0.9449132084846497
+            },
+            {
+              "text": " is",
+              "startMs": 440,
+              "endMs": 800,
+              "confidence": 0.9922032356262207
+            },
+            {
+              "text": " not",
+              "startMs": 800,
+              "endMs": 960,
+              "confidence": 0.9680934548377991
+            },
+            {
+              "text": " a",
+              "startMs": 960,
+              "endMs": 1140,
+              "confidence": 0.994103729724884
+            },
+            {
+              "text": " workflow.",
+              "startMs": 1140,
+              "endMs": 1580,
+              "confidence": 0.949648380279541
+            },
+            {
+              "text": " Put",
+              "startMs": 2060,
+              "endMs": 2380,
+              "confidence": 0.9804470539093018
+            },
+            {
+              "text": " the",
+              "startMs": 2380,
+              "endMs": 2600,
+              "confidence": 0.989918053150177
+            },
+            {
+              "text": " next",
+              "startMs": 2600,
+              "endMs": 2880,
+              "confidence": 0.9834313988685608
+            },
+            {
+              "text": " step,",
+              "startMs": 2880,
+              "endMs": 3260,
+              "confidence": 0.9980875849723816
+            },
+            {
+              "text": " where",
+              "startMs": 3480,
+              "endMs": 3660,
+              "confidence": 0.9854759573936462
+            },
+            {
+              "text": " your",
+              "startMs": 3660,
+              "endMs": 3880,
+              "confidence": 0.9886623024940491
+            },
+            {
+              "text": " team",
+              "startMs": 3880,
+              "endMs": 4160,
+              "confidence": 0.9965435862541199
+            },
+            {
+              "text": " can",
+              "startMs": 4160,
+              "endMs": 4420,
+              "confidence": 0.9950022101402283
+            },
+            {
+              "text": " see",
+              "startMs": 4420,
+              "endMs": 4700,
+              "confidence": 0.9189186692237854
+            },
+            {
+              "text": " it.",
+              "startMs": 4700,
+              "endMs": 4900,
+              "confidence": 0.9965576529502869
+            },
+            {
+              "text": " Then",
+              "startMs": 5260,
+              "endMs": 5540,
+              "confidence": 0.9596995711326599
+            },
+            {
+              "text": " get",
+              "startMs": 5540,
+              "endMs": 5780,
+              "confidence": 0.966892659664154
+            },
+            {
+              "text": " back",
+              "startMs": 5780,
+              "endMs": 6040,
+              "confidence": 0.9912236928939819
+            },
+            {
+              "text": " to",
+              "startMs": 6040,
+              "endMs": 6280,
+              "confidence": 0.9985740184783936
+            },
+            {
+              "text": " the",
+              "startMs": 6280,
+              "endMs": 6420,
+              "confidence": 0.960702657699585
+            },
+            {
+              "text": " work.",
+              "startMs": 6420,
+              "endMs": 6680,
+              "confidence": 0.9566247463226318
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Your inbox is not a workflow. Put the next step where your team can see it. Then get back to the work.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Your inbox is not a workflow. Put the next step where your team can see it. Then get back to the work.",
+            "language": "en",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "your inbox",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "your",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.6
+              },
+              {
+                "phrase": "next step",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 8,
+                "asrToken": "next",
+                "asrOnsetSeconds": 2.6,
+                "start": 2.6,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.18
+              },
+              {
+                "phrase": "back",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 18,
+                "asrToken": "back",
+                "asrOnsetSeconds": 5.78,
+                "start": 5.78,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 1.8033333333333328
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/e89d91257eeca5875af06989.mp4",
+          "poster": "review-media/654f59096f44312c8317dfe5.jpg",
+          "job": "review-media/d12e276e084fffc5db57b187.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/4c743c8e01f8169d76818cfa.mp4",
+          "duration": 7.083333333333333,
+          "effects": [
+            {
+              "id": "file-drop",
+              "start": 0.0,
+              "duration": 2.3611,
+              "text": "One place",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "video-card",
+              "start": 2.3611,
+              "duration": 2.3611,
+              "text": "A clear next step",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "layer-explode",
+              "start": 4.7222,
+              "duration": 2.3611,
+              "text": "Back to the work",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Your",
+              "startMs": 0,
+              "endMs": 260,
+              "confidence": 0.3580147922039032
+            },
+            {
+              "text": " inbox",
+              "startMs": 260,
+              "endMs": 600,
+              "confidence": 0.9417144656181335
+            },
+            {
+              "text": " is",
+              "startMs": 600,
+              "endMs": 900,
+              "confidence": 0.9854497909545898
+            },
+            {
+              "text": " not",
+              "startMs": 900,
+              "endMs": 1060,
+              "confidence": 0.9771949648857117
+            },
+            {
+              "text": " a",
+              "startMs": 1060,
+              "endMs": 1220,
+              "confidence": 0.9010875821113586
+            },
+            {
+              "text": " workflow.",
+              "startMs": 1220,
+              "endMs": 1640,
+              "confidence": 0.6211803555488586
+            },
+            {
+              "text": " Put",
+              "startMs": 2220,
+              "endMs": 2300,
+              "confidence": 0.8176605701446533
+            },
+            {
+              "text": " the",
+              "startMs": 2300,
+              "endMs": 2540,
+              "confidence": 0.9828165769577026
+            },
+            {
+              "text": " next",
+              "startMs": 2540,
+              "endMs": 2760,
+              "confidence": 0.975560188293457
+            },
+            {
+              "text": " step",
+              "startMs": 2760,
+              "endMs": 3160,
+              "confidence": 0.9638848304748535
+            },
+            {
+              "text": " where",
+              "startMs": 3160,
+              "endMs": 3540,
+              "confidence": 0.895664393901825
+            },
+            {
+              "text": " your",
+              "startMs": 3540,
+              "endMs": 3760,
+              "confidence": 0.9914517998695374
+            },
+            {
+              "text": " team",
+              "startMs": 3760,
+              "endMs": 4000,
+              "confidence": 0.940937340259552
+            },
+            {
+              "text": " can",
+              "startMs": 4000,
+              "endMs": 4260,
+              "confidence": 0.9820271134376526
+            },
+            {
+              "text": " see",
+              "startMs": 4260,
+              "endMs": 4460,
+              "confidence": 0.991434633731842
+            },
+            {
+              "text": " it.",
+              "startMs": 4460,
+              "endMs": 4840,
+              "confidence": 0.9970861077308655
+            },
+            {
+              "text": " Then",
+              "startMs": 5180,
+              "endMs": 5260,
+              "confidence": 0.5243146419525146
+            },
+            {
+              "text": " get",
+              "startMs": 5260,
+              "endMs": 5500,
+              "confidence": 0.9375929832458496
+            },
+            {
+              "text": " back",
+              "startMs": 5500,
+              "endMs": 5780,
+              "confidence": 0.9873254299163818
+            },
+            {
+              "text": " to",
+              "startMs": 5780,
+              "endMs": 5960,
+              "confidence": 0.9968164563179016
+            },
+            {
+              "text": " the",
+              "startMs": 5960,
+              "endMs": 6120,
+              "confidence": 0.9776368141174316
+            },
+            {
+              "text": " work.",
+              "startMs": 6120,
+              "endMs": 6360,
+              "confidence": 0.8739244937896729
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Your inbox is not a workflow. Put the next step where your team can see it. Then get back to the work.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Your inbox is not a workflow. Put the next step where your team can see it. Then get back to the work.",
+            "language": "en",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/24a87e405336726dcdd2a73b.mp4",
+          "job": "review-media/22ce13e2435aba63441d6faa.json"
+        }
+      ]
+    },
+    {
+      "id": "05-kinetic",
+      "title": "Kinetic typography",
+      "script": "Nog een tabblad. Nog een lijstje. Nog een keer kopiëren. Of je maakt ruimte voor het werk dat telt.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/5bac89c8c1828eec74168203.mp4",
+          "duration": 8.375,
+          "effects": [
+            {
+              "id": "giant-captions",
+              "start": 0,
+              "duration": 1.2,
+              "text": "Nog een tablet,",
+              "params": {
+                "syncWords": true
+              },
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "word-stamp",
+              "start": 1.2,
+              "duration": 3.3599999999999994,
+              "text": "NOG EEN LIJSTJE",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "knockout-captions",
+              "start": 4.56,
+              "duration": 3.8150000000000004,
+              "text": "of je maakt ruimte voor",
+              "params": {
+                "syncWords": true
+              },
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Nog",
+              "startMs": 0,
+              "endMs": 240,
+              "confidence": 0.8578315675258636
+            },
+            {
+              "text": " een",
+              "startMs": 240,
+              "endMs": 420,
+              "confidence": 0.9846278429031372
+            },
+            {
+              "text": " tablet,",
+              "startMs": 420,
+              "endMs": 780,
+              "confidence": 0.6296534538269043
+            },
+            {
+              "text": " nog",
+              "startMs": 1200,
+              "endMs": 1560,
+              "confidence": 0.9818441271781921
+            },
+            {
+              "text": " een",
+              "startMs": 1560,
+              "endMs": 1780,
+              "confidence": 0.995972216129303
+            },
+            {
+              "text": " lijstje,",
+              "startMs": 1780,
+              "endMs": 2280,
+              "confidence": 0.9275926351547241
+            },
+            {
+              "text": " nog",
+              "startMs": 2720,
+              "endMs": 2920,
+              "confidence": 0.9824726581573486
+            },
+            {
+              "text": " een",
+              "startMs": 2920,
+              "endMs": 3120,
+              "confidence": 0.9895803332328796
+            },
+            {
+              "text": " keer",
+              "startMs": 3120,
+              "endMs": 3400,
+              "confidence": 0.9412179589271545
+            },
+            {
+              "text": " kopiëren,",
+              "startMs": 3400,
+              "endMs": 4220,
+              "confidence": 0.7958864271640778
+            },
+            {
+              "text": " of",
+              "startMs": 4560,
+              "endMs": 4760,
+              "confidence": 0.9802601933479309
+            },
+            {
+              "text": " je",
+              "startMs": 4760,
+              "endMs": 4900,
+              "confidence": 0.9938157796859741
+            },
+            {
+              "text": " maakt",
+              "startMs": 4900,
+              "endMs": 5300,
+              "confidence": 0.955259770154953
+            },
+            {
+              "text": " ruimte",
+              "startMs": 5300,
+              "endMs": 5800,
+              "confidence": 0.9832565486431122
+            },
+            {
+              "text": " voor",
+              "startMs": 5800,
+              "endMs": 6120,
+              "confidence": 0.3449138104915619
+            },
+            {
+              "text": " het",
+              "startMs": 6120,
+              "endMs": 6400,
+              "confidence": 0.9844292402267456
+            },
+            {
+              "text": " werk",
+              "startMs": 6400,
+              "endMs": 6760,
+              "confidence": 0.7528679370880127
+            },
+            {
+              "text": " dat",
+              "startMs": 6760,
+              "endMs": 7140,
+              "confidence": 0.8351470828056335
+            },
+            {
+              "text": " hield.",
+              "startMs": 7140,
+              "endMs": 7520,
+              "confidence": 0.5056779086589813
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Nog een tabblad. Nog een lijstje. Nog een keer kopiëren. Of je maakt ruimte voor het werk dat telt.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Nog een tabblad. Nog een lijstje. Nog een keer kopiëren. Of je maakt ruimte voor het werk dat telt.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "nog een tabblad",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 0,
+                "asrToken": "nog",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 1.2
+              },
+              {
+                "phrase": "nog een lijstje",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 3,
+                "asrToken": "nog",
+                "asrOnsetSeconds": 1.2,
+                "start": 1.2,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.3599999999999994
+              },
+              {
+                "phrase": "of je maakt",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 10,
+                "asrToken": "of",
+                "asrOnsetSeconds": 4.56,
+                "start": 4.56,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.8150000000000004
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/a4fbeec6784616801b9b6c73.mp4",
+          "poster": "review-media/93662f8f2796e44a15ac99f2.jpg",
+          "job": "review-media/04e388787bf0a15b36e61d22.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/0f5a0c3528deec7cd6ae217c.mp4",
+          "duration": 7.416666666666667,
+          "effects": [
+            {
+              "id": "giant-captions",
+              "start": 0.0,
+              "duration": 2.4722,
+              "text": "NOG EEN TABBLAD",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "word-stamp",
+              "start": 2.4722,
+              "duration": 2.4722,
+              "text": "NOG EEN LIJSTJE",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "knockout-captions",
+              "start": 4.9444,
+              "duration": 2.4722,
+              "text": "MAAK RUIMTE",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Nog",
+              "startMs": 0,
+              "endMs": 260,
+              "confidence": 0.4441030025482178
+            },
+            {
+              "text": " een",
+              "startMs": 260,
+              "endMs": 460,
+              "confidence": 0.888623833656311
+            },
+            {
+              "text": " tablet.",
+              "startMs": 460,
+              "endMs": 820,
+              "confidence": 0.5798256397247314
+            },
+            {
+              "text": " Nog",
+              "startMs": 1340,
+              "endMs": 1480,
+              "confidence": 0.9006630778312683
+            },
+            {
+              "text": " een",
+              "startMs": 1480,
+              "endMs": 1660,
+              "confidence": 0.9754704833030701
+            },
+            {
+              "text": " leisje.",
+              "startMs": 1660,
+              "endMs": 2200,
+              "confidence": 0.5828783810138702
+            },
+            {
+              "text": " Nog",
+              "startMs": 2520,
+              "endMs": 2660,
+              "confidence": 0.9333097338676453
+            },
+            {
+              "text": " een",
+              "startMs": 2660,
+              "endMs": 2880,
+              "confidence": 0.9886718988418579
+            },
+            {
+              "text": " keer",
+              "startMs": 2880,
+              "endMs": 3100,
+              "confidence": 0.7869181632995605
+            },
+            {
+              "text": " kopen",
+              "startMs": 3100,
+              "endMs": 3400,
+              "confidence": 0.3475435823202133
+            },
+            {
+              "text": " even.",
+              "startMs": 3400,
+              "endMs": 3760,
+              "confidence": 0.24812167882919312
+            },
+            {
+              "text": " Of",
+              "startMs": 4160,
+              "endMs": 4280,
+              "confidence": 0.875848114490509
+            },
+            {
+              "text": " je",
+              "startMs": 4280,
+              "endMs": 4440,
+              "confidence": 0.9828275442123413
+            },
+            {
+              "text": " makt",
+              "startMs": 4440,
+              "endMs": 4820,
+              "confidence": 0.5516353845596313
+            },
+            {
+              "text": " ruimte,",
+              "startMs": 4820,
+              "endMs": 5320,
+              "confidence": 0.591545507311821
+            },
+            {
+              "text": " wordt",
+              "startMs": 5380,
+              "endMs": 5520,
+              "confidence": 0.3936014771461487
+            },
+            {
+              "text": " het",
+              "startMs": 5520,
+              "endMs": 5800,
+              "confidence": 0.9724908471107483
+            },
+            {
+              "text": " meer,",
+              "startMs": 5800,
+              "endMs": 6020,
+              "confidence": 0.6860188245773315
+            },
+            {
+              "text": " dat",
+              "startMs": 6280,
+              "endMs": 6420,
+              "confidence": 0.4636022746562958
+            },
+            {
+              "text": " deelt.",
+              "startMs": 6420,
+              "endMs": 6720,
+              "confidence": 0.5307507812976837
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Nog een tabblad. Nog een lijstje. Nog een keer kopiëren. Of je maakt ruimte voor het werk dat telt.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Nog een tabblad. Nog een lijstje. Nog een keer kopiëren. Of je maakt ruimte voor het werk dat telt.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/0fb7677d180d3142c68442d7.mp4",
+          "job": "review-media/68c451b395a2b920078848ae.json"
+        }
+      ]
+    },
+    {
+      "id": "06-slideshow",
+      "title": "Dynamische slideshow",
+      "script": "Drie beelden. Eén verhaal. Van een los idee naar een plan waar je morgen echt mee aan de slag kunt.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/a31135e9f81f11b256d9102e.mp4",
+          "duration": 7.958333333333333,
+          "effects": [
+            {
+              "id": "contact-sheet-hook",
+              "start": 0,
+              "duration": 3.08,
+              "text": "Eén verhaal",
+              "params": {},
+              "mediaSources": [
+                "demos/slides/idea.png",
+                "demos/slides/plan.png",
+                "demos/slides/tomorrow.png"
+              ]
+            },
+            {
+              "id": "storyboard-deck",
+              "start": 3.08,
+              "duration": 1.92,
+              "text": "Van idee naar plan",
+              "params": {},
+              "mediaSources": [
+                "demos/slides/idea.png",
+                "demos/slides/plan.png",
+                "demos/slides/tomorrow.png"
+              ]
+            },
+            {
+              "id": "video-card",
+              "start": 5.0,
+              "duration": 2.958333333333333,
+              "text": "Morgen beginnen",
+              "params": {},
+              "mediaSources": [
+                "demos/slides/idea.png",
+                "demos/slides/plan.png",
+                "demos/slides/tomorrow.png"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Drie",
+              "startMs": 0,
+              "endMs": 280,
+              "confidence": 0.5056547541171312
+            },
+            {
+              "text": " beelden.",
+              "startMs": 280,
+              "endMs": 820,
+              "confidence": 0.6249301632245382
+            },
+            {
+              "text": " Eén",
+              "startMs": 1240,
+              "endMs": 1600,
+              "confidence": 0.7906379997730255
+            },
+            {
+              "text": " verhaal.",
+              "startMs": 1600,
+              "endMs": 2240,
+              "confidence": 0.7507749100526174
+            },
+            {
+              "text": " Wanneer",
+              "startMs": 2640,
+              "endMs": 3080,
+              "confidence": 0.7906243403752645
+            },
+            {
+              "text": " lossie",
+              "startMs": 3080,
+              "endMs": 3420,
+              "confidence": 0.3701995462179184
+            },
+            {
+              "text": " dearen",
+              "startMs": 3420,
+              "endMs": 3860,
+              "confidence": 0.12793546169996262
+            },
+            {
+              "text": " plan,",
+              "startMs": 3860,
+              "endMs": 4240,
+              "confidence": 0.6115509867668152
+            },
+            {
+              "text": " maar",
+              "startMs": 4560,
+              "endMs": 4880,
+              "confidence": 0.4296391159296036
+            },
+            {
+              "text": " je",
+              "startMs": 4880,
+              "endMs": 5000,
+              "confidence": 0.9713128209114075
+            },
+            {
+              "text": " morgen",
+              "startMs": 5000,
+              "endMs": 5320,
+              "confidence": 0.9740442037582397
+            },
+            {
+              "text": " echt",
+              "startMs": 5320,
+              "endMs": 5740,
+              "confidence": 0.9374246001243591
+            },
+            {
+              "text": " mee",
+              "startMs": 5740,
+              "endMs": 6080,
+              "confidence": 0.9654104709625244
+            },
+            {
+              "text": " aan",
+              "startMs": 6080,
+              "endMs": 6320,
+              "confidence": 0.9282681345939636
+            },
+            {
+              "text": " de",
+              "startMs": 6320,
+              "endMs": 6500,
+              "confidence": 0.9362499117851257
+            },
+            {
+              "text": " slag",
+              "startMs": 6500,
+              "endMs": 6920,
+              "confidence": 0.6877582222223282
+            },
+            {
+              "text": " kent.",
+              "startMs": 6920,
+              "endMs": 7120,
+              "confidence": 0.5559572800993919
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Drie beelden. Eén verhaal. Van een los idee naar een plan waar je morgen echt mee aan de slag kunt.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Drie beelden. Eén verhaal. Van een los idee naar een plan waar je morgen echt mee aan de slag kunt.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "drie beelden",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "drie",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.08
+              },
+              {
+                "phrase": "van een los idee",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 5,
+                "asrToken": "lossie",
+                "asrOnsetSeconds": 3.08,
+                "start": 3.08,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 1.92
+              },
+              {
+                "phrase": "morgen",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 10,
+                "asrToken": "morgen",
+                "asrOnsetSeconds": 5.0,
+                "start": 5.0,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.958333333333333
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/5b61a402e94a572df804d84f.mp4",
+          "poster": "review-media/e1c9609b1c5de50ec0460e62.jpg",
+          "job": "review-media/9007f018742cffcb2824e56d.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/969573df3bd52395e074b0b9.mp4",
+          "duration": 7.083333333333333,
+          "effects": [
+            {
+              "id": "contact-sheet-hook",
+              "start": 0.0,
+              "duration": 2.3611,
+              "text": "Eén verhaal",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "storyboard-deck",
+              "start": 2.3611,
+              "duration": 2.3611,
+              "text": "Van idee naar plan",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "video-card",
+              "start": 4.7222,
+              "duration": 2.3611,
+              "text": "Morgen beginnen",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " 3",
+              "startMs": 0,
+              "endMs": 300,
+              "confidence": 0.24776381254196167
+            },
+            {
+              "text": " mailden.",
+              "startMs": 300,
+              "endMs": 1160,
+              "confidence": 0.29598087072372437
+            },
+            {
+              "text": " Eén",
+              "startMs": 1220,
+              "endMs": 1500,
+              "confidence": 0.506934329867363
+            },
+            {
+              "text": " met",
+              "startMs": 1500,
+              "endMs": 1680,
+              "confidence": 0.4459455609321594
+            },
+            {
+              "text": " houd.",
+              "startMs": 1680,
+              "endMs": 2140,
+              "confidence": 0.30475927889347076
+            },
+            {
+              "text": " Van",
+              "startMs": 2520,
+              "endMs": 2600,
+              "confidence": 0.6172142624855042
+            },
+            {
+              "text": " een",
+              "startMs": 2600,
+              "endMs": 2760,
+              "confidence": 0.5771934986114502
+            },
+            {
+              "text": " los",
+              "startMs": 2760,
+              "endMs": 2920,
+              "confidence": 0.25329357385635376
+            },
+            {
+              "text": " die",
+              "startMs": 2920,
+              "endMs": 3080,
+              "confidence": 0.341828852891922
+            },
+            {
+              "text": " mail",
+              "startMs": 3080,
+              "endMs": 3320,
+              "confidence": 0.050072576850652695
+            },
+            {
+              "text": " had",
+              "startMs": 3320,
+              "endMs": 3500,
+              "confidence": 0.16348876059055328
+            },
+            {
+              "text": " een",
+              "startMs": 3500,
+              "endMs": 3660,
+              "confidence": 0.5577458143234253
+            },
+            {
+              "text": " plan,",
+              "startMs": 3660,
+              "endMs": 3940,
+              "confidence": 0.4239625930786133
+            },
+            {
+              "text": " maar",
+              "startMs": 4140,
+              "endMs": 4360,
+              "confidence": 0.31027185916900635
+            },
+            {
+              "text": " je",
+              "startMs": 4360,
+              "endMs": 4520,
+              "confidence": 0.7899905443191528
+            },
+            {
+              "text": " mogen",
+              "startMs": 4520,
+              "endMs": 4800,
+              "confidence": 0.2362569347023964
+            },
+            {
+              "text": " echt",
+              "startMs": 4800,
+              "endMs": 5180,
+              "confidence": 0.49570152163505554
+            },
+            {
+              "text": " mee",
+              "startMs": 5180,
+              "endMs": 5500,
+              "confidence": 0.7813629508018494
+            },
+            {
+              "text": " aan",
+              "startMs": 5500,
+              "endMs": 5780,
+              "confidence": 0.9373579025268555
+            },
+            {
+              "text": " de",
+              "startMs": 5780,
+              "endMs": 5860,
+              "confidence": 0.8913478851318359
+            },
+            {
+              "text": " slakken.",
+              "startMs": 5860,
+              "endMs": 6340,
+              "confidence": 0.5115863780180613
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Drie beelden. Eén verhaal. Van een los idee naar een plan waar je morgen echt mee aan de slag kunt.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Drie beelden. Eén verhaal. Van een los idee naar een plan waar je morgen echt mee aan de slag kunt.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/576854e9d37f267c068391b0.mp4",
+          "job": "review-media/e1ac79336f302018589c0c3a.json"
+        }
+      ]
+    },
+    {
+      "id": "07-humor",
+      "title": "Humoristische social",
+      "script": "Ik doe het wel even handmatig. Beroemde laatste woorden. Drie uur later ben je nog steeds dezelfde kolom aan het kopiëren.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/103d8520c67999960fafd8ef.mp4",
+          "duration": 9.541666666666666,
+          "effects": [
+            {
+              "id": "incoming-call",
+              "start": 0,
+              "duration": 4.46,
+              "text": "Ik doe het wel even",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "impact-frame",
+              "start": 4.46,
+              "duration": 3.5,
+              "text": "DRIE UUR LATER",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "receipt-printer",
+              "start": 7.96,
+              "duration": 1.581666666666666,
+              "text": "Handwerk: 180 min",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Ik",
+              "startMs": 0,
+              "endMs": 160,
+              "confidence": 0.7670041918754578
+            },
+            {
+              "text": " doe",
+              "startMs": 160,
+              "endMs": 360,
+              "confidence": 0.24490220844745636
+            },
+            {
+              "text": " het",
+              "startMs": 360,
+              "endMs": 580,
+              "confidence": 0.9502165913581848
+            },
+            {
+              "text": " wel",
+              "startMs": 580,
+              "endMs": 880,
+              "confidence": 0.38602951169013977
+            },
+            {
+              "text": " even",
+              "startMs": 880,
+              "endMs": 1220,
+              "confidence": 0.978805661201477
+            },
+            {
+              "text": " handmaatig.",
+              "startMs": 1220,
+              "endMs": 2100,
+              "confidence": 0.7671959176659584
+            },
+            {
+              "text": " Beroem",
+              "startMs": 2460,
+              "endMs": 2940,
+              "confidence": 0.7373145967721939
+            },
+            {
+              "text": " de",
+              "startMs": 2940,
+              "endMs": 3060,
+              "confidence": 0.5228603482246399
+            },
+            {
+              "text": " laatste",
+              "startMs": 3060,
+              "endMs": 3460,
+              "confidence": 0.9989264607429504
+            },
+            {
+              "text": " morgen.",
+              "startMs": 3460,
+              "endMs": 3920,
+              "confidence": 0.8648077249526978
+            },
+            {
+              "text": " Drie",
+              "startMs": 4460,
+              "endMs": 4820,
+              "confidence": 0.7300442904233932
+            },
+            {
+              "text": " uur",
+              "startMs": 4820,
+              "endMs": 5440,
+              "confidence": 0.9929401278495789
+            },
+            {
+              "text": " later",
+              "startMs": 5440,
+              "endMs": 5441,
+              "confidence": 0.9954156875610352
+            },
+            {
+              "text": " ben",
+              "startMs": 5440,
+              "endMs": 5640,
+              "confidence": 0.9747985005378723
+            },
+            {
+              "text": " je",
+              "startMs": 5640,
+              "endMs": 5760,
+              "confidence": 0.9904928803443909
+            },
+            {
+              "text": " nog",
+              "startMs": 5760,
+              "endMs": 6020,
+              "confidence": 0.9884734749794006
+            },
+            {
+              "text": " steeds",
+              "startMs": 6020,
+              "endMs": 6300,
+              "confidence": 0.9984439015388489
+            },
+            {
+              "text": " dezelfde",
+              "startMs": 6300,
+              "endMs": 7100,
+              "confidence": 0.9864833752314249
+            },
+            {
+              "text": " kolomant",
+              "startMs": 7100,
+              "endMs": 7800,
+              "confidence": 0.6380293071269989
+            },
+            {
+              "text": " het",
+              "startMs": 7800,
+              "endMs": 7960,
+              "confidence": 0.31579336524009705
+            },
+            {
+              "text": " kopiëren.",
+              "startMs": 7960,
+              "endMs": 8700,
+              "confidence": 0.8084230422973633
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Ik doe het wel even handmatig. Beroemde laatste woorden. Drie uur later ben je nog steeds dezelfde kolom aan het kopiëren.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Ik doe het wel even handmatig. Beroemde laatste woorden. Drie uur later ben je nog steeds dezelfde kolom aan het kopiëren.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "handmatig",
+                "mode": "actual-asr-word-quantile",
+                "asrTokenIndex": 0,
+                "asrToken": "ik",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+                "duration": 4.46
+              },
+              {
+                "phrase": "drie uur later",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 10,
+                "asrToken": "drie",
+                "asrOnsetSeconds": 4.46,
+                "start": 4.46,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.5
+              },
+              {
+                "phrase": "kopiëren",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 20,
+                "asrToken": "kopieren",
+                "asrOnsetSeconds": 7.96,
+                "start": 7.96,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 1.581666666666666
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/6816bd3c710018e0704e6c01.mp4",
+          "poster": "review-media/34cfcec593f0e30ce4a94680.jpg",
+          "job": "review-media/1ff9337464d5a2b165b359f7.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/94ea524bfa9b163774ef62af.mp4",
+          "duration": 8.5,
+          "effects": [
+            {
+              "id": "incoming-call",
+              "start": 0.0,
+              "duration": 2.8333,
+              "text": "Ik doe het wel even",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "impact-frame",
+              "start": 2.8333,
+              "duration": 2.8333,
+              "text": "DRIE UUR LATER",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "receipt-printer",
+              "start": 5.6667,
+              "duration": 2.8333,
+              "text": "Handwerk: 180 min",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Ik",
+              "startMs": 0,
+              "endMs": 240,
+              "confidence": 0.7329369783401489
+            },
+            {
+              "text": " doe",
+              "startMs": 240,
+              "endMs": 400,
+              "confidence": 0.28728750348091125
+            },
+            {
+              "text": " dat",
+              "startMs": 400,
+              "endMs": 640,
+              "confidence": 0.4050087332725525
+            },
+            {
+              "text": " meel",
+              "startMs": 640,
+              "endMs": 920,
+              "confidence": 0.7774445116519928
+            },
+            {
+              "text": " even",
+              "startMs": 920,
+              "endMs": 1220,
+              "confidence": 0.8938311338424683
+            },
+            {
+              "text": " handmatig.",
+              "startMs": 1220,
+              "endMs": 2100,
+              "confidence": 0.599215696255366
+            },
+            {
+              "text": " Berunderast",
+              "startMs": 2480,
+              "endMs": 3020,
+              "confidence": 0.4244118481874466
+            },
+            {
+              "text": " het",
+              "startMs": 3020,
+              "endMs": 3260,
+              "confidence": 0.15925762057304382
+            },
+            {
+              "text": " morgen.",
+              "startMs": 3260,
+              "endMs": 3620,
+              "confidence": 0.45540517568588257
+            },
+            {
+              "text": " 3",
+              "startMs": 4220,
+              "endMs": 4360,
+              "confidence": 0.15566354990005493
+            },
+            {
+              "text": " later",
+              "startMs": 4360,
+              "endMs": 4800,
+              "confidence": 0.8739327788352966
+            },
+            {
+              "text": " ben",
+              "startMs": 4800,
+              "endMs": 5060,
+              "confidence": 0.18499204516410828
+            },
+            {
+              "text": " je",
+              "startMs": 5060,
+              "endMs": 5200,
+              "confidence": 0.8427687287330627
+            },
+            {
+              "text": " nog",
+              "startMs": 5200,
+              "endMs": 5420,
+              "confidence": 0.4997636675834656
+            },
+            {
+              "text": " steeds",
+              "startMs": 5420,
+              "endMs": 5760,
+              "confidence": 0.9655304551124573
+            },
+            {
+              "text": " de",
+              "startMs": 5760,
+              "endMs": 5980,
+              "confidence": 0.6530646085739136
+            },
+            {
+              "text": " neemd",
+              "startMs": 5980,
+              "endMs": 6340,
+              "confidence": 0.38693012793858844
+            },
+            {
+              "text": " de",
+              "startMs": 6340,
+              "endMs": 6400,
+              "confidence": 0.4499121308326721
+            },
+            {
+              "text": " kolomman",
+              "startMs": 6400,
+              "endMs": 6960,
+              "confidence": 0.42772917449474335
+            },
+            {
+              "text": " van",
+              "startMs": 6960,
+              "endMs": 7160,
+              "confidence": 0.07632655650377274
+            },
+            {
+              "text": " het",
+              "startMs": 7160,
+              "endMs": 7260,
+              "confidence": 0.4399382174015045
+            },
+            {
+              "text": " kopje",
+              "startMs": 7260,
+              "endMs": 7540,
+              "confidence": 0.3686661422252655
+            },
+            {
+              "text": " leven.",
+              "startMs": 7540,
+              "endMs": 7780,
+              "confidence": 0.29901260137557983
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Ik doe het wel even handmatig. Beroemde laatste woorden. Drie uur later ben je nog steeds dezelfde kolom aan het kopiëren.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Ik doe het wel even handmatig. Beroemde laatste woorden. Drie uur later ben je nog steeds dezelfde kolom aan het kopiëren.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/02e0c6ce24debef502fb7a9a.mp4",
+          "job": "review-media/ebb7e22d25c9159ee743ceee.json"
+        }
+      ]
+    },
+    {
+      "id": "08-story",
+      "title": "Storytelling",
+      "script": "Maandag lag alles verspreid. Op vrijdag wist iedereen wat de volgende stap was. We begonnen met één proces. Niet met twintig tools.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/14011766c75e58b7dd7c0b7e.mp4",
+          "duration": 10.583333333333334,
+          "effects": [
+            {
+              "id": "screenplay-page",
+              "start": 0,
+              "duration": 2.48,
+              "text": "MAANDAG",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "paper-tear",
+              "start": 2.48,
+              "duration": 4.52,
+              "text": "VRIJDAG",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "intertitle",
+              "start": 7.0,
+              "duration": 3.583333333333334,
+              "text": "Begin met één proces",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Maandag",
+              "startMs": 0,
+              "endMs": 500,
+              "confidence": 0.7191888242959976
+            },
+            {
+              "text": " lag",
+              "startMs": 500,
+              "endMs": 700,
+              "confidence": 0.8928390741348267
+            },
+            {
+              "text": " alles",
+              "startMs": 700,
+              "endMs": 1120,
+              "confidence": 0.9789702296257019
+            },
+            {
+              "text": " verspreid.",
+              "startMs": 1120,
+              "endMs": 1900,
+              "confidence": 0.7636748949686686
+            },
+            {
+              "text": " Op",
+              "startMs": 2280,
+              "endMs": 2480,
+              "confidence": 0.9783913493156433
+            },
+            {
+              "text": " vrijdag",
+              "startMs": 2480,
+              "endMs": 3020,
+              "confidence": 0.975479006767273
+            },
+            {
+              "text": " mist",
+              "startMs": 3020,
+              "endMs": 3320,
+              "confidence": 0.43059614300727844
+            },
+            {
+              "text": " iedereen",
+              "startMs": 3320,
+              "endMs": 3660,
+              "confidence": 0.7746460437774658
+            },
+            {
+              "text": " maar",
+              "startMs": 3660,
+              "endMs": 4200,
+              "confidence": 0.8687572479248047
+            },
+            {
+              "text": " de",
+              "startMs": 4200,
+              "endMs": 4360,
+              "confidence": 0.9572696089744568
+            },
+            {
+              "text": " volgende",
+              "startMs": 4360,
+              "endMs": 4880,
+              "confidence": 0.9932309687137604
+            },
+            {
+              "text": " stap",
+              "startMs": 4880,
+              "endMs": 5220,
+              "confidence": 0.9541187286376953
+            },
+            {
+              "text": " maast.",
+              "startMs": 5220,
+              "endMs": 5680,
+              "confidence": 0.39648595452308655
+            },
+            {
+              "text": " We",
+              "startMs": 6080,
+              "endMs": 6260,
+              "confidence": 0.9681130051612854
+            },
+            {
+              "text": " bewonnen",
+              "startMs": 6260,
+              "endMs": 6800,
+              "confidence": 0.7561343709627787
+            },
+            {
+              "text": " met",
+              "startMs": 6800,
+              "endMs": 7000,
+              "confidence": 0.9968599081039429
+            },
+            {
+              "text": " één",
+              "startMs": 7000,
+              "endMs": 7240,
+              "confidence": 0.5561408400535583
+            },
+            {
+              "text": " proces.",
+              "startMs": 7240,
+              "endMs": 7620,
+              "confidence": 0.9429446458816528
+            },
+            {
+              "text": " Niet",
+              "startMs": 8260,
+              "endMs": 8480,
+              "confidence": 0.9634453654289246
+            },
+            {
+              "text": " met",
+              "startMs": 8480,
+              "endMs": 8800,
+              "confidence": 0.9877558946609497
+            },
+            {
+              "text": " 20",
+              "startMs": 8800,
+              "endMs": 9240,
+              "confidence": 0.3823658525943756
+            },
+            {
+              "text": " tols.",
+              "startMs": 9240,
+              "endMs": 9740,
+              "confidence": 0.40592001378536224
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Maandag lag alles verspreid. Op vrijdag wist iedereen wat de volgende stap was. We begonnen met één proces. Niet met twintig tools.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Maandag lag alles verspreid. Op vrijdag wist iedereen wat de volgende stap was. We begonnen met één proces. Niet met twintig tools.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "maandag",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "maandag",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.48
+              },
+              {
+                "phrase": "vrijdag",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 5,
+                "asrToken": "vrijdag",
+                "asrOnsetSeconds": 2.48,
+                "start": 2.48,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 4.52
+              },
+              {
+                "phrase": "één proces",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 16,
+                "asrToken": "een",
+                "asrOnsetSeconds": 7.0,
+                "start": 7.0,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.583333333333334
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/744849dd58364d782c1cf5b0.mp4",
+          "poster": "review-media/653bea050bf60f7672a5e95c.jpg",
+          "job": "review-media/2bbcb2e40d34ac4a3ee644c1.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/12d25d1f4a09932a4cbc7fc3.mp4",
+          "duration": 9.458333333333334,
+          "effects": [
+            {
+              "id": "screenplay-page",
+              "start": 0.0,
+              "duration": 3.1528,
+              "text": "MAANDAG",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "paper-tear",
+              "start": 3.1528,
+              "duration": 3.1528,
+              "text": "VRIJDAG",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "intertitle",
+              "start": 6.3056,
+              "duration": 3.1528,
+              "text": "Begin met één proces",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Mijn",
+              "startMs": 0,
+              "endMs": 320,
+              "confidence": 0.14947546645998955
+            },
+            {
+              "text": " dag",
+              "startMs": 320,
+              "endMs": 560,
+              "confidence": 0.4634515941143036
+            },
+            {
+              "text": " lach",
+              "startMs": 560,
+              "endMs": 780,
+              "confidence": 0.41264358162879944
+            },
+            {
+              "text": " alles",
+              "startMs": 780,
+              "endMs": 1060,
+              "confidence": 0.6440449953079224
+            },
+            {
+              "text": " vertrijd.",
+              "startMs": 1060,
+              "endMs": 1920,
+              "confidence": 0.5421862031022707
+            },
+            {
+              "text": " Op",
+              "startMs": 2240,
+              "endMs": 2340,
+              "confidence": 0.7002100944519043
+            },
+            {
+              "text": " een",
+              "startMs": 2340,
+              "endMs": 2460,
+              "confidence": 0.31407448649406433
+            },
+            {
+              "text": " rijdag",
+              "startMs": 2460,
+              "endMs": 2800,
+              "confidence": 0.5888038724660873
+            },
+            {
+              "text": " mist",
+              "startMs": 2800,
+              "endMs": 3080,
+              "confidence": 0.3751700520515442
+            },
+            {
+              "text": " die",
+              "startMs": 3080,
+              "endMs": 3260,
+              "confidence": 0.7701560258865356
+            },
+            {
+              "text": " de",
+              "startMs": 3260,
+              "endMs": 3440,
+              "confidence": 0.5470442771911621
+            },
+            {
+              "text": " renma",
+              "startMs": 3440,
+              "endMs": 3820,
+              "confidence": 0.31906891241669655
+            },
+            {
+              "text": " te",
+              "startMs": 3820,
+              "endMs": 4000,
+              "confidence": 0.8080058693885803
+            },
+            {
+              "text": " volgende",
+              "startMs": 4000,
+              "endMs": 4500,
+              "confidence": 0.6585052609443665
+            },
+            {
+              "text": " stapma's.",
+              "startMs": 4500,
+              "endMs": 5340,
+              "confidence": 0.6985036432743073
+            },
+            {
+              "text": " We",
+              "startMs": 5580,
+              "endMs": 5660,
+              "confidence": 0.5785342454910278
+            },
+            {
+              "text": " de",
+              "startMs": 5660,
+              "endMs": 5780,
+              "confidence": 0.3538821339607239
+            },
+            {
+              "text": " volgende",
+              "startMs": 5780,
+              "endMs": 6100,
+              "confidence": 0.5828893631696701
+            },
+            {
+              "text": " meteen",
+              "startMs": 6100,
+              "endMs": 6600,
+              "confidence": 0.7785928547382355
+            },
+            {
+              "text": " proces.",
+              "startMs": 6600,
+              "endMs": 7040,
+              "confidence": 0.2011703997850418
+            },
+            {
+              "text": " Niet",
+              "startMs": 7440,
+              "endMs": 7660,
+              "confidence": 0.5582987666130066
+            },
+            {
+              "text": " met",
+              "startMs": 7660,
+              "endMs": 7980,
+              "confidence": 0.9713178873062134
+            },
+            {
+              "text": " mintertols.",
+              "startMs": 7980,
+              "endMs": 8700,
+              "confidence": 0.40624991059303284
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Maandag lag alles verspreid. Op vrijdag wist iedereen wat de volgende stap was. We begonnen met één proces. Niet met twintig tools.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Maandag lag alles verspreid. Op vrijdag wist iedereen wat de volgende stap was. We begonnen met één proces. Niet met twintig tools.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/f1ca3b0ead5e35a4ecad6ad3.mp4",
+          "job": "review-media/9f27a621a6ea37332e5975c3.json"
+        }
+      ]
+    },
+    {
+      "id": "09-depth",
+      "title": "Diepte en motion",
+      "script": "A good edit has layers. The footage. The idea. The words. Give each one a job, and let the story do the moving.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/f60b06c61a2389910fd8dbda.mp4",
+          "duration": 9.083333333333334,
+          "effects": [
+            {
+              "id": "layer-explode",
+              "start": 0,
+              "duration": 3.96,
+              "text": "FOOTAGE / IDEA / WORDS",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "orbit-ring",
+              "start": 3.96,
+              "duration": 2.62,
+              "text": "THE STORY",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "room-doors",
+              "start": 6.58,
+              "duration": 2.503333333333334,
+              "text": "Give it room",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " A",
+              "startMs": 0,
+              "endMs": 160,
+              "confidence": 0.6071879863739014
+            },
+            {
+              "text": " good",
+              "startMs": 160,
+              "endMs": 280,
+              "confidence": 0.8777278065681458
+            },
+            {
+              "text": " edit",
+              "startMs": 280,
+              "endMs": 560,
+              "confidence": 0.8700768947601318
+            },
+            {
+              "text": " has",
+              "startMs": 560,
+              "endMs": 860,
+              "confidence": 0.8939588069915771
+            },
+            {
+              "text": " layers.",
+              "startMs": 860,
+              "endMs": 1200,
+              "confidence": 0.5525704026222229
+            },
+            {
+              "text": " The",
+              "startMs": 1740,
+              "endMs": 1860,
+              "confidence": 0.7605211138725281
+            },
+            {
+              "text": " footage.",
+              "startMs": 1860,
+              "endMs": 2240,
+              "confidence": 0.9589133858680725
+            },
+            {
+              "text": " The",
+              "startMs": 2880,
+              "endMs": 2980,
+              "confidence": 0.9812358617782593
+            },
+            {
+              "text": " idea.",
+              "startMs": 2980,
+              "endMs": 3340,
+              "confidence": 0.971244215965271
+            },
+            {
+              "text": " The",
+              "startMs": 3960,
+              "endMs": 4100,
+              "confidence": 0.9906520843505859
+            },
+            {
+              "text": " words.",
+              "startMs": 4100,
+              "endMs": 4480,
+              "confidence": 0.9930960536003113
+            },
+            {
+              "text": " Give",
+              "startMs": 5000,
+              "endMs": 5160,
+              "confidence": 0.9890429377555847
+            },
+            {
+              "text": " each",
+              "startMs": 5160,
+              "endMs": 5480,
+              "confidence": 0.9967652559280396
+            },
+            {
+              "text": " one",
+              "startMs": 5480,
+              "endMs": 5700,
+              "confidence": 0.9845970273017883
+            },
+            {
+              "text": " a",
+              "startMs": 5700,
+              "endMs": 5840,
+              "confidence": 0.995697021484375
+            },
+            {
+              "text": " job,",
+              "startMs": 5840,
+              "endMs": 6140,
+              "confidence": 0.9986070990562439
+            },
+            {
+              "text": " and",
+              "startMs": 6380,
+              "endMs": 6580,
+              "confidence": 0.9698092937469482
+            },
+            {
+              "text": " let",
+              "startMs": 6580,
+              "endMs": 6780,
+              "confidence": 0.9908774495124817
+            },
+            {
+              "text": " the",
+              "startMs": 6780,
+              "endMs": 6980,
+              "confidence": 0.9807766079902649
+            },
+            {
+              "text": " story",
+              "startMs": 6980,
+              "endMs": 7320,
+              "confidence": 0.9953214526176453
+            },
+            {
+              "text": " do",
+              "startMs": 7320,
+              "endMs": 7600,
+              "confidence": 0.972321093082428
+            },
+            {
+              "text": " the",
+              "startMs": 7600,
+              "endMs": 7800,
+              "confidence": 0.9780095815658569
+            },
+            {
+              "text": " moving.",
+              "startMs": 7800,
+              "endMs": 8120,
+              "confidence": 0.9923580288887024
+            }
+          ],
+          "storyboard": [],
+          "prompt": "A good edit has layers. The footage. The idea. The words. Give each one a job, and let the story do the moving.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "A good edit has layers. The footage. The idea. The words. Give each one a job, and let the story do the moving.",
+            "language": "en",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "layers",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 4,
+                "asrToken": "layers",
+                "asrOnsetSeconds": 0.86,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.96
+              },
+              {
+                "phrase": "the words",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 9,
+                "asrToken": "the",
+                "asrOnsetSeconds": 3.96,
+                "start": 3.96,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.62
+              },
+              {
+                "phrase": "let the story",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 17,
+                "asrToken": "let",
+                "asrOnsetSeconds": 6.58,
+                "start": 6.58,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 2.503333333333334
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/8ff7b0c9eda8595e82069a92.mp4",
+          "poster": "review-media/592051f1ac6ca446c8c61fdc.jpg",
+          "job": "review-media/441322dff56eae0993f31145.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/65d88e5b04361081ab4e0f42.mp4",
+          "duration": 8.5,
+          "effects": [
+            {
+              "id": "layer-explode",
+              "start": 0.0,
+              "duration": 2.8333,
+              "text": "FOOTAGE / IDEA / WORDS",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "orbit-ring",
+              "start": 2.8333,
+              "duration": 2.8333,
+              "text": "THE STORY",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "room-doors",
+              "start": 5.6667,
+              "duration": 2.8333,
+              "text": "Give it room",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " and",
+              "startMs": 0,
+              "endMs": 220,
+              "confidence": 0.15498724579811096
+            },
+            {
+              "text": " go",
+              "startMs": 220,
+              "endMs": 320,
+              "confidence": 0.6698395609855652
+            },
+            {
+              "text": " mad",
+              "startMs": 320,
+              "endMs": 520,
+              "confidence": 0.16132347285747528
+            },
+            {
+              "text": " at",
+              "startMs": 520,
+              "endMs": 720,
+              "confidence": 0.7757245898246765
+            },
+            {
+              "text": " the",
+              "startMs": 720,
+              "endMs": 840,
+              "confidence": 0.2071639746427536
+            },
+            {
+              "text": " past",
+              "startMs": 840,
+              "endMs": 940,
+              "confidence": 0.13410985469818115
+            },
+            {
+              "text": " rares,",
+              "startMs": 940,
+              "endMs": 1480,
+              "confidence": 0.3983929753303528
+            },
+            {
+              "text": " the",
+              "startMs": 1880,
+              "endMs": 1881,
+              "confidence": 0.6609011292457581
+            },
+            {
+              "text": " footage,",
+              "startMs": 1880,
+              "endMs": 2200,
+              "confidence": 0.9777624011039734
+            },
+            {
+              "text": " the",
+              "startMs": 2880,
+              "endMs": 2920,
+              "confidence": 0.9832914471626282
+            },
+            {
+              "text": " idea,",
+              "startMs": 2920,
+              "endMs": 3320,
+              "confidence": 0.9932722449302673
+            },
+            {
+              "text": " the",
+              "startMs": 3940,
+              "endMs": 3941,
+              "confidence": 0.6329537630081177
+            },
+            {
+              "text": " words,",
+              "startMs": 3940,
+              "endMs": 4340,
+              "confidence": 0.9697504639625549
+            },
+            {
+              "text": " give",
+              "startMs": 4840,
+              "endMs": 4920,
+              "confidence": 0.6608496904373169
+            },
+            {
+              "text": " each",
+              "startMs": 4920,
+              "endMs": 5260,
+              "confidence": 0.9975777268409729
+            },
+            {
+              "text": " one",
+              "startMs": 5260,
+              "endMs": 5440,
+              "confidence": 0.9571160078048706
+            },
+            {
+              "text": " a",
+              "startMs": 5440,
+              "endMs": 5640,
+              "confidence": 0.997515082359314
+            },
+            {
+              "text": " job,",
+              "startMs": 5640,
+              "endMs": 5880,
+              "confidence": 0.9150887727737427
+            },
+            {
+              "text": " and",
+              "startMs": 6140,
+              "endMs": 6240,
+              "confidence": 0.8714197278022766
+            },
+            {
+              "text": " let",
+              "startMs": 6240,
+              "endMs": 6440,
+              "confidence": 0.5019174218177795
+            },
+            {
+              "text": " the",
+              "startMs": 6440,
+              "endMs": 6700,
+              "confidence": 0.9529346823692322
+            },
+            {
+              "text": " story",
+              "startMs": 6700,
+              "endMs": 6960,
+              "confidence": 0.9738739132881165
+            },
+            {
+              "text": " do",
+              "startMs": 6960,
+              "endMs": 7220,
+              "confidence": 0.9947699904441833
+            },
+            {
+              "text": " the",
+              "startMs": 7220,
+              "endMs": 7400,
+              "confidence": 0.6268707513809204
+            },
+            {
+              "text": " moving.",
+              "startMs": 7400,
+              "endMs": 7740,
+              "confidence": 0.8833918571472168
+            }
+          ],
+          "storyboard": [],
+          "prompt": "A good edit has layers. The footage. The idea. The words. Give each one a job, and let the story do the moving.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "A good edit has layers. The footage. The idea. The words. Give each one a job, and let the story do the moving.",
+            "language": "en",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/b5dc5a8a4681eb2d8aa13b73.mp4",
+          "job": "review-media/b3eab46f8f33978bf7d936a1.json"
+        }
+      ]
+    },
+    {
+      "id": "10-hook-mix",
+      "title": "Hooks en editingmix",
+      "script": "Stop. Voordat je nog een tool toevoegt: wat moet er eigenlijk eenvoudiger? Laat dat zien. Maak het klein. En test het morgen.",
+      "limitations": [
+        "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+        "Authored alpha fixture proves compositing, not natural person segmentation.",
+        "3D recipes use Canvas perspective; not a full 3D engine."
+      ],
+      "versions": [
+        {
+          "label": "Gecorrigeerd · small ASR · 1080p",
+          "key": "corrected",
+          "run": "46048561317",
+          "video": "review-media/1199aced8bac673bc0feceb7.mp4",
+          "duration": 10.708333333333334,
+          "effects": [
+            {
+              "id": "impact-frame",
+              "start": 0,
+              "duration": 3.04,
+              "text": "STOP",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "blade-slice",
+              "start": 3.04,
+              "duration": 5.680000000000001,
+              "text": "Wat kan eenvoudiger?",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "grade-slider",
+              "start": 8.72,
+              "duration": 1.9883333333333333,
+              "text": "Test het morgen",
+              "params": {},
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Stop.",
+              "startMs": 0,
+              "endMs": 260,
+              "confidence": 0.8540297150611877
+            },
+            {
+              "text": " Wordt",
+              "startMs": 740,
+              "endMs": 1300,
+              "confidence": 0.4612412750720978
+            },
+            {
+              "text": " dat",
+              "startMs": 1300,
+              "endMs": 1301,
+              "confidence": 0.8421933650970459
+            },
+            {
+              "text": " je",
+              "startMs": 1300,
+              "endMs": 1420,
+              "confidence": 0.5013951659202576
+            },
+            {
+              "text": " nog",
+              "startMs": 1420,
+              "endMs": 1700,
+              "confidence": 0.9827848076820374
+            },
+            {
+              "text": " een",
+              "startMs": 1700,
+              "endMs": 1880,
+              "confidence": 0.9743182063102722
+            },
+            {
+              "text": " tol",
+              "startMs": 1880,
+              "endMs": 2180,
+              "confidence": 0.6980674862861633
+            },
+            {
+              "text": " toe",
+              "startMs": 2180,
+              "endMs": 2380,
+              "confidence": 0.5227371454238892
+            },
+            {
+              "text": " hoeft?",
+              "startMs": 2380,
+              "endMs": 2760,
+              "confidence": 0.7746367752552032
+            },
+            {
+              "text": " Wat",
+              "startMs": 3040,
+              "endMs": 3340,
+              "confidence": 0.3300721049308777
+            },
+            {
+              "text": " moet",
+              "startMs": 3340,
+              "endMs": 3580,
+              "confidence": 0.9756474494934082
+            },
+            {
+              "text": " er",
+              "startMs": 3580,
+              "endMs": 3760,
+              "confidence": 0.9907863736152649
+            },
+            {
+              "text": " eigenlijk",
+              "startMs": 3760,
+              "endMs": 4080,
+              "confidence": 0.9855248332023621
+            },
+            {
+              "text": " een",
+              "startMs": 4080,
+              "endMs": 4520,
+              "confidence": 0.47900500893592834
+            },
+            {
+              "text": " wouderje?",
+              "startMs": 4520,
+              "endMs": 5120,
+              "confidence": 0.7232168763875961
+            },
+            {
+              "text": " Laat",
+              "startMs": 5560,
+              "endMs": 6000,
+              "confidence": 0.9608407020568848
+            },
+            {
+              "text": " dat",
+              "startMs": 6000,
+              "endMs": 6120,
+              "confidence": 0.9186652302742004
+            },
+            {
+              "text": " zien.",
+              "startMs": 6120,
+              "endMs": 6500,
+              "confidence": 0.9815905690193176
+            },
+            {
+              "text": " Maak",
+              "startMs": 7020,
+              "endMs": 7400,
+              "confidence": 0.9108443856239319
+            },
+            {
+              "text": " het",
+              "startMs": 7400,
+              "endMs": 7540,
+              "confidence": 0.9855427742004395
+            },
+            {
+              "text": " klein.",
+              "startMs": 7540,
+              "endMs": 7980,
+              "confidence": 0.9727931022644043
+            },
+            {
+              "text": " En",
+              "startMs": 8600,
+              "endMs": 8720,
+              "confidence": 0.8620467782020569
+            },
+            {
+              "text": " test",
+              "startMs": 8720,
+              "endMs": 9020,
+              "confidence": 0.5042925477027893
+            },
+            {
+              "text": " het",
+              "startMs": 9020,
+              "endMs": 9240,
+              "confidence": 0.9508448243141174
+            },
+            {
+              "text": " morgen.",
+              "startMs": 9240,
+              "endMs": 9620,
+              "confidence": 0.9963372945785522
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Stop. Voordat je nog een tool toevoegt: wat moet er eigenlijk eenvoudiger? Laat dat zien. Maak het klein. En test het morgen.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "nativeResolution": [
+              1080,
+              1920
+            ],
+            "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+            "script": "Stop. Voordat je nog een tool toevoegt: wat moet er eigenlijk eenvoudiger? Laat dat zien. Maak het klein. En test het morgen.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "cueReport": [
+              {
+                "phrase": "stop",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 0,
+                "asrToken": "stop",
+                "asrOnsetSeconds": 0.0,
+                "start": 0,
+                "firstHookPreroll": true,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 3.04
+              },
+              {
+                "phrase": "wat moet",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 9,
+                "asrToken": "wat",
+                "asrOnsetSeconds": 3.04,
+                "start": 3.04,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 5.680000000000001
+              },
+              {
+                "phrase": "test het morgen",
+                "mode": "exact-normalized-asr",
+                "asrTokenIndex": 22,
+                "asrToken": "test",
+                "asrOnsetSeconds": 8.72,
+                "start": 8.72,
+                "firstHookPreroll": false,
+                "clampedForMinimumHold": false,
+                "fallbackReason": null,
+                "duration": 1.9883333333333333
+              }
+            ],
+            "asrModel": "small",
+            "captions": "actual faster-whisper small CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/1f3c39993ee8ad534235ed34.mp4",
+          "poster": "review-media/f2be2fed5a125f259d6fbb16.jpg",
+          "job": "review-media/6ebe08b6b86e9a9d250ed8b3.json"
+        },
+        {
+          "label": "Eerste versie · 540p",
+          "key": "first",
+          "run": "46046650541",
+          "video": "review-media/68f26658b75552d2a76fbd9d.mp4",
+          "duration": 9.416666666666666,
+          "effects": [
+            {
+              "id": "impact-frame",
+              "start": 0.0,
+              "duration": 3.1389,
+              "text": "STOP",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "blade-slice",
+              "start": 3.1389,
+              "duration": 3.1389,
+              "text": "Wat kan eenvoudiger?",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            },
+            {
+              "id": "grade-slider",
+              "start": 6.2778,
+              "duration": 3.1389,
+              "text": "Test het morgen",
+              "mediaSources": [
+                "demos/walkthrough.mp4"
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "text": " Zorg",
+              "startMs": 0,
+              "endMs": 760,
+              "confidence": 0.12335851602256298
+            },
+            {
+              "text": " dat",
+              "startMs": 760,
+              "endMs": 1140,
+              "confidence": 0.9223676323890686
+            },
+            {
+              "text": " je",
+              "startMs": 1140,
+              "endMs": 1360,
+              "confidence": 0.8389557003974915
+            },
+            {
+              "text": " nog",
+              "startMs": 1360,
+              "endMs": 1560,
+              "confidence": 0.9443844556808472
+            },
+            {
+              "text": " een",
+              "startMs": 1560,
+              "endMs": 1760,
+              "confidence": 0.7803851366043091
+            },
+            {
+              "text": " toelto",
+              "startMs": 1760,
+              "endMs": 2200,
+              "confidence": 0.5139844715595245
+            },
+            {
+              "text": " voert,",
+              "startMs": 2200,
+              "endMs": 2500,
+              "confidence": 0.3261217325925827
+            },
+            {
+              "text": " maar",
+              "startMs": 2820,
+              "endMs": 2960,
+              "confidence": 0.9059210419654846
+            },
+            {
+              "text": " het",
+              "startMs": 2960,
+              "endMs": 3080,
+              "confidence": 0.32802557945251465
+            },
+            {
+              "text": " moet",
+              "startMs": 3080,
+              "endMs": 3240,
+              "confidence": 0.2465505599975586
+            },
+            {
+              "text": " er",
+              "startMs": 3240,
+              "endMs": 3440,
+              "confidence": 0.7984380125999451
+            },
+            {
+              "text": " eigenlijk",
+              "startMs": 3440,
+              "endMs": 3780,
+              "confidence": 0.32913920283317566
+            },
+            {
+              "text": " een",
+              "startMs": 3780,
+              "endMs": 4160,
+              "confidence": 0.5107368230819702
+            },
+            {
+              "text": " wouder.",
+              "startMs": 4160,
+              "endMs": 4580,
+              "confidence": 0.35686453183492023
+            },
+            {
+              "text": " Laat",
+              "startMs": 5040,
+              "endMs": 5440,
+              "confidence": 0.5702006369829178
+            },
+            {
+              "text": " dat",
+              "startMs": 5440,
+              "endMs": 5620,
+              "confidence": 0.7046176195144653
+            },
+            {
+              "text": " zien,",
+              "startMs": 5620,
+              "endMs": 5960,
+              "confidence": 0.7484129667282104
+            },
+            {
+              "text": " maakt",
+              "startMs": 6320,
+              "endMs": 6600,
+              "confidence": 0.587242417037487
+            },
+            {
+              "text": " het",
+              "startMs": 6600,
+              "endMs": 6840,
+              "confidence": 0.9832099676132202
+            },
+            {
+              "text": " klein,",
+              "startMs": 6840,
+              "endMs": 7180,
+              "confidence": 0.6797565221786499
+            },
+            {
+              "text": " en",
+              "startMs": 7600,
+              "endMs": 7780,
+              "confidence": 0.33352357149124146
+            },
+            {
+              "text": " test",
+              "startMs": 7780,
+              "endMs": 8020,
+              "confidence": 0.8399904370307922
+            },
+            {
+              "text": " het",
+              "startMs": 8020,
+              "endMs": 8300,
+              "confidence": 0.712405264377594
+            },
+            {
+              "text": " morgen.",
+              "startMs": 8300,
+              "endMs": 8580,
+              "confidence": 0.8471713662147522
+            }
+          ],
+          "storyboard": [],
+          "prompt": "Stop. Voordat je nog een tool toevoegt: wat moet er eigenlijk eenvoudiger? Laat dat zien. Maak het klein. En test het morgen.",
+          "provenance": {
+            "kind": "original synthetic demonstration",
+            "script": "Stop. Voordat je nog een tool toevoegt: wat moet er eigenlijk eenvoudiger? Laat dat zien. Maak het klein. En test het morgen.",
+            "language": "nl",
+            "voice": "espeak-ng local synthetic speech",
+            "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+            "captions": "actual faster-whisper tiny CPU/int8 word times",
+            "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+            "limitations": [
+              "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+              "Authored alpha fixture proves compositing, not natural person segmentation.",
+              "3D recipes use Canvas perspective; not a full 3D engine."
+            ]
+          },
+          "source": "review-media/5bb4df24c3e0786677c28642.mp4",
+          "job": "review-media/fa97f66d743f653a17af2758.json"
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "title": "talking head demo",
+      "version": "Gecorrigeerd · small ASR · 1080p",
+      "run": "46048561317",
+      "video": "review-media/c711ce00149fce7dbee7b7a1.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "talking head with sfx",
+      "version": "Gecorrigeerd · small ASR · 1080p",
+      "run": "46048561317",
+      "video": "review-media/880df727ed9bace9b3186e3a.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "slideshow",
+      "version": "Gecorrigeerd · small ASR · 1080p",
+      "run": "46048561317",
+      "video": "review-media/10fc321d96a2ea265b2917c3.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "talking head demo",
+      "version": "Eerste versie · 540p",
+      "run": "46046650541",
+      "video": "review-media/c711ce00149fce7dbee7b7a1.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "talking head with sfx",
+      "version": "Eerste versie · 540p",
+      "run": "46046650541",
+      "video": "review-media/880df727ed9bace9b3186e3a.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "slideshow",
+      "version": "Eerste versie · 540p",
+      "run": "46046650541",
+      "video": "review-media/10fc321d96a2ea265b2917c3.mp4",
+      "source": "review-media/2d40a1dc2b91581fdc21b17f.mp4"
+    },
+    {
+      "title": "Lokale pipeline · demo",
+      "version": "Oorspronkelijke lokale synthetische cut",
+      "run": null,
+      "video": "review-media/43e60dce4144f681d836ce53.mp4",
+      "source": "review-media/57cb91d671b2b29d74681894.mp4"
+    },
+    {
+      "title": "Lokale pipeline · asr-demo",
+      "version": "Oorspronkelijke lokale synthetische cut",
+      "run": null,
+      "video": "review-media/11e137d10266cb5608c6ead9.mp4",
+      "source": "review-media/57cb91d671b2b29d74681894.mp4"
+    }
+  ],
+  "carousels": [
+    "review-media/6c7df87ef4fc46847d83bbc6.png",
+    "review-media/35a9c063d1ac1c7bf3bf3378.png",
+    "review-media/aeb1719eb78a888f4ef66eda.png",
+    "review-media/a01beccf5002a6fef11f56be.png",
+    "review-media/b27ce15ba60115d79f6a0033.png"
+  ],
+  "provenance": "Original synthetic demonstrations from preserved GitHub Actions outputs. No client footage. Reference media is linked directly, never copied.",
+  "sources": [
+    {
+      "label": "Gecorrigeerd · small ASR · 1080p",
+      "run": "46048561317",
+      "url": "https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/46048561317"
+    },
+    {
+      "label": "Eerste versie · 540p",
+      "run": "46046650541",
+      "url": "https://github.com/ainikitakhajomia/linea-reel-kit/actions/runs/46046650541"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "job": {
+    "title": "Dynamische slideshow",
+    "width": 540,
+    "height": 960,
+    "fps": 24,
+    "duration": 7.083333333333333,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/06-slideshow/source.mp4",
+    "captions": [
+      {
+        "text": " 3",
+        "startMs": 0,
+        "endMs": 300,
+        "confidence": 0.24776381254196167
+      },
+      {
+        "text": " mailden.",
+        "startMs": 300,
+        "endMs": 1160,
+        "confidence": 0.29598087072372437
+      },
+      {
+        "text": " Eén",
+        "startMs": 1220,
+        "endMs": 1500,
+        "confidence": 0.506934329867363
+      },
+      {
+        "text": " met",
+        "startMs": 1500,
+        "endMs": 1680,
+        "confidence": 0.4459455609321594
+      },
+      {
+        "text": " houd.",
+        "startMs": 1680,
+        "endMs": 2140,
+        "confidence": 0.30475927889347076
+      },
+      {
+        "text": " Van",
+        "startMs": 2520,
+        "endMs": 2600,
+        "confidence": 0.6172142624855042
+      },
+      {
+        "text": " een",
+        "startMs": 2600,
+        "endMs": 2760,
+        "confidence": 0.5771934986114502
+      },
+      {
+        "text": " los",
+        "startMs": 2760,
+        "endMs": 2920,
+        "confidence": 0.25329357385635376
+      },
+      {
+        "text": " die",
+        "startMs": 2920,
+        "endMs": 3080,
+        "confidence": 0.341828852891922
+      },
+      {
+        "text": " mail",
+        "startMs": 3080,
+        "endMs": 3320,
+        "confidence": 0.050072576850652695
+      },
+      {
+        "text": " had",
+        "startMs": 3320,
+        "endMs": 3500,
+        "confidence": 0.16348876059055328
+      },
+      {
+        "text": " een",
+        "startMs": 3500,
+        "endMs": 3660,
+        "confidence": 0.5577458143234253
+      },
+      {
+        "text": " plan,",
+        "startMs": 3660,
+        "endMs": 3940,
+        "confidence": 0.4239625930786133
+      },
+      {
+        "text": " maar",
+        "startMs": 4140,
+        "endMs": 4360,
+        "confidence": 0.31027185916900635
+      },
+      {
+        "text": " je",
+        "startMs": 4360,
+        "endMs": 4520,
+        "confidence": 0.7899905443191528
+      },
+      {
+        "text": " mogen",
+        "startMs": 4520,
+        "endMs": 4800,
+        "confidence": 0.2362569347023964
+      },
+      {
+        "text": " echt",
+        "startMs": 4800,
+        "endMs": 5180,
+        "confidence": 0.49570152163505554
+      },
+      {
+        "text": " mee",
+        "startMs": 5180,
+        "endMs": 5500,
+        "confidence": 0.7813629508018494
+      },
+      {
+        "text": " aan",
+        "startMs": 5500,
+        "endMs": 5780,
+        "confidence": 0.9373579025268555
+      },
+      {
+        "text": " de",
+        "startMs": 5780,
+        "endMs": 5860,
+        "confidence": 0.8913478851318359
+      },
+      {
+        "text": " slakken.",
+        "startMs": 5860,
+        "endMs": 6340,
+        "confidence": 0.5115863780180613
+      }
+    ],
+    "effects": [
+      {
+        "id": "contact-sheet-hook",
+        "start": 0.0,
+        "duration": 2.3611,
+        "text": "Eén verhaal",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "storyboard-deck",
+        "start": 2.3611,
+        "duration": 2.3611,
+        "text": "Van idee naar plan",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "video-card",
+        "start": 4.7222,
+        "duration": 2.3611,
+        "text": "Morgen beginnen",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "script": "Drie beelden. Eén verhaal. Van een los idee naar een plan waar je morgen echt mee aan de slag kunt.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

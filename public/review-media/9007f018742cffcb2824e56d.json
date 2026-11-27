@@ -1,0 +1,226 @@
+{
+  "job": {
+    "title": "Dynamische slideshow",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 7.958333333333333,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/06-slideshow/source.mp4",
+    "captions": [
+      {
+        "text": " Drie",
+        "startMs": 0,
+        "endMs": 280,
+        "confidence": 0.5056547541171312
+      },
+      {
+        "text": " beelden.",
+        "startMs": 280,
+        "endMs": 820,
+        "confidence": 0.6249301632245382
+      },
+      {
+        "text": " Eén",
+        "startMs": 1240,
+        "endMs": 1600,
+        "confidence": 0.7906379997730255
+      },
+      {
+        "text": " verhaal.",
+        "startMs": 1600,
+        "endMs": 2240,
+        "confidence": 0.7507749100526174
+      },
+      {
+        "text": " Wanneer",
+        "startMs": 2640,
+        "endMs": 3080,
+        "confidence": 0.7906243403752645
+      },
+      {
+        "text": " lossie",
+        "startMs": 3080,
+        "endMs": 3420,
+        "confidence": 0.3701995462179184
+      },
+      {
+        "text": " dearen",
+        "startMs": 3420,
+        "endMs": 3860,
+        "confidence": 0.12793546169996262
+      },
+      {
+        "text": " plan,",
+        "startMs": 3860,
+        "endMs": 4240,
+        "confidence": 0.6115509867668152
+      },
+      {
+        "text": " maar",
+        "startMs": 4560,
+        "endMs": 4880,
+        "confidence": 0.4296391159296036
+      },
+      {
+        "text": " je",
+        "startMs": 4880,
+        "endMs": 5000,
+        "confidence": 0.9713128209114075
+      },
+      {
+        "text": " morgen",
+        "startMs": 5000,
+        "endMs": 5320,
+        "confidence": 0.9740442037582397
+      },
+      {
+        "text": " echt",
+        "startMs": 5320,
+        "endMs": 5740,
+        "confidence": 0.9374246001243591
+      },
+      {
+        "text": " mee",
+        "startMs": 5740,
+        "endMs": 6080,
+        "confidence": 0.9654104709625244
+      },
+      {
+        "text": " aan",
+        "startMs": 6080,
+        "endMs": 6320,
+        "confidence": 0.9282681345939636
+      },
+      {
+        "text": " de",
+        "startMs": 6320,
+        "endMs": 6500,
+        "confidence": 0.9362499117851257
+      },
+      {
+        "text": " slag",
+        "startMs": 6500,
+        "endMs": 6920,
+        "confidence": 0.6877582222223282
+      },
+      {
+        "text": " kent.",
+        "startMs": 6920,
+        "endMs": 7120,
+        "confidence": 0.5559572800993919
+      }
+    ],
+    "effects": [
+      {
+        "id": "contact-sheet-hook",
+        "start": 0,
+        "duration": 3.08,
+        "text": "Eén verhaal",
+        "params": {},
+        "mediaSources": [
+          "demos/slides/idea.png",
+          "demos/slides/plan.png",
+          "demos/slides/tomorrow.png"
+        ]
+      },
+      {
+        "id": "storyboard-deck",
+        "start": 3.08,
+        "duration": 1.92,
+        "text": "Van idee naar plan",
+        "params": {},
+        "mediaSources": [
+          "demos/slides/idea.png",
+          "demos/slides/plan.png",
+          "demos/slides/tomorrow.png"
+        ]
+      },
+      {
+        "id": "video-card",
+        "start": 5.0,
+        "duration": 2.958333333333333,
+        "text": "Morgen beginnen",
+        "params": {},
+        "mediaSources": [
+          "demos/slides/idea.png",
+          "demos/slides/plan.png",
+          "demos/slides/tomorrow.png"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Drie beelden. Eén verhaal. Van een los idee naar een plan waar je morgen echt mee aan de slag kunt.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "drie beelden",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 0,
+        "asrToken": "drie",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.08
+      },
+      {
+        "phrase": "van een los idee",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 5,
+        "asrToken": "lossie",
+        "asrOnsetSeconds": 3.08,
+        "start": 3.08,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 1.92
+      },
+      {
+        "phrase": "morgen",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 10,
+        "asrToken": "morgen",
+        "asrOnsetSeconds": 5.0,
+        "start": 5.0,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.958333333333333
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

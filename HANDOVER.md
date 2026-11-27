@@ -65,3 +65,9 @@ Eigen QA op de daadwerkelijk opgeslagen tiny-transcripts: Nederlandse micro-WER 
 Lopende correctie: native1080-bronbeelden, schone graphicbackdrops, losse clean plate + foregroundalpha, presenter-PIP buiten walkthrough, overlayplaatsing via offsetX/offsetY/scale, echte verschillende slideshowafbeeldingen en speech-cues op gemeten ASR-woorden. Afsluiten met nieuwe daadwerkelijke exports en beeldinspectie.
 
 De publieke preview is nu daadwerkelijk op Linux gecontroleerd: run `46047955418` speelde **alle 67 kaarten** af, nul consolefouten of mislukte assetrequests. Films waren op dat moment nog niet gepubliceerd (`demosPlayed:0`). Eén eerdere hostedtest faalde door URL-object i.p.v. string in de QA zelf; gerepareerd in `0a1ee10`.
+
+## Creative Review Studio — visuele review heeft voorrang
+
+Geen nieuwe effecten of engine ontwikkeld. Eigen behouden checkout onder Dave bevat de reviewstudio met echte MP4 previews, referenties rechtstreeks vanaf de publieke bron, feedback/favorieten/goedkeuring met localStorage en JSON export/import, versie- en bronvergelijking, bestaande effecttijdlijn als storyboard en dertien stijlencategorieën. Synthetische presentator en 2.5D blijven expliciet benoemd. Categorieën zonder film worden als ontbrekend aangeduid.
+
+`public/review-manifest.json` is de mediainventaris; `public/review-media/` bevat uitsluitend bestaande synthetische outputs met SHA256-bestandsnamen. Media staan blijvend in Git, niet alleen in tijdelijke Actions-artifacts. `scripts/assemble-review.py` verzamelt bestaande downloads en behouden lokale resultaten zonder te renderen. `src/validate-studio.mjs` draait op de geïsoleerde GitHub Linux-runner. Bestaande zware renderworkflow wordt voor commits met `[review-only]` overgeslagen; de aparte browseracceptatie blijft draaien.

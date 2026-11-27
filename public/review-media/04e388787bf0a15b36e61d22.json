@@ -1,0 +1,236 @@
+{
+  "job": {
+    "title": "Kinetic typography",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 8.375,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/05-kinetic/source.mp4",
+    "captions": [
+      {
+        "text": " Nog",
+        "startMs": 0,
+        "endMs": 240,
+        "confidence": 0.8578315675258636
+      },
+      {
+        "text": " een",
+        "startMs": 240,
+        "endMs": 420,
+        "confidence": 0.9846278429031372
+      },
+      {
+        "text": " tablet,",
+        "startMs": 420,
+        "endMs": 780,
+        "confidence": 0.6296534538269043
+      },
+      {
+        "text": " nog",
+        "startMs": 1200,
+        "endMs": 1560,
+        "confidence": 0.9818441271781921
+      },
+      {
+        "text": " een",
+        "startMs": 1560,
+        "endMs": 1780,
+        "confidence": 0.995972216129303
+      },
+      {
+        "text": " lijstje,",
+        "startMs": 1780,
+        "endMs": 2280,
+        "confidence": 0.9275926351547241
+      },
+      {
+        "text": " nog",
+        "startMs": 2720,
+        "endMs": 2920,
+        "confidence": 0.9824726581573486
+      },
+      {
+        "text": " een",
+        "startMs": 2920,
+        "endMs": 3120,
+        "confidence": 0.9895803332328796
+      },
+      {
+        "text": " keer",
+        "startMs": 3120,
+        "endMs": 3400,
+        "confidence": 0.9412179589271545
+      },
+      {
+        "text": " kopiëren,",
+        "startMs": 3400,
+        "endMs": 4220,
+        "confidence": 0.7958864271640778
+      },
+      {
+        "text": " of",
+        "startMs": 4560,
+        "endMs": 4760,
+        "confidence": 0.9802601933479309
+      },
+      {
+        "text": " je",
+        "startMs": 4760,
+        "endMs": 4900,
+        "confidence": 0.9938157796859741
+      },
+      {
+        "text": " maakt",
+        "startMs": 4900,
+        "endMs": 5300,
+        "confidence": 0.955259770154953
+      },
+      {
+        "text": " ruimte",
+        "startMs": 5300,
+        "endMs": 5800,
+        "confidence": 0.9832565486431122
+      },
+      {
+        "text": " voor",
+        "startMs": 5800,
+        "endMs": 6120,
+        "confidence": 0.3449138104915619
+      },
+      {
+        "text": " het",
+        "startMs": 6120,
+        "endMs": 6400,
+        "confidence": 0.9844292402267456
+      },
+      {
+        "text": " werk",
+        "startMs": 6400,
+        "endMs": 6760,
+        "confidence": 0.7528679370880127
+      },
+      {
+        "text": " dat",
+        "startMs": 6760,
+        "endMs": 7140,
+        "confidence": 0.8351470828056335
+      },
+      {
+        "text": " hield.",
+        "startMs": 7140,
+        "endMs": 7520,
+        "confidence": 0.5056779086589813
+      }
+    ],
+    "effects": [
+      {
+        "id": "giant-captions",
+        "start": 0,
+        "duration": 1.2,
+        "text": "Nog een tablet,",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "word-stamp",
+        "start": 1.2,
+        "duration": 3.3599999999999994,
+        "text": "NOG EEN LIJSTJE",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "knockout-captions",
+        "start": 4.56,
+        "duration": 3.8150000000000004,
+        "text": "of je maakt ruimte voor",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Nog een tabblad. Nog een lijstje. Nog een keer kopiëren. Of je maakt ruimte voor het werk dat telt.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "nog een tabblad",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 0,
+        "asrToken": "nog",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 1.2
+      },
+      {
+        "phrase": "nog een lijstje",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 3,
+        "asrToken": "nog",
+        "asrOnsetSeconds": 1.2,
+        "start": 1.2,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.3599999999999994
+      },
+      {
+        "phrase": "of je maakt",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 10,
+        "asrToken": "of",
+        "asrOnsetSeconds": 4.56,
+        "start": 4.56,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.8150000000000004
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

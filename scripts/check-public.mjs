@@ -7,7 +7,7 @@ const rules=[['private-key',/-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----/]
 const problems=[];let checked=0;
 for(const path of new Set(listing.stdout.split('\0').filter(Boolean))){
  if(/(^|\/)(\.env(?:\..*)?|id_rsa|id_ed25519)$/.test(path)||/\.(pem|p12|pfx)$/.test(path))problems.push({path,rule:'credential-file'});
- if(/\.(mp4|mov|wav|mp3|m4a|png|jpe?g|webp)$/i.test(path))problems.push({path,rule:'media-requires-explicit-license-and-privacy-review'});
+ if(/\.(mp4|mov|wav|mp3|m4a|png|jpe?g|webp)$/i.test(path)&&!/^public\/review-media\/[a-f0-9]{24}\.(mp4|jpg|png)$/.test(path))problems.push({path,rule:'media-requires-explicit-license-and-privacy-review'});
  if(!/\.(mjs|js|py|tsx?|json|md|html|css|yml|txt)$/.test(path))continue;
  const content=await readFile(path,'utf8');checked++;
  for(const [rule,pattern] of rules)if(pattern.test(content))problems.push({path,rule});

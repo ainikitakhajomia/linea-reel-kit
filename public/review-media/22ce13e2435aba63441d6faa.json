@@ -1,0 +1,203 @@
+{
+  "job": {
+    "title": "SaaS productverhaal",
+    "width": 540,
+    "height": 960,
+    "fps": 24,
+    "duration": 7.083333333333333,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/04-product/source.mp4",
+    "captions": [
+      {
+        "text": " Your",
+        "startMs": 0,
+        "endMs": 260,
+        "confidence": 0.3580147922039032
+      },
+      {
+        "text": " inbox",
+        "startMs": 260,
+        "endMs": 600,
+        "confidence": 0.9417144656181335
+      },
+      {
+        "text": " is",
+        "startMs": 600,
+        "endMs": 900,
+        "confidence": 0.9854497909545898
+      },
+      {
+        "text": " not",
+        "startMs": 900,
+        "endMs": 1060,
+        "confidence": 0.9771949648857117
+      },
+      {
+        "text": " a",
+        "startMs": 1060,
+        "endMs": 1220,
+        "confidence": 0.9010875821113586
+      },
+      {
+        "text": " workflow.",
+        "startMs": 1220,
+        "endMs": 1640,
+        "confidence": 0.6211803555488586
+      },
+      {
+        "text": " Put",
+        "startMs": 2220,
+        "endMs": 2300,
+        "confidence": 0.8176605701446533
+      },
+      {
+        "text": " the",
+        "startMs": 2300,
+        "endMs": 2540,
+        "confidence": 0.9828165769577026
+      },
+      {
+        "text": " next",
+        "startMs": 2540,
+        "endMs": 2760,
+        "confidence": 0.975560188293457
+      },
+      {
+        "text": " step",
+        "startMs": 2760,
+        "endMs": 3160,
+        "confidence": 0.9638848304748535
+      },
+      {
+        "text": " where",
+        "startMs": 3160,
+        "endMs": 3540,
+        "confidence": 0.895664393901825
+      },
+      {
+        "text": " your",
+        "startMs": 3540,
+        "endMs": 3760,
+        "confidence": 0.9914517998695374
+      },
+      {
+        "text": " team",
+        "startMs": 3760,
+        "endMs": 4000,
+        "confidence": 0.940937340259552
+      },
+      {
+        "text": " can",
+        "startMs": 4000,
+        "endMs": 4260,
+        "confidence": 0.9820271134376526
+      },
+      {
+        "text": " see",
+        "startMs": 4260,
+        "endMs": 4460,
+        "confidence": 0.991434633731842
+      },
+      {
+        "text": " it.",
+        "startMs": 4460,
+        "endMs": 4840,
+        "confidence": 0.9970861077308655
+      },
+      {
+        "text": " Then",
+        "startMs": 5180,
+        "endMs": 5260,
+        "confidence": 0.5243146419525146
+      },
+      {
+        "text": " get",
+        "startMs": 5260,
+        "endMs": 5500,
+        "confidence": 0.9375929832458496
+      },
+      {
+        "text": " back",
+        "startMs": 5500,
+        "endMs": 5780,
+        "confidence": 0.9873254299163818
+      },
+      {
+        "text": " to",
+        "startMs": 5780,
+        "endMs": 5960,
+        "confidence": 0.9968164563179016
+      },
+      {
+        "text": " the",
+        "startMs": 5960,
+        "endMs": 6120,
+        "confidence": 0.9776368141174316
+      },
+      {
+        "text": " work.",
+        "startMs": 6120,
+        "endMs": 6360,
+        "confidence": 0.8739244937896729
+      }
+    ],
+    "effects": [
+      {
+        "id": "file-drop",
+        "start": 0.0,
+        "duration": 2.3611,
+        "text": "One place",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "video-card",
+        "start": 2.3611,
+        "duration": 2.3611,
+        "text": "A clear next step",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "layer-explode",
+        "start": 4.7222,
+        "duration": 2.3611,
+        "text": "Back to the work",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "script": "Your inbox is not a workflow. Put the next step where your team can see it. Then get back to the work.",
+    "language": "en",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "job": {
+    "title": "Tekst achter de spreker",
+    "width": 540,
+    "height": 960,
+    "fps": 24,
+    "duration": 7.125,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/02-behind-speaker/source.mp4",
+    "captions": [
+      {
+        "text": " Dit",
+        "startMs": 0,
+        "endMs": 280,
+        "confidence": 0.48698049783706665
+      },
+      {
+        "text": " staat",
+        "startMs": 280,
+        "endMs": 540,
+        "confidence": 0.5874809622764587
+      },
+      {
+        "text": " niet,",
+        "startMs": 540,
+        "endMs": 740,
+        "confidence": 0.9574764370918274
+      },
+      {
+        "text": " wat",
+        "startMs": 1000,
+        "endMs": 1100,
+        "confidence": 0.2975950539112091
+      },
+      {
+        "text": " je",
+        "startMs": 1100,
+        "endMs": 1300,
+        "confidence": 0.7536858320236206
+      },
+      {
+        "text": " nu",
+        "startMs": 1300,
+        "endMs": 1620,
+        "confidence": 0.8870372176170349
+      },
+      {
+        "text": " is,",
+        "startMs": 1620,
+        "endMs": 2040,
+        "confidence": 0.4071517586708069
+      },
+      {
+        "text": " dat",
+        "startMs": 2060,
+        "endMs": 2220,
+        "confidence": 0.31671881675720215
+      },
+      {
+        "text": " staat",
+        "startMs": 2220,
+        "endMs": 2560,
+        "confidence": 0.9740129709243774
+      },
+      {
+        "text": " achter",
+        "startMs": 2560,
+        "endMs": 2920,
+        "confidence": 0.8157389760017395
+      },
+      {
+        "text": " me.",
+        "startMs": 2920,
+        "endMs": 3320,
+        "confidence": 0.5792778134346008
+      },
+      {
+        "text": " Wobblijft,",
+        "startMs": 3720,
+        "endMs": 4240,
+        "confidence": 0.47971147298812866
+      },
+      {
+        "text": " dat",
+        "startMs": 4400,
+        "endMs": 4480,
+        "confidence": 0.9803860783576965
+      },
+      {
+        "text": " moet",
+        "startMs": 4480,
+        "endMs": 4700,
+        "confidence": 0.12554854154586792
+      },
+      {
+        "text": " houden,",
+        "startMs": 4700,
+        "endMs": 5100,
+        "confidence": 0.6233337223529816
+      },
+      {
+        "text": " dat",
+        "startMs": 5140,
+        "endMs": 5260,
+        "confidence": 0.7694174647331238
+      },
+      {
+        "text": " ik",
+        "startMs": 5260,
+        "endMs": 5420,
+        "confidence": 0.0524410679936409
+      },
+      {
+        "text": " op",
+        "startMs": 5420,
+        "endMs": 5640,
+        "confidence": 0.36509305238723755
+      },
+      {
+        "text": " de",
+        "startMs": 5640,
+        "endMs": 5840,
+        "confidence": 0.6218355894088745
+      },
+      {
+        "text": " morgen",
+        "startMs": 5840,
+        "endMs": 6140,
+        "confidence": 0.37955155968666077
+      },
+      {
+        "text": " ont.",
+        "startMs": 6140,
+        "endMs": 6440,
+        "confidence": 0.5143911838531494
+      }
+    ],
+    "effects": [
+      {
+        "id": "kinetic-hook",
+        "start": 0.0,
+        "duration": 2.375,
+        "text": "ACHTER MIJ",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "orbit-ring",
+        "start": 2.375,
+        "duration": 2.375,
+        "text": "HET VERHAAL",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "giant-captions",
+        "start": 4.75,
+        "duration": 2.375,
+        "text": "BLIJFT VOORAAN",
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ],
+    "foregroundFrames": "demos/02-behind-speaker/foreground/%06d.png"
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "script": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "job": {
+    "title": "Diepte en motion",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 9.083333333333334,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/09-depth/source.mp4",
+    "captions": [
+      {
+        "text": " A",
+        "startMs": 0,
+        "endMs": 160,
+        "confidence": 0.6071879863739014
+      },
+      {
+        "text": " good",
+        "startMs": 160,
+        "endMs": 280,
+        "confidence": 0.8777278065681458
+      },
+      {
+        "text": " edit",
+        "startMs": 280,
+        "endMs": 560,
+        "confidence": 0.8700768947601318
+      },
+      {
+        "text": " has",
+        "startMs": 560,
+        "endMs": 860,
+        "confidence": 0.8939588069915771
+      },
+      {
+        "text": " layers.",
+        "startMs": 860,
+        "endMs": 1200,
+        "confidence": 0.5525704026222229
+      },
+      {
+        "text": " The",
+        "startMs": 1740,
+        "endMs": 1860,
+        "confidence": 0.7605211138725281
+      },
+      {
+        "text": " footage.",
+        "startMs": 1860,
+        "endMs": 2240,
+        "confidence": 0.9589133858680725
+      },
+      {
+        "text": " The",
+        "startMs": 2880,
+        "endMs": 2980,
+        "confidence": 0.9812358617782593
+      },
+      {
+        "text": " idea.",
+        "startMs": 2980,
+        "endMs": 3340,
+        "confidence": 0.971244215965271
+      },
+      {
+        "text": " The",
+        "startMs": 3960,
+        "endMs": 4100,
+        "confidence": 0.9906520843505859
+      },
+      {
+        "text": " words.",
+        "startMs": 4100,
+        "endMs": 4480,
+        "confidence": 0.9930960536003113
+      },
+      {
+        "text": " Give",
+        "startMs": 5000,
+        "endMs": 5160,
+        "confidence": 0.9890429377555847
+      },
+      {
+        "text": " each",
+        "startMs": 5160,
+        "endMs": 5480,
+        "confidence": 0.9967652559280396
+      },
+      {
+        "text": " one",
+        "startMs": 5480,
+        "endMs": 5700,
+        "confidence": 0.9845970273017883
+      },
+      {
+        "text": " a",
+        "startMs": 5700,
+        "endMs": 5840,
+        "confidence": 0.995697021484375
+      },
+      {
+        "text": " job,",
+        "startMs": 5840,
+        "endMs": 6140,
+        "confidence": 0.9986070990562439
+      },
+      {
+        "text": " and",
+        "startMs": 6380,
+        "endMs": 6580,
+        "confidence": 0.9698092937469482
+      },
+      {
+        "text": " let",
+        "startMs": 6580,
+        "endMs": 6780,
+        "confidence": 0.9908774495124817
+      },
+      {
+        "text": " the",
+        "startMs": 6780,
+        "endMs": 6980,
+        "confidence": 0.9807766079902649
+      },
+      {
+        "text": " story",
+        "startMs": 6980,
+        "endMs": 7320,
+        "confidence": 0.9953214526176453
+      },
+      {
+        "text": " do",
+        "startMs": 7320,
+        "endMs": 7600,
+        "confidence": 0.972321093082428
+      },
+      {
+        "text": " the",
+        "startMs": 7600,
+        "endMs": 7800,
+        "confidence": 0.9780095815658569
+      },
+      {
+        "text": " moving.",
+        "startMs": 7800,
+        "endMs": 8120,
+        "confidence": 0.9923580288887024
+      }
+    ],
+    "effects": [
+      {
+        "id": "layer-explode",
+        "start": 0,
+        "duration": 3.96,
+        "text": "FOOTAGE / IDEA / WORDS",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "orbit-ring",
+        "start": 3.96,
+        "duration": 2.62,
+        "text": "THE STORY",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "room-doors",
+        "start": 6.58,
+        "duration": 2.503333333333334,
+        "text": "Give it room",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ],
+    "background": "demos/09-depth/background.png",
+    "foregroundFrames": "demos/09-depth/foreground/%06d.png"
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "A good edit has layers. The footage. The idea. The words. Give each one a job, and let the story do the moving.",
+    "language": "en",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "layers",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 4,
+        "asrToken": "layers",
+        "asrOnsetSeconds": 0.86,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.96
+      },
+      {
+        "phrase": "the words",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 9,
+        "asrToken": "the",
+        "asrOnsetSeconds": 3.96,
+        "start": 3.96,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.62
+      },
+      {
+        "phrase": "let the story",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 17,
+        "asrToken": "let",
+        "asrOnsetSeconds": 6.58,
+        "start": 6.58,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.503333333333334
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

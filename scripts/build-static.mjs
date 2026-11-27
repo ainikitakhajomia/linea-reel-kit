@@ -5,10 +5,17 @@ const destination=resolve(process.argv[2]||'out/site');
 const prefix=process.argv[3]||'';
 if(prefix&&!/^\/[a-zA-Z0-9_-]+$/.test(prefix))throw new Error('Base path must be empty or one URL-safe segment');
 let exportsReport;try{exportsReport=JSON.parse(await readFile('public/renders/render-report.json','utf8'));}catch(error){if(error.code!=='ENOENT')throw error;}
-const sourceFiles=['src/review.html','src/review.css','src/review.mjs','src/effects.mjs','src/media.mjs','src/stage.html','src/catalog.json','brands/studio-linea.json','vendor/motion-video-styles/timing.mjs','vendor/motion-video-styles/LICENSE','LICENSE'];
+const sourceFiles=['src/review.html','src/review.css','src/review.mjs','src/studio.mjs','src/effects.mjs','src/media.mjs','src/stage.html','src/catalog.json','brands/studio-linea.json','vendor/motion-video-styles/timing.mjs','vendor/motion-video-styles/LICENSE','LICENSE'];
 async function emit(file,text){const target=resolve(destination,file);await mkdir(dirname(target),{recursive:true});await writeFile(target,text);}
 for(const file of sourceFiles){let content=await readFile(file,'utf8');if(/\.(html|mjs|css)$/.test(file)){for(const root of ['src','public','brands'])content=content.replaceAll(`/${root}/`,`${prefix}/${root}/`);if(file==='src/review.html'){content=content.replace('href="/"',`href="${prefix}/"`);if(exportsReport)content=content.replace('<script>function loadError',`<script>window.REEL_STATIC_EXPORTS=${exportsReport.length};</script><script>function loadError`);}}await emit(file,content);if(file==='src/review.html')await emit('index.html',content);}
 await emit('.nojekyll','');
+const reviewManifest=JSON.parse(await readFile('public/review-manifest.json','utf8'));
+if(Object.keys(reviewManifest.effects).length!==67)throw new Error('67 real MP4 previews required');
+const mediaPaths=new Set();
+function collect(value){if(typeof value==='string'&&value.startsWith('review-media/'))mediaPaths.add(value);else if(Array.isArray(value))value.forEach(collect);else if(value&&typeof value==='object')Object.values(value).forEach(collect);}
+collect(reviewManifest);
+for(const media of mediaPaths){if(!/^review-media\/[a-f0-9]{24}\.(mp4|jpg|png|json)$/.test(media))throw new Error('Invalid review media path');const file='public/'+media;await mkdir(dirname(resolve(destination,file)),{recursive:true});await copyFile(file,resolve(destination,file));}
+await emit('public/review-manifest.json',JSON.stringify(reviewManifest,null,2));
 if(exportsReport){
  const catalog=JSON.parse(await readFile('src/catalog.json','utf8')),ids=new Set(catalog.map(e=>e.id));
  if(exportsReport.length!==67||new Set(exportsReport.map(e=>e.id)).size!==67)throw new Error('Expected 67 unique technical exports');
