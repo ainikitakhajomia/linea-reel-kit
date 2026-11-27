@@ -1,13 +1,15 @@
 // Publish only public source code and explicitly generated, synthetic review assets.
 import {readFile,writeFile,mkdir,copyFile} from 'node:fs/promises';
 import {resolve,dirname} from 'node:path';
+import {createHash} from 'node:crypto';
+const runtimeVersion=createHash('sha256').update((await Promise.all(['src/studio.mjs','src/review.css'].map(p=>readFile(p,'utf8')))).join('')).digest('hex').slice(0,12);
 const destination=resolve(process.argv[2]||'out/site');
 const prefix=process.argv[3]||'';
 if(prefix&&!/^\/[a-zA-Z0-9_-]+$/.test(prefix))throw new Error('Base path must be empty or one URL-safe segment');
 let exportsReport;try{exportsReport=JSON.parse(await readFile('public/renders/render-report.json','utf8'));}catch(error){if(error.code!=='ENOENT')throw error;}
 const sourceFiles=['src/review.html','src/review.css','src/review.mjs','src/studio.mjs','src/effects.mjs','src/media.mjs','src/stage.html','src/catalog.json','brands/studio-linea.json','vendor/motion-video-styles/timing.mjs','vendor/motion-video-styles/LICENSE','LICENSE'];
 async function emit(file,text){const target=resolve(destination,file);await mkdir(dirname(target),{recursive:true});await writeFile(target,text);}
-for(const file of sourceFiles){let content=await readFile(file,'utf8');if(/\.(html|mjs|css)$/.test(file)){for(const root of ['src','public','brands'])content=content.replace(new RegExp("([\"'`])/"+root+"/",'g'),(_,quote)=>quote+prefix+'/'+root+'/');if(file==='src/review.html'){content=content.replace('href="/"',`href="${prefix}/"`);if(exportsReport)content=content.replace('<script>function loadError',`<script>window.REEL_STATIC_EXPORTS=${exportsReport.length};</script><script>function loadError`);}}await emit(file,content);if(file==='src/review.html')await emit('index.html',content);}
+for(const file of sourceFiles){let content=await readFile(file,'utf8');if(/\.(html|mjs|css)$/.test(file)){for(const root of ['src','public','brands'])content=content.replace(new RegExp("([\"'`])/"+root+"/",'g'),(_,quote)=>quote+prefix+'/'+root+'/');if(file==='src/review.html'){content=content.replace('/src/studio.mjs\"','/src/studio.mjs?v='+runtimeVersion+'\"').replace('/src/review.css\"','/src/review.css?v='+runtimeVersion+'\"');content=content.replace('href="/"',`href="${prefix}/"`);if(exportsReport)content=content.replace('<script>function loadError',`<script>window.REEL_STATIC_EXPORTS=${exportsReport.length};</script><script>function loadError`);}}await emit(file,content);if(file==='src/review.html')await emit('index.html',content);}
 await emit('.nojekyll','');
 const reviewManifest=JSON.parse(await readFile('public/review-manifest.json','utf8'));
 if(Object.keys(reviewManifest.effects).length!==67)throw new Error('67 real MP4 previews required');
