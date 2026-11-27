@@ -31,7 +31,7 @@ Bronnen: [publieke verkooppagina](https://justyn.ai/masterclass), [aanbodaudit](
 | Course, Edits, community | Lessen, telefoonworkflow, assistent, seat | Bewust technologiegerichte repository | Geen toegang tot privélessen, community, privéprompts of support inbegrepen |
 | Manychat/Trial posting | Aanvullende platformautomatisering | Geen betalende services of externe publicatie aangezet | Vereist afzonderlijke platform-/toegangscontrole en expliciete opdracht |
 
-De vijf bovengenoemde beeldoperaties zijn inhoudelijk verbeterd na de eerste recipe-audit. Syntaxvalidatie is geslaagd; browser-/renderacceptatie moet op de geïsoleerde runner worden uitgevoerd en is daarmee nog geen bewezen visuele parity.
+Meerdere beeldoperaties zijn inhoudelijk verbeterd na de eerste recipe-audit: echte mediaframes in cards/grids/covers/feed/recursie, source-backed blade-slice, grade-reveal, room-doors, een eigen portrait op het bankbiljet en alpha-backed code-body/double-exposure. Syntaxvalidatie is geslaagd; browser-/renderacceptatie moet op de geïsoleerde runner worden uitgevoerd en is daarmee nog geen bewezen visuele parity.
 
 Deze tabel beschrijft de code en de controleerbare grenzen. Een daadwerkelijke render bewijst dat één fixture de pipeline doorloopt; pas na tests met echte NL/EN opnames is er bewijs voor kwaliteit op die gevallen.
 
@@ -52,7 +52,7 @@ Exacte upstream commits, notices, testgrenzen en aanvullende MCP/skill-kandidate
 
 De uniforme CLI/job-aanpak, reviewomgeving, agentinstructies, storyboard-/carouselscripts, segmentation-adapter, lokale contenttracker en Canvas recipes vormen één uitbreidbare werkstroom. De recipes gebruiken zelfgetekende vormen en tekst; geen beschermde reference-assets. Een bestaande licentie op vergelijkbare algemene technieken is niet nodig om onafhankelijk een inputbalk, tekstanimatie of kaartovergang te bouwen.
 
-De nieuwe recipes dekken namen uit de publieke inventaris, maar meerdere implementaties wijken wezenlijk af van hun referentie:
+De nieuwe recipes dekken namen uit de publieke inventaris. Met eigen input gebruiken kaarten/grids/coverpanelen nu echt `media.video`/`walkthrough`, en portretten echte foreground-alpha of cropped eigen video. Zonder input blijft de galerie synthetisch. Meerdere implementaties wijken nog wezenlijk af van hun referentie:
 
 | Recipe | Huidige vereenvoudiging | Vereiste voor functionele/visuele equivalentie |
 |---|---|---|
@@ -63,9 +63,9 @@ De nieuwe recipes dekken namen uit de publieke inventaris, maar meerdere impleme
 | `finger-draw` | Vooraf getekend pad | Pad afkomstig van werkelijke fingertiptracking of expliciete motion-keyframes |
 | `rack-focus` | Achtergrondblur met scherp foreground indien aangeleverd; anders synthetische demo | Geen automatisch subject-mask; eigen matte en rand-/bewegingsacceptatie nodig |
 | `blow-away` | Tekstletters waaien uiteen | Pixels/deeltjes uit subject-matte, coherente verplaatsing en schone achtergrond |
-| `double-exposure` | Overlappende synthetische portretten | Tweede video gemaskeerd in echte subject-silhouette |
+| `double-exposure` | Geselecteerde eigen media wordt werkelijk via `source-in` in subject-alpha getekend; zonder alpha blijft demo | Onafhankelijke secundaire bron, goede matte en visuele/compositoracceptatie op eigen opname |
 | `dolly-zoom` | Globale punch-in bij video | Onafhankelijke foreground/backgroundtransformatie met stabiele subjectgrootte |
-| `code-body` | Getypte codekaart | Glyphveld binnen bewegend subject-mask met gecontroleerde scanovergang |
+| `code-body` | Echt glyphveld binnen aangeleverde alpha met verticale scan; zonder alpha codekaart | ML-mattekwaliteit en scan/timing op eigen opname; broncode is eigen demonstratietekst |
 
 De actuele bron kan verbeteren na deze audit; zet een rij pas op “geaccepteerd” nadat de rubric op de uiteindelijke render is toegepast. Zie [visual-acceptance.md](visual-acceptance.md).
 

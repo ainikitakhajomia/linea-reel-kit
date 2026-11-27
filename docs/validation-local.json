@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "observedDate": "2026-11-27",
+  "engine": "faster-whisper",
+  "version": "1.2.1",
+  "model": "tiny",
+  "weightsRepository": "Systran/faster-whisper-tiny",
+  "cachedWeightRevisions": [
+    "d90ca5fe260221311c53c58e660288d3deb8d356"
+  ],
+  "device": "cpu",
+  "computeType": "int8",
+  "languageForced": true,
+  "wordTimestamps": true,
+  "vadFilter": true,
+  "environment": {
+    "os": "macOS",
+    "architecture": "arm64",
+    "python": "3.11",
+    "dependencies": "requirements-transcription.lock.txt"
+  },
+  "reproduce": [
+    "python3.11 -m venv .venv-asr",
+    ".venv-asr/bin/pip install -r requirements-transcription.txt",
+    "python3 scripts/reel.py demo --out public/demo",
+    ".venv-asr/bin/python scripts/reel.py transcribe public/demo/source.mp4 --language en --model tiny --out public/demo/asr-en.json",
+    "say -v Xander -r 145 -o public/demo/nl.aiff 'Met Studio Linea maken we betere verhalen. Van idee naar resultaat. Elk beeld telt.'",
+    ".venv-asr/bin/python scripts/reel.py transcribe public/demo/nl.aiff --language nl --model tiny --out public/demo/asr-nl.json",
+    "python3 scripts/reel.py edit public/demo/source.mp4 --transcript public/demo/asr-en.json --out public/jobs/asr-demo"
+  ],
+  "limitations": [
+    "Synthetic speech is a plumbing smoke test, not a benchmark on real talking-head media.",
+    "English uses the system default say voice, so exact audio/hash depends on the machine; Linux demo uses espeak if present.",
+    "The NL command requires macOS Xander voice; use owned Dutch speech on other platforms.",
+    "Tiny recognition is not the production Dutch quality target; use small/medium and review the transcript.",
+    "No WER, lip-sync, premium style or reference parity acceptance is claimed."
+  ],
+  "records": [
+    {
+      "language": "en",
+      "sourceKind": "synthetic system TTS smoke fixture, not actual human footage",
+      "sourceRelativePath": "public/demo/source.mp4",
+      "sourceSha256": "57cb91d671b2b29d74681894ba6fcd1cb7b69e2d24b40dab5bab9dddbf43ae64",
+      "expectedAuthoredSpeech": "Build better stories. From idea to impact. Make every frame count.",
+      "observedText": "Build better stories, from idea to impact, make every frame count.",
+      "wordCount": 11,
+      "captions": [
+        {
+          "text": " Build",
+          "startMs": 660,
+          "endMs": 1340,
+          "timestampMs": null,
+          "confidence": 0.41973912715911865
+        },
+        {
+          "text": " better",
+          "startMs": 1340,
+          "endMs": 1680,
+          "timestampMs": null,
+          "confidence": 0.961965799331665
+        },
+        {
+          "text": " stories,",
+          "startMs": 1680,
+          "endMs": 2260,
+          "timestampMs": null,
+          "confidence": 0.9929282069206238
+        },
+        {
+          "text": " from",
+          "startMs": 2700,
+          "endMs": 2940,
+          "timestampMs": null,
+          "confidence": 0.8290040493011475
+        },
+        {
+          "text": " idea",
+          "startMs": 2940,
+          "endMs": 3340,
+          "timestampMs": null,
+          "confidence": 0.8350487947463989
+        },
+        {
+          "text": " to",
+          "startMs": 3340,
+          "endMs": 3760,
+          "timestampMs": null,
+          "confidence": 0.9873184561729431
+        },
+        {
+          "text": " impact,",
+          "startMs": 3760,
+          "endMs": 4180,
+          "timestampMs": null,
+          "confidence": 0.9869095683097839
+        },
+        {
+          "text": " make",
+          "startMs": 4760,
+          "endMs": 5060,
+          "timestampMs": null,
+          "confidence": 0.7866169810295105
+        },
+        {
+          "text": " every",
+          "startMs": 5060,
+          "endMs": 5460,
+          "timestampMs": null,
+          "confidence": 0.7209715843200684
+        },
+        {
+          "text": " frame",
+          "startMs": 5460,
+          "endMs": 5780,
+          "timestampMs": null,
+          "confidence": 0.981756865978241
+        },
+        {
+          "text": " count.",
+          "startMs": 5780,
+          "endMs": 6200,
+          "timestampMs": null,
+          "confidence": 0.9706190228462219
+        }
+      ],
+      "result": "completed; English close to authored speech"
+    },
+    {
+      "language": "nl",
+      "sourceKind": "synthetic system TTS smoke fixture, not actual human footage",
+      "sourceRelativePath": "public/demo/nl.aiff",
+      "sourceSha256": "2f37e85dd4c94fad3712ef461992fc1223c3c17b8f750da79c0fde993b4200cd",
+      "expectedAuthoredSpeech": "Met Studio Linea maken we betere verhalen. Van idee naar resultaat. Elk beeld telt.",
+      "observedText": "met studiolineer maken we beter of verhalen, van idee naar resultat, elk beeld tot.",
+      "wordCount": 14,
+      "captions": [
+        {
+          "text": " met",
+          "startMs": 0,
+          "endMs": 280,
+          "timestampMs": null,
+          "confidence": 0.5432664155960083
+        },
+        {
+          "text": " studiolineer",
+          "startMs": 280,
+          "endMs": 1240,
+          "timestampMs": null,
+          "confidence": 0.5336108803749084
+        },
+        {
+          "text": " maken",
+          "startMs": 1240,
+          "endMs": 1520,
+          "timestampMs": null,
+          "confidence": 0.39261594414711
+        },
+        {
+          "text": " we",
+          "startMs": 1520,
+          "endMs": 1740,
+          "timestampMs": null,
+          "confidence": 0.5457624793052673
+        },
+        {
+          "text": " beter",
+          "startMs": 1740,
+          "endMs": 2040,
+          "timestampMs": null,
+          "confidence": 0.8665052652359009
+        },
+        {
+          "text": " of",
+          "startMs": 2040,
+          "endMs": 2320,
+          "timestampMs": null,
+          "confidence": 0.16974888741970062
+        },
+        {
+          "text": " verhalen,",
+          "startMs": 2320,
+          "endMs": 2740,
+          "timestampMs": null,
+          "confidence": 0.7594265341758728
+        },
+        {
+          "text": " van",
+          "startMs": 3060,
+          "endMs": 3260,
+          "timestampMs": null,
+          "confidence": 0.9480918645858765
+        },
+        {
+          "text": " idee",
+          "startMs": 3260,
+          "endMs": 3540,
+          "timestampMs": null,
+          "confidence": 0.4553329348564148
+        },
+        {
+          "text": " naar",
+          "startMs": 3540,
+          "endMs": 3820,
+          "timestampMs": null,
+          "confidence": 0.7315742373466492
+        },
+        {
+          "text": " resultat,",
+          "startMs": 3820,
+          "endMs": 4640,
+          "timestampMs": null,
+          "confidence": 0.4105018526315689
+        },
+        {
+          "text": " elk",
+          "startMs": 4760,
+          "endMs": 4960,
+          "timestampMs": null,
+          "confidence": 0.12554728984832764
+        },
+        {
+          "text": " beeld",
+          "startMs": 4960,
+          "endMs": 5300,
+          "timestampMs": null,
+          "confidence": 0.8629617094993591
+        },
+        {
+          "text": " tot.",
+          "startMs": 5300,
+          "endMs": 5480,
+          "timestampMs": null,
+          "confidence": 0.249959796667099
+        }
+      ],
+      "result": "completed; Dutch brand name and closing phrase misrecognized; not quality acceptance"
+    }
+  ],
+  "actualASREditMediaQA": {
+    "schemaVersion": 1,
+    "source": "edited.mp4",
+    "sourceSha256": "11e137d10266cb5608c6ead9de9fad7d4ceb6c3913915b7a3dc83862f0745c1b",
+    "durationSeconds": 6.421333,
+    "video": {
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "pixelFormat": "yuv420p",
+      "averageFPS": 30.0,
+      "declaredFPS": 30.0,
+      "startSeconds": 0.021354
+    },
+    "audio": {
+      "present": true,
+      "codec": "aac",
+      "sampleRate": 48000,
+      "channels": 2,
+      "startSeconds": 0.0,
+      "loudness": {
+        "integratedLUFS": -15.62,
+        "truePeakDBTP": -1.87,
+        "loudnessRangeLU": 1.6,
+        "gatingThresholdLUFS": -26.22,
+        "method": "FFmpeg loudnorm input measurements; EBU R128 integrated loudness and true peak",
+        "nonFiniteMeasurementMeans": "digital silence or signal below the loudness measurement gate"
+      }
+    },
+    "containerAudioMinusVideoStartMs": -21.354,
+    "blackIntervals": [],
+    "staticIntervals": [],
+    "thresholds": {
+      "blackMinimumSeconds": 0.2,
+      "blackPixelLumaThreshold": 0.1,
+      "blackPictureFraction": 0.98,
+      "freezeMinimumSeconds": 1.0,
+      "freezeNoiseDB": -50
+    },
+    "status": "measurements-clear",
+    "warnings": [],
+    "limitations": [
+      "Advisory measurements do not prove visual or editorial quality.",
+      "Black and static intervals can be intentional; no content-aware defect inference.",
+      "Lip sync cannot be inferred from these measurements; inspect/listen to the actual moving export.",
+      "Container stream start alignment does not prove speech/lip alignment.",
+      "Caption correctness, spelling, safe margins, masking edges and reference parity need visual/audio review."
+    ]
+  }
+}

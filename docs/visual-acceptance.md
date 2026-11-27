@@ -83,3 +83,18 @@ De resterende kwaliteitsgrenzen zijn concreet:
 - Paper tear: independent paper panels met onregelmatige randen zijn geen fysische simulatie. Een vorige shot/image kan worden meegegeven; de renderer moet die laag ook werkelijk laden om een shottransition te bewijzen.
 - Rack focus: een aangeleverde foregroundlaag wordt scherp over een vervaagde bron getekend. De chromakey-route kan zo’n echte alpha-laag maken; dat bewijst nog geen natuurlijke portrait-maskkwaliteit. Zonder passende matte blijft de standalonepreview een synthetische demo.
 - Finger draw blijft authored graphics zonder fingertiptracking.
+
+
+## Media-backed regressiegevallen voor de geïsoleerde runner
+
+Gebruik een zelfgegenereerde bewegende testvideo, een visueel andere software-/testwalkthrough en een echte RGBA-foregroundfixture. Test zowel kale video als video+alpha. Leg in een run vast dat deze bronnen werkelijk geladen zijn; een synthetische fallback mag een ontbrekend bronpad niet verhullen.
+
+- Card/grid/feed/cover: herkenbare pixels uit de eigen bron zichtbaar, met bronbeweging tussen frames; met twee bronnen aantoonbaar verschillende kaartinhoud.
+- Blade-slice: herkenbare bronbeeldbanden verschuiven en keren terug; geen tekst-only fallback bij geladen video en geen onbewerkte foreground erboven.
+- Code-body: code bestaat alleen binnen alpha-silhouette; scan verschuift zonder oorspronkelijke alpha opnieuw boven het codebeeld te tekenen.
+- Double exposure: verschil tussen onafhankelijke inside-footage en bronpersoon zichtbaar; outside-alpha blijft leeg op de geïsoleerde effectlaag.
+- Room doors: buitenpanelen tonen eigen talking-headbron, opening toont daadwerkelijk andere walkthrough; links/rechts onafhankelijk, geen solid-blockfallback bij beschikbare bron.
+- Banknote: medaillon toont herkenbare eigen foreground/video; bedrag heeft configureerbare waarde, portrait blijft geclipt binnen medaillon.
+- Recursie/backdrop: echte bronpixels op meerdere schalen; spreek niet van verschillende bronmomenten als steeds hetzelfde actuele frame is gebruikt.
+
+Dit zijn nieuwe regressiedoelen; het definitieve Actions-artifact en runcommit bepalen of ze al zijn uitgevoerd. Ze vervangen geen menselijke beoordeling met de rubric.

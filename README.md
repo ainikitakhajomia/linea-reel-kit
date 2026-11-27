@@ -2,7 +2,7 @@
 
 Eén lokale toolkit voor agentgestuurde video-editing, motion graphics en carousels. Werkt vanuit Claude Code en Codex, zonder betaalde API's. Studio Linea is de eerste brand preset; bronvideo's en huisstijlen blijven onder je eigen controle.
 
-**Status: werkende v0.1, geen volledige vervanging met bewezen visuele gelijkwaardigheid.** De bibliotheek bevat 67 onafhankelijke bewegende basisrecepten, op naam gekoppeld aan alle 67 publieke referenties. De recepten variëren in volwassenheid. Dat is iets anders dan Justyns product, assets of kwaliteitsniveau kopiëren. Zie [vergelijking](docs/comparison.md) en [visuele acceptatie](docs/visual-acceptance.md).
+**Status: werkende v0.1, geen volledige vervanging met bewezen visuele gelijkwaardigheid.** De bibliotheek bevat 67 onafhankelijke bewegende recepten (15 beeldoperaties, 39 basisanimaties, 13 stand-ins), op naam gekoppeld aan alle 67 publieke referenties. De recepten variëren in volwassenheid. Dat is iets anders dan Justyns product, assets of kwaliteitsniveau kopiëren. Zie [vergelijking](docs/comparison.md) en [visuele acceptatie](docs/visual-acceptance.md).
 
 ## Installeren
 
@@ -94,6 +94,16 @@ Slideshowtiming is een scriptgebaseerde schatting, zonder automatisch gegenereer
 Kopieer `brands/studio-linea.json` en geef `--brand brands/jouw-merk.json` mee aan `edit` of `storyboard`. Geobserveerde Linea-kleuren komen van https://studio.use-linea.com/: warm wit, navy en inktzwart. Geen logo's, fonts of foto's overgenomen. De canvasrenderer gebruikt voorlopig Arial/system fallback; `preferredFont` is metadata.
 
 Defaultvideo: 720×1280, 30fps. Pas `width`/`height` in job.json aan voor 1080×1920 Reels, vierkante LinkedIn-video of 16:9. De huidige recipes gebruiken een genormaliseerde 9:16-layout en schalen mee; per-formaat artdirection en safe areas vereisen review. Carousels: 3:4. Softwarewalkthroughs gebruiken aangeleverde screenrecordings; geen browserautomatisering met klantaccounts.
+
+## Audio en exportcontrole
+
+```sh
+python3 scripts/audio.py mix out/demo.mp4 --sfx-job public/jobs/demo/job.json --out out/demo-sfx.mp4
+python3 scripts/validate-media.py out/demo-sfx.mp4 --out out/qa.json
+# Met eigen muziek: voeg --music mijn-track.wav toe aan de mix-opdracht
+```
+
+Eigen gesynthetiseerde motion-SFX, sidechain ducking van aangeleverde muziek en tweepass-normalisatie: [audio](docs/audio.md). QA meet werkelijk audio/video, zwarte frames en freezes; lip-sync en esthetiek blijven reviewpunten.
 
 ## Architectuur en hergebruik
 
