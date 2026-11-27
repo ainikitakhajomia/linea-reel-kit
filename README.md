@@ -127,3 +127,9 @@ node src/render-library.mjs public/renders
 ```
 
 De workflow publiceert MP4's, screenshots, alle 67 previews en een renderlog als Actions-artifact. Een groen pixel-/bewegingstestresultaat bewijst werking en determinisme, geen esthetische gelijkwaardigheid. Bronvideo's en eigen lokale exports staan in .gitignore. Licentie eigen code: MIT. Referentiemedia worden uitsluitend gelinkt, niet meegeleverd.
+
+## Live review en voortzetting
+
+Open de [publieke effectenbibliotheek](https://ainikitakhajomia.github.io/linea-reel-kit/). De 67 recepten vermelden hun eigen uitwerkingsniveau en beperkingen. Voorbeeldfilms zijn duidelijk synthetisch. De [werkstatus](docs/review-status.md) scheidt technisch bewezen gedrag van nog ontbrekende kwaliteit. Zie [HANDOVER.md](HANDOVER.md) voor exacte herstart en actuele Actions-controles.
+
+Statische build: `node scripts/build-static.mjs out/site /linea-reel-kit`. Publiceer uitsluitend deze allowlist-build, geen willekeurige repository- of mediamap.

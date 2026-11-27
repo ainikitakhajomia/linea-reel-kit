@@ -1,0 +1,40 @@
+name: Visual preview acceptance
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      preview_url:
+        description: Optional public preview URL to verify
+        required: false
+        type: string
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Install media decoders for full-stream acceptance
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Build and verify the actual Pages subpath
+        run: |
+          node scripts/build-static.mjs out/static/linea-reel-kit /linea-reel-kit
+          python3 -m http.server 4174 --bind 127.0.0.1 --directory out/static > out/static-server.log 2>&1 &
+          node src/validate-studio.mjs "${REVIEW_URL:-http://127.0.0.1:4174/linea-reel-kit/}"
+        env:
+          REVIEW_URL: ${{ inputs.preview_url }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: creative-studio-evidence
+          path: |
+            out/studio-qa/
+            out/static-server.log
+          retention-days: 7

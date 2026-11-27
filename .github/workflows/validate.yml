@@ -6,8 +6,9 @@ permissions:
   contents: read
 jobs:
   render:
+    if: "!contains(github.event.head_commit.message, '[review-only]')"
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -20,6 +21,8 @@ jobs:
       - name: Free open-source system tools
         run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg espeak-ng
       - run: npm ci
+      - name: Public source guard
+        run: node scripts/check-public.mjs
       - run: npx playwright install --with-deps chromium
       - name: Meaningful unit and FFmpeg integration checks
         run: npm test
@@ -34,7 +37,7 @@ jobs:
           python3 scripts/audio.py mix out/talking-head-demo.mp4 --sfx-job public/jobs/demo/job.json --out out/talking-head-with-sfx.mp4
           python3 scripts/validate-media.py out/talking-head-with-sfx.mp4 --out out/media-qa.json
       - name: Browser acceptance for every effect and review UI
-        run: node src/validate-browser.mjs
+        run: node src/validate-browser.mjs && node src/validate-composition.mjs
       - name: Render all 67 previews
         run: node src/render-library.mjs public/renders
       - name: Storyboard, slideshow, carousel and brand checks
@@ -43,6 +46,16 @@ jobs:
           node src/render.mjs public/jobs/slideshow/job.json out/slideshow.mp4
           python3 scripts/story.py carousel examples/script-nl.txt --out public/carousels/demo
           node src/render-carousel.mjs public/carousels/demo out/carousel
+      - name: Original synthetic editorial demonstrations with actual EN and NL ASR
+        run: |
+          pip install Pillow==11.3.0 -r requirements-transcription.txt
+          python3 scripts/demos.py --asr --scale 2 --model small
+          python3 scripts/transcript-qa.py public/demos/manifest.json --out out/transcription-qa.json
+          node src/render-demos.mjs public/demos
+      - name: Build allowlisted static review
+        env:
+          SOURCE_COMMIT: ${{ github.sha }}
+        run: node scripts/build-static.mjs out/site /linea-reel-kit
       - name: Portrait segmentation inference (synthetic fixture, no quality claim)
         run: |
           pip install -r requirements-segmentation.txt
@@ -61,4 +74,5 @@ jobs:
           path: |
             out/
             public/renders/
+            public/demos/
           retention-days: 30

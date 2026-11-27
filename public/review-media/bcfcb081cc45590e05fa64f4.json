@@ -1,0 +1,248 @@
+{
+  "job": {
+    "title": "Tekst achter de spreker",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 7.125,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/02-behind-speaker/source.mp4",
+    "captions": [
+      {
+        "text": " Dit",
+        "startMs": 0,
+        "endMs": 280,
+        "confidence": 0.42137905955314636
+      },
+      {
+        "text": " staat",
+        "startMs": 280,
+        "endMs": 540,
+        "confidence": 0.5993682146072388
+      },
+      {
+        "text": " niet,",
+        "startMs": 540,
+        "endMs": 720,
+        "confidence": 0.9522420763969421
+      },
+      {
+        "text": " wat",
+        "startMs": 1000,
+        "endMs": 1100,
+        "confidence": 0.3306705355644226
+      },
+      {
+        "text": " je",
+        "startMs": 1100,
+        "endMs": 1300,
+        "confidence": 0.7330878376960754
+      },
+      {
+        "text": " nu",
+        "startMs": 1300,
+        "endMs": 1600,
+        "confidence": 0.8418733477592468
+      },
+      {
+        "text": " is,",
+        "startMs": 1600,
+        "endMs": 2040,
+        "confidence": 0.32565194368362427
+      },
+      {
+        "text": " dat",
+        "startMs": 2060,
+        "endMs": 2220,
+        "confidence": 0.28755947947502136
+      },
+      {
+        "text": " staat",
+        "startMs": 2220,
+        "endMs": 2540,
+        "confidence": 0.9773346781730652
+      },
+      {
+        "text": " achter",
+        "startMs": 2540,
+        "endMs": 2920,
+        "confidence": 0.8320986032485962
+      },
+      {
+        "text": " me.",
+        "startMs": 2920,
+        "endMs": 3320,
+        "confidence": 0.5493406653404236
+      },
+      {
+        "text": " Wobblijft,",
+        "startMs": 3720,
+        "endMs": 4240,
+        "confidence": 0.49254476428031924
+      },
+      {
+        "text": " dat",
+        "startMs": 4400,
+        "endMs": 4460,
+        "confidence": 0.9797143340110779
+      },
+      {
+        "text": " moet",
+        "startMs": 4460,
+        "endMs": 4700,
+        "confidence": 0.15810218453407288
+      },
+      {
+        "text": " houden,",
+        "startMs": 4700,
+        "endMs": 5120,
+        "confidence": 0.6124434620141983
+      },
+      {
+        "text": " dat",
+        "startMs": 5140,
+        "endMs": 5260,
+        "confidence": 0.7958680987358093
+      },
+      {
+        "text": " ik",
+        "startMs": 5260,
+        "endMs": 5440,
+        "confidence": 0.06819230318069458
+      },
+      {
+        "text": " op",
+        "startMs": 5440,
+        "endMs": 5660,
+        "confidence": 0.4024186432361603
+      },
+      {
+        "text": " de",
+        "startMs": 5660,
+        "endMs": 5840,
+        "confidence": 0.4963186979293823
+      },
+      {
+        "text": " morgen",
+        "startMs": 5840,
+        "endMs": 6140,
+        "confidence": 0.332141637802124
+      },
+      {
+        "text": " ont.",
+        "startMs": 6140,
+        "endMs": 6440,
+        "confidence": 0.41696256399154663
+      }
+    ],
+    "effects": [
+      {
+        "id": "kinetic-hook",
+        "start": 0,
+        "duration": 2.06,
+        "text": "Dit staat niet, wat je",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "orbit-ring",
+        "start": 2.06,
+        "duration": 2.64,
+        "text": "HET VERHAAL",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "giant-captions",
+        "start": 4.7,
+        "duration": 2.425,
+        "text": "houden, dat ik op de",
+        "params": {
+          "syncWords": true
+        },
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ],
+    "foregroundFrames": "demos/02-behind-speaker/foreground/%06d.png"
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Dit staat niet voor je neus. Het staat achter mij. Zo blijft het verhaal letterlijk op de voorgrond.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "dit staat",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 0,
+        "asrToken": "dit",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 2.06
+      },
+      {
+        "phrase": "achter mij",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 7,
+        "asrToken": "dat",
+        "asrOnsetSeconds": 2.06,
+        "start": 2.06,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 2.64
+      },
+      {
+        "phrase": "voorgrond",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 14,
+        "asrToken": "houden",
+        "asrOnsetSeconds": 4.7,
+        "start": 4.7,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 2.425
+      }
+    ],
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

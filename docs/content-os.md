@@ -21,3 +21,11 @@ Opslag: `workspace.json` bevat schemaVersion 1; `records/<id>/000001.json` bevat
 Voorbeeldinstructie: “Neem dit script op in onze contentwerkplek, maak een reel- en carouseldraft, render beide in Studio Linea-stijl en zet alleen de beoordeelde outputs op ready.”
 
 Testen: `python3 -m unittest discover -s tests -p test_content.py`. De tests controleren gekoppelde derivaten, geldige statustransities, onveranderde eerdere revisies, incompatibele gebruikersdata, corrupte state en gelijktijdige schrijvers.
+
+## Van briefing naar uitvoerbaar editplan
+
+`python3 scripts/agent-plan.py 'Maak vijf creatieve varianten van deze talking head' --source /absoluut/video.mp4 --variants 5 --out out/edit-plan.json` maakt een invoerbewust plan zonder API-calls. De router combineert Nederlandse en Engelse intenties, koppelt bestaande effect-IDs aan de briefing en meldt ontbrekende bronmedia. `--walkthrough`, `--script`, `--images` en `--reference` registreren aanvullende bestaande bestanden of mappen. Vijf varianten krijgen verschillende invalshoeken en een eigen kandidaat-vocabulaire: editorial, proof-first, question, contrast en story.
+
+De router voert geen montage uit en begrijpt niet zelf de inhoud van beeld of spraak. Codex/Claude leest het plan, beoordeelt bronmateriaal en referentie, kiest semantisch goede takes en schrijft de echte job-timelines. Effecten zijn kandidaten; één visueel hoofdidee per scène is het uitgangspunt. Een bestaande bronvideo maakt een afleidbaar foreground-masker mogelijk, maar ontbrekende softwarebeelden of slideshowfoto's blijven expliciete open punten. De `state` wordt pas `ready-for-agent-authoring` als de benoemde benodigde inputs beschikbaar zijn. Dit is geen visueel kwaliteitskeurmerk.
+
+De gedeelde skill in `skills/linea-reel-kit/SKILL.md` en de projectkopieën voor Codex/Claude leggen dit uitvoeringspad vast. Na een checkoutverplaatsing of skillwijziging bindt `python3 scripts/install-skills.py --repo /absoluut/linea-reel-kit --codex --claude --force` de geïnstalleerde skill opnieuw aan de bestaande checkout. Dit vervangt alleen deze benoemde skill, geen andere agentinstellingen.

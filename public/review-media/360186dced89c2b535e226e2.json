@@ -1,0 +1,231 @@
+{
+  "job": {
+    "title": "Dynamische captions",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 6.208333333333333,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/01-talking-head/source.mp4",
+    "captions": [
+      {
+        "text": " Je",
+        "startMs": 0,
+        "endMs": 200,
+        "confidence": 0.11567886918783188
+      },
+      {
+        "text": " hebt",
+        "startMs": 200,
+        "endMs": 480,
+        "confidence": 0.9690091013908386
+      },
+      {
+        "text": " geen",
+        "startMs": 480,
+        "endMs": 820,
+        "confidence": 0.7484920024871826
+      },
+      {
+        "text": " extra",
+        "startMs": 820,
+        "endMs": 1200,
+        "confidence": 0.9497361183166504
+      },
+      {
+        "text": " merke",
+        "startMs": 1200,
+        "endMs": 1720,
+        "confidence": 0.3305073082447052
+      },
+      {
+        "text": " dag",
+        "startMs": 1720,
+        "endMs": 1920,
+        "confidence": 0.4809975028038025
+      },
+      {
+        "text": " nodig.",
+        "startMs": 1920,
+        "endMs": 2260,
+        "confidence": 0.9256376624107361
+      },
+      {
+        "text": " We",
+        "startMs": 2720,
+        "endMs": 2760,
+        "confidence": 0.12704013288021088
+      },
+      {
+        "text": " beginnen",
+        "startMs": 2760,
+        "endMs": 3040,
+        "confidence": 0.46859830617904663
+      },
+      {
+        "text": " met",
+        "startMs": 3040,
+        "endMs": 3300,
+        "confidence": 0.9966248273849487
+      },
+      {
+        "text": " wie",
+        "startMs": 3300,
+        "endMs": 3480,
+        "confidence": 0.3349411189556122
+      },
+      {
+        "text": " een",
+        "startMs": 3480,
+        "endMs": 3640,
+        "confidence": 0.706406831741333
+      },
+      {
+        "text": " taak",
+        "startMs": 3640,
+        "endMs": 3940,
+        "confidence": 0.5011574998497963
+      },
+      {
+        "text": " die",
+        "startMs": 3940,
+        "endMs": 4120,
+        "confidence": 0.739534854888916
+      },
+      {
+        "text": " je",
+        "startMs": 4120,
+        "endMs": 4260,
+        "confidence": 0.6153165102005005
+      },
+      {
+        "text": " elke",
+        "startMs": 4260,
+        "endMs": 4540,
+        "confidence": 0.7183172106742859
+      },
+      {
+        "text": " maak",
+        "startMs": 4540,
+        "endMs": 4860,
+        "confidence": 0.3302451968193054
+      },
+      {
+        "text": " opnieuw",
+        "startMs": 4860,
+        "endMs": 5260,
+        "confidence": 0.7797086437543234
+      },
+      {
+        "text": " doet.",
+        "startMs": 5260,
+        "endMs": 5480,
+        "confidence": 0.4151853919029236
+      }
+    ],
+    "effects": [
+      {
+        "id": "camera-transitions",
+        "start": 0,
+        "duration": 1.92,
+        "text": "Die ene taak",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "word-stamp",
+        "start": 1.92,
+        "duration": 1.7200000000000002,
+        "text": "Elke week?",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "follow-chip",
+        "start": 3.64,
+        "duration": 2.568333333333333,
+        "text": "Pak die eerst",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Je hebt geen extra werkdag nodig. Begin met die ene taak die je elke week opnieuw doet.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "je hebt",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 0,
+        "asrToken": "je",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 1.92
+      },
+      {
+        "phrase": "begin",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 6,
+        "asrToken": "nodig",
+        "asrOnsetSeconds": 1.92,
+        "start": 1.92,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 1.7200000000000002
+      },
+      {
+        "phrase": "elke week",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 12,
+        "asrToken": "taak",
+        "asrOnsetSeconds": 3.64,
+        "start": 3.64,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 2.568333333333333
+      }
+    ],
+    "captions": "actual faster-whisper tiny CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

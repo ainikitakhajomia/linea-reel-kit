@@ -6,11 +6,11 @@ Deze broninspectie beschrijft wat `src/effects.mjs` werkelijk tekent. Het is gee
 - **Basisanimatie**: zelfstandig geanimeerde interpretatie van het algemene idee, met meerdere ontbrekende reference-specifieke onderdelen.
 - **Stand-in**: zichtbaar bewegende demonstrator, maar de kernfunctie van de gelijknamige referentie is wezenlijk eenvoudiger of ontbreekt.
 
-Counts bij deze inspectie: 39 basisanimatie, 15 beeldoperatie, 13 stand-in. Geen enkele classificatie betekent automatisch “premium” of “visueel gelijkwaardig”. Voor groen-/normale achtergrondsegmentatie gelden apart [segmentation.md](segmentation.md); voor daadwerkelijke test- en renderstatus gelden README en het uiteindelijke Actions-runresultaat.
+Counts bij deze inspectie: 39 basisanimatie, 18 beeldoperatie, 10 stand-in. Geen enkele classificatie betekent automatisch “premium” of “visueel gelijkwaardig”. Voor groen-/normale achtergrondsegmentatie gelden apart [segmentation.md](segmentation.md); voor daadwerkelijke test- en renderstatus gelden README en het uiteindelijke Actions-runresultaat.
 
 | # | ID | Classificatie | Concrete afwijking / vereiste |
 |---|---|---|---|
-| 1 | `kinetic-hook` | Basisanimatie | Getimede woordopbouw; geen reference-specifieke fonts/lettertiming of automatische matte. |
+| 1 | `kinetic-hook` | Basisanimatie | Getimede woordopbouw, optioneel via woordtijden of `syncWords`; geen reference-specifieke fonts/lettertiming of automatische matte. |
 | 2 | `icon-strike` | Beeldoperatie | Meerdere eigen iconen met strike en exit; timing nog niet aan gesproken iconnamen gekoppeld. |
 | 3 | `prompt-bar` | Beeldoperatie | Inputkaart en typewriter; geen echte promptuitvoering of resultaatroll-in. |
 | 4 | `grade-slider` | Beeldoperatie | Eigen footage onder moving splitmask; rechterdeel krijgt Canvas-gradefilter. Geen automatische kleurmatch of exacte reference-grade. |
@@ -26,7 +26,7 @@ Counts bij deze inspectie: 39 basisanimatie, 15 beeldoperatie, 13 stand-in. Geen
 | 14 | `giant-captions` | Basisanimatie | Gestapelde grote woorden; geen volledige captionbox/payofftransformatie. |
 | 15 | `video-card` | Basisanimatie | Kaart toont werkelijke walkthrough/video; geen automatische hoofdstukherkenning of videoplayer-controlsynchronisatie. |
 | 16 | `comment-cta` | Basisanimatie | Lokale getekende commentkaart; geen daadwerkelijke post/reply/like of externe API. |
-| 17 | `camera-transitions` | Stand-in | Bij video vooral punch-in; geen afzonderlijke whip/spin/drop-overgangen per cut. |
+| 17 | `camera-transitions` | Beeldoperatie | Echte bron transformeert met settle; richting, spin/drop en attack instelbaar; optionele previous-bron onder cut. Geen optical-flow motionblur of automatische cutmotivatie. |
 | 18 | `contact-sheet-hook` | Basisanimatie | Grid met eigen levende mediakaarten; geen verschillende echte bronmomenten zonder apart aangeleverde assets. |
 | 19 | `receipt-printer` | Basisanimatie | Papier-reveal met getekende tekst; geen dynamische instructieregels, tear-off of toss. |
 | 20 | `jiggle-delete` | Beeldoperatie | Jiggle en krimp/delete; geen appassets of automatische naam-/woordkoppeling. |
@@ -49,7 +49,7 @@ Counts bij deze inspectie: 39 basisanimatie, 15 beeldoperatie, 13 stand-in. Geen
 | 37 | `gravity-drop` | Basisanimatie | Springbeweging van titelblok; geen individuele letters met gesimuleerde collisions. |
 | 38 | `video-backdrop` | Beeldoperatie | Werkelijke walkthrough of geselecteerde video full-frame; voor echte persoon ervoor foregroundFrames nodig. |
 | 39 | `comment-drop` | Stand-in | Staggered commentkaarten; geen vallende individuele keywordletters in input. |
-| 40 | `shape-transitions` | Basisanimatie | Expanderende cirkel; geen set blinds/barn-door/clock-wipes tussen twee media. |
+| 40 | `shape-transitions` | Basisanimatie | Iris, blinds, doors en clock-clipping met echte optionele `next`-bron; geen automatisch gekozen cutpunt, geometrische 3D deuren of volledige transitionbibliotheek. |
 | 41 | `press-front` | Basisanimatie | Eigen cover/krantplaat met monochroom eigen videovenster; geen echt live-halftone of volledige newspaperkolommen. |
 | 42 | `paper-tear` | Beeldoperatie | Twee rafelige panelen met schaduw/peel; previous-medialaag moet worden aangeleverd; geen fysische curl. |
 | 43 | `blade-slice` | Beeldoperatie | Echte bronvideo verdeeld in tegengesteld bewegende horizontale banden; geen mondtracking of automatische cut-on-word. |
@@ -57,10 +57,10 @@ Counts bij deze inspectie: 39 basisanimatie, 15 beeldoperatie, 13 stand-in. Geen
 | 45 | `predict-keys` | Stand-in | Keycap-rij; geen volledige keyboard/input/predictivebar-simulatie. |
 | 46 | `impact-frame` | Basisanimatie | Eigen starburst en woord; geen live ink/posterization van bronshot en anime speed-lines. |
 | 47 | `orbit-ring` | Beeldoperatie | Projectie van letters in rear/front-pass; vereist foreground-alpha en handmatige center; geen headtracking. |
-| 48 | `dolly-zoom` | Stand-in | Bij bronvideo globale zoom; geen onafhankelijk tegengesteld background-/subjectperspectief. |
+| 48 | `dolly-zoom` | Beeldoperatie | Achtergrond en foreground-alpha hebben onafhankelijk tegengestelde schaal. Vereist schone `background` plus matte voor een bruikbare echte shot; zonder die inputs blijft dit een synthetische/ghostgevoelige demonstratie, geen gereconstrueerde 3D-perspectiefwissel. |
 | 49 | `banknote` | Basisanimatie | Eigen foreground/video in monochroom medaillon en oplopend configureerbaar bedrag; geen engraving/displacement. |
 | 50 | `voice-note` | Basisanimatie | Eigen waveformachtige balk; geen uit stemaudio afgeleide waveform of transcript/send-state. |
-| 51 | `letter-dive` | Stand-in | Individuele letters schalen in; geen video door tekstmask en camera die in glyphopening duikt. |
+| 51 | `letter-dive` | Beeldoperatie | Echte footage via source-in door een sterk inzoomend woordmasker, met late crossfade naar volledig bronbeeld om een lege eindframe te voorkomen. Zonder media deterministisch kleurverloop; geen automatische keuze/tracking van een glyphopening of 3D camera. |
 | 52 | `live-cursor` | Basisanimatie | Pointerpad en clickring op kaart; geen automatisch geselecteerde/mobiele subjectcutout. |
 | 53 | `head-stack` | Stand-in | Eigen subject-alpha of cropped videoportretten; nog geen gelabelde tiles met stacking/topplephysics. |
 | 54 | `rack-focus` | Beeldoperatie | Achtergrondblur en scherpe aangeleverde alpha; zonder matte synthetische demo; geen autofocus/segmentation intern. |
@@ -96,3 +96,24 @@ Optioneel kan `params.mediaSources` een array keys van reeds geladen media bevat
 `foregroundOnTop: false` op een effect onderdrukt de normale laatste foregroundpass wanneer dat voor een bewuste transform nodig is. Blade-slice, banknote, paper-tear, room-doors en code-body doen dat standaard, zodat de onbewerkte persoon niet onbedoeld boven zijn eigen getransformeerde beeld wordt teruggezet. Double-exposure onderdrukt deze pass wanneer een echte alpha wordt gebruikt.
 
 Deze media-backed paden zijn toegevoegd na de eerste bibliotheekvalidatie. Syntaxcontrole is uitgevoerd; alleen een geïsoleerde Actions-run van de betreffende commit met echte eigen media kan de browserpaden bewijzen. Gebruik synthetische eigen fixturemedia op de publieke runner, geen klantopnames.
+
+## Herstelronde: compositie en instelbare beweging
+
+Deze bronwijzigingen zijn door syntax- en pure unitcontroles gecontroleerd. Visuele acceptatie moet op de geïsoleerde runner voor de exacte commit worden vastgelegd; de classificaties zijn geen renderresultaten.
+
+- Captiongroepen gebruiken werkelijk gemeten woordbreedtes, maximaal twee regels, zinsgrenzen, gecentreerde veilige marges en een donkere contrastplaat. Actieve woorden hebben een korte begrensde schaalpuls; woordtijden blijven uit het transcript komen. Ze staan rond y=1090–1152 in een 720×1280-compositie.
+- `zoom-punch` houdt zijn bereikte schaal vast. `camera-transitions` gebruikt een cut-in met cubic settle, `direction: "left"`, `mode: "spin"`/`"drop"` en `attack` in seconden. Dit levert geen optische motionblur op.
+- `dolly-zoom` gebruikt `amount` voor achtergrondzoom en `subjectAmount` voor een onafhankelijke tegengestelde subjectzoom. Lever `job.background` met een rechtmatig verkregen schone achtergrond en `foregroundFrames` aan. Een bron waarin de persoon nog aanwezig is kan dubbelbeelden tonen; zonder clean plate is het geen geaccepteerd dollyshot.
+- `shape-transitions` accepteert `variant: "iris" | "blinds" | "doors" | "clock"`, `attack` en `job.next`. `paper-tear` kan nu daadwerkelijk `job.previous` inladen. Deze bronnen mogen video of PNG/JPEG/WebP zijn binnen `public/`.
+- `letter-dive` gebruikt een echte tekst-alpha met bronmedia via source-in. `double-exposure` behoudt zijn secundaire beeld nu onder een zachte accenttint; de eerdere opaque fill overschreef dat beeld.
+- `kinetic-hook` en `giant-captions` accepteren `wordTimes: [{start: 0.1}, …]` in lokale seconden of `startMs` in lokale milliseconden. Met `syncWords: true` op het effect worden captionwoordtijden binnen het effectinterval gebruikt. De auteur moet de effecttekst en captionwoorden inhoudelijk laten overeenkomen; dit is geen automatische tekstalignment.
+- De gedeelde media-loader wacht op geladen frames, meldt timeout/loadfouten, begrenst seeks en voorkomt dat scrubben naar exact het einde een niet-bestaand foregroundframe vraagt. Stage wacht op geladen lokale fonts voordat een job start.
+
+Na inspectie van de galerierenders is de no-media double-exposure-stand-in vervangen door een contrastrijke, expliciet synthetisch gelabelde portretsilhouet met geanimeerd duotoonlandschap. De media-backed alphaoperatie blijft afzonderlijk. Letter-dive gebruikt een late crossfade naar volledig bronbeeld; dit voorkomt een lege eindframe, maar is geen automatische camera door een echte glyphopening. Deze wijzigingen vragen nieuwe isolated-runner beelden.
+
+
+## Per-effectplaatsing voor leesbare talking heads
+
+Ieder effect accepteert `offsetX`, `offsetY` en `scale` op het effect of onder `params` (het effectveld heeft voorrang). Coördinaten zijn altijd in de 720×1280-ontwerpruimte: eerst schalen rond (360,640), daarna verplaatsen. Bijvoorbeeld `{ "id": "follow-chip", "start": 4, "duration": 2, "offsetY": -300 }` verplaatst de pill van het gezicht naar de bovenste vrije zone. `scale` moet 0.1–4 zijn en offsets −2000–2000; export weigert niet-finite waarden. Dezelfde wrapper geldt voor beide orbitpasses, B-roll en echte cameramedia. Jobcaptions behouden hun eigen veilige onderzone.
+
+Paper-tear toont na het openen de aangeleverde `next` of bronvideo. Zonder zulke media blijft een expliciet synthetische bestemmingsplaat met tekst zichtbaar, zodat de galerij geen lege eindframe toont.

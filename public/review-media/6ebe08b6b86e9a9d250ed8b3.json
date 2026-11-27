@@ -1,0 +1,270 @@
+{
+  "job": {
+    "title": "Hooks en editingmix",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 10.708333333333334,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/10-hook-mix/source.mp4",
+    "captions": [
+      {
+        "text": " Stop.",
+        "startMs": 0,
+        "endMs": 260,
+        "confidence": 0.8540297150611877
+      },
+      {
+        "text": " Wordt",
+        "startMs": 740,
+        "endMs": 1300,
+        "confidence": 0.4612412750720978
+      },
+      {
+        "text": " dat",
+        "startMs": 1300,
+        "endMs": 1301,
+        "confidence": 0.8421933650970459
+      },
+      {
+        "text": " je",
+        "startMs": 1300,
+        "endMs": 1420,
+        "confidence": 0.5013951659202576
+      },
+      {
+        "text": " nog",
+        "startMs": 1420,
+        "endMs": 1700,
+        "confidence": 0.9827848076820374
+      },
+      {
+        "text": " een",
+        "startMs": 1700,
+        "endMs": 1880,
+        "confidence": 0.9743182063102722
+      },
+      {
+        "text": " tol",
+        "startMs": 1880,
+        "endMs": 2180,
+        "confidence": 0.6980674862861633
+      },
+      {
+        "text": " toe",
+        "startMs": 2180,
+        "endMs": 2380,
+        "confidence": 0.5227371454238892
+      },
+      {
+        "text": " hoeft?",
+        "startMs": 2380,
+        "endMs": 2760,
+        "confidence": 0.7746367752552032
+      },
+      {
+        "text": " Wat",
+        "startMs": 3040,
+        "endMs": 3340,
+        "confidence": 0.3300721049308777
+      },
+      {
+        "text": " moet",
+        "startMs": 3340,
+        "endMs": 3580,
+        "confidence": 0.9756474494934082
+      },
+      {
+        "text": " er",
+        "startMs": 3580,
+        "endMs": 3760,
+        "confidence": 0.9907863736152649
+      },
+      {
+        "text": " eigenlijk",
+        "startMs": 3760,
+        "endMs": 4080,
+        "confidence": 0.9855248332023621
+      },
+      {
+        "text": " een",
+        "startMs": 4080,
+        "endMs": 4520,
+        "confidence": 0.47900500893592834
+      },
+      {
+        "text": " wouderje?",
+        "startMs": 4520,
+        "endMs": 5120,
+        "confidence": 0.7232168763875961
+      },
+      {
+        "text": " Laat",
+        "startMs": 5560,
+        "endMs": 6000,
+        "confidence": 0.9608407020568848
+      },
+      {
+        "text": " dat",
+        "startMs": 6000,
+        "endMs": 6120,
+        "confidence": 0.9186652302742004
+      },
+      {
+        "text": " zien.",
+        "startMs": 6120,
+        "endMs": 6500,
+        "confidence": 0.9815905690193176
+      },
+      {
+        "text": " Maak",
+        "startMs": 7020,
+        "endMs": 7400,
+        "confidence": 0.9108443856239319
+      },
+      {
+        "text": " het",
+        "startMs": 7400,
+        "endMs": 7540,
+        "confidence": 0.9855427742004395
+      },
+      {
+        "text": " klein.",
+        "startMs": 7540,
+        "endMs": 7980,
+        "confidence": 0.9727931022644043
+      },
+      {
+        "text": " En",
+        "startMs": 8600,
+        "endMs": 8720,
+        "confidence": 0.8620467782020569
+      },
+      {
+        "text": " test",
+        "startMs": 8720,
+        "endMs": 9020,
+        "confidence": 0.5042925477027893
+      },
+      {
+        "text": " het",
+        "startMs": 9020,
+        "endMs": 9240,
+        "confidence": 0.9508448243141174
+      },
+      {
+        "text": " morgen.",
+        "startMs": 9240,
+        "endMs": 9620,
+        "confidence": 0.9963372945785522
+      }
+    ],
+    "effects": [
+      {
+        "id": "impact-frame",
+        "start": 0,
+        "duration": 3.04,
+        "text": "STOP",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "blade-slice",
+        "start": 3.04,
+        "duration": 5.680000000000001,
+        "text": "Wat kan eenvoudiger?",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "grade-slider",
+        "start": 8.72,
+        "duration": 1.9883333333333333,
+        "text": "Test het morgen",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ],
+    "background": "demos/10-hook-mix/background.png",
+    "foregroundFrames": "demos/10-hook-mix/foreground/%06d.png"
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Stop. Voordat je nog een tool toevoegt: wat moet er eigenlijk eenvoudiger? Laat dat zien. Maak het klein. En test het morgen.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "stop",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 0,
+        "asrToken": "stop",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.04
+      },
+      {
+        "phrase": "wat moet",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 9,
+        "asrToken": "wat",
+        "asrOnsetSeconds": 3.04,
+        "start": 3.04,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 5.680000000000001
+      },
+      {
+        "phrase": "test het morgen",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 22,
+        "asrToken": "test",
+        "asrOnsetSeconds": 8.72,
+        "start": 8.72,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 1.9883333333333333
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

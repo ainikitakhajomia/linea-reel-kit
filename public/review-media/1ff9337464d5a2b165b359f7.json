@@ -1,0 +1,244 @@
+{
+  "job": {
+    "title": "Humoristische social",
+    "width": 1080,
+    "height": 1920,
+    "fps": 24,
+    "duration": 9.541666666666666,
+    "brand": {
+      "id": "studio-linea",
+      "name": "Studio Linea",
+      "background": "#f6f5f1",
+      "foreground": "#111316",
+      "accent": "#27335f",
+      "muted": "#6a6c67",
+      "surface": "#ffffff",
+      "fontFamily": "Arial, sans-serif",
+      "preferredFont": "DM Sans",
+      "radius": 20,
+      "tone": "Rustig, helder, editorial. Eén visueel idee per scène.",
+      "source": "https://studio.use-linea.com/",
+      "observed": "2026-11-27",
+      "note": "Colors from public CSS. System font fallback avoids external font requests; supply a licensed local DM Sans file if desired. No logos or website assets redistributed."
+    },
+    "video": "demos/07-humor/source.mp4",
+    "captions": [
+      {
+        "text": " Ik",
+        "startMs": 0,
+        "endMs": 160,
+        "confidence": 0.7670041918754578
+      },
+      {
+        "text": " doe",
+        "startMs": 160,
+        "endMs": 360,
+        "confidence": 0.24490220844745636
+      },
+      {
+        "text": " het",
+        "startMs": 360,
+        "endMs": 580,
+        "confidence": 0.9502165913581848
+      },
+      {
+        "text": " wel",
+        "startMs": 580,
+        "endMs": 880,
+        "confidence": 0.38602951169013977
+      },
+      {
+        "text": " even",
+        "startMs": 880,
+        "endMs": 1220,
+        "confidence": 0.978805661201477
+      },
+      {
+        "text": " handmaatig.",
+        "startMs": 1220,
+        "endMs": 2100,
+        "confidence": 0.7671959176659584
+      },
+      {
+        "text": " Beroem",
+        "startMs": 2460,
+        "endMs": 2940,
+        "confidence": 0.7373145967721939
+      },
+      {
+        "text": " de",
+        "startMs": 2940,
+        "endMs": 3060,
+        "confidence": 0.5228603482246399
+      },
+      {
+        "text": " laatste",
+        "startMs": 3060,
+        "endMs": 3460,
+        "confidence": 0.9989264607429504
+      },
+      {
+        "text": " morgen.",
+        "startMs": 3460,
+        "endMs": 3920,
+        "confidence": 0.8648077249526978
+      },
+      {
+        "text": " Drie",
+        "startMs": 4460,
+        "endMs": 4820,
+        "confidence": 0.7300442904233932
+      },
+      {
+        "text": " uur",
+        "startMs": 4820,
+        "endMs": 5440,
+        "confidence": 0.9929401278495789
+      },
+      {
+        "text": " later",
+        "startMs": 5440,
+        "endMs": 5441,
+        "confidence": 0.9954156875610352
+      },
+      {
+        "text": " ben",
+        "startMs": 5440,
+        "endMs": 5640,
+        "confidence": 0.9747985005378723
+      },
+      {
+        "text": " je",
+        "startMs": 5640,
+        "endMs": 5760,
+        "confidence": 0.9904928803443909
+      },
+      {
+        "text": " nog",
+        "startMs": 5760,
+        "endMs": 6020,
+        "confidence": 0.9884734749794006
+      },
+      {
+        "text": " steeds",
+        "startMs": 6020,
+        "endMs": 6300,
+        "confidence": 0.9984439015388489
+      },
+      {
+        "text": " dezelfde",
+        "startMs": 6300,
+        "endMs": 7100,
+        "confidence": 0.9864833752314249
+      },
+      {
+        "text": " kolomant",
+        "startMs": 7100,
+        "endMs": 7800,
+        "confidence": 0.6380293071269989
+      },
+      {
+        "text": " het",
+        "startMs": 7800,
+        "endMs": 7960,
+        "confidence": 0.31579336524009705
+      },
+      {
+        "text": " kopiëren.",
+        "startMs": 7960,
+        "endMs": 8700,
+        "confidence": 0.8084230422973633
+      }
+    ],
+    "effects": [
+      {
+        "id": "incoming-call",
+        "start": 0,
+        "duration": 4.46,
+        "text": "Ik doe het wel even",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "impact-frame",
+        "start": 4.46,
+        "duration": 3.5,
+        "text": "DRIE UUR LATER",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      },
+      {
+        "id": "receipt-printer",
+        "start": 7.96,
+        "duration": 1.581666666666666,
+        "text": "Handwerk: 180 min",
+        "params": {},
+        "mediaSources": [
+          "demos/walkthrough.mp4"
+        ]
+      }
+    ]
+  },
+  "provenance": {
+    "kind": "original synthetic demonstration",
+    "nativeResolution": [
+      1080,
+      1920
+    ],
+    "rasterization": "geometry, strokes and font glyphs drawn natively; no raster upscaling",
+    "script": "Ik doe het wel even handmatig. Beroemde laatste woorden. Drie uur later ben je nog steeds dezelfde kolom aan het kopiëren.",
+    "language": "nl",
+    "voice": "espeak-ng local synthetic speech",
+    "visuals": "original Pillow illustration and concept UI, not a product screenshot or real presenter",
+    "cueReport": [
+      {
+        "phrase": "handmatig",
+        "mode": "actual-asr-word-quantile",
+        "asrTokenIndex": 0,
+        "asrToken": "ik",
+        "asrOnsetSeconds": 0.0,
+        "start": 0,
+        "firstHookPreroll": true,
+        "clampedForMinimumHold": false,
+        "fallbackReason": "Phrase was not recognized in the remaining ordered ASR words; using an actual word onset.",
+        "duration": 4.46
+      },
+      {
+        "phrase": "drie uur later",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 10,
+        "asrToken": "drie",
+        "asrOnsetSeconds": 4.46,
+        "start": 4.46,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 3.5
+      },
+      {
+        "phrase": "kopiëren",
+        "mode": "exact-normalized-asr",
+        "asrTokenIndex": 20,
+        "asrToken": "kopieren",
+        "asrOnsetSeconds": 7.96,
+        "start": 7.96,
+        "firstHookPreroll": false,
+        "clampedForMinimumHold": false,
+        "fallbackReason": null,
+        "duration": 1.581666666666666
+      }
+    ],
+    "asrModel": "small",
+    "captions": "actual faster-whisper small CPU/int8 word times",
+    "acceptance": "technical demonstration; human and reference visual acceptance outstanding",
+    "limitations": [
+      "Illustrative mouth responds to audio energy; not phonetic lip synchronization.",
+      "Authored alpha fixture proves compositing, not natural person segmentation.",
+      "3D recipes use Canvas perspective; not a full 3D engine."
+    ]
+  }
+}

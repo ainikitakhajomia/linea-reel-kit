@@ -19,10 +19,23 @@ Deliver an edited artifact and playable review, with concrete limitations and ev
 | Apply principles from a reference | Gather scene statistics and permitted frame samples, inspect visual/audio details, write a short style analysis, implement those principles using owned assets. |
 | Put large text behind me | Edit first, create synchronized foreground frames, set `foregroundFrames` and a behind-speaker text event. Read `docs/segmentation.md`. |
 | Combine speaker and software walkthrough | Pass both sources through `--walkthrough`, then set intentional layout/timings in the job. Do not claim automatic content synchronization. |
-| Three creative versions | Generate baseline variants, then vary hook, scene selection, pacing and graphic vocabulary to fit the brief. Render all requested versions. |
+| Creative variants (including five) | Use `scripts/agent-plan.py --variants 5` for distinct editorial directions. Rewrite hook, scene order and emphasis for each; a palette change is not another creative edit. Render every requested version. |
 | Script → animated slideshow | Turn the script into a concise scene/storyboard job, choose relevant effects, check readability and export. Do not invent a filmed speaker. |
 | Instagram, LinkedIn, brand or humor | Choose appropriate aspect ratio and safe text size, load the brand preset, use effects to support the message. Humor needs editorial judgment, not random effects. |
 | Carousel | Author a slide sequence, render the carousel export, inspect every slide for text overflow and hierarchy. |
+
+## Convert the brief into an input-aware plan
+
+For broad requests, run the local intent router before choosing commands. It composes intents (for example walkthrough + text behind the speaker), checks supplied paths, selects existing catalog IDs, identifies missing media and proposes an ordered operation list:
+
+```sh
+python3 scripts/agent-plan.py 'Combineer mijn talking head met een softwarewalkthrough en tekst achter mij' --source /absolute/speaker.mp4 --walkthrough /absolute/screen.mp4 --out out/edit-plan.json
+python3 scripts/agent-plan.py 'Maak vijf creatieve varianten van deze talking head' --source /absolute/speaker.mp4 --variants 5 --out out/five-variants.json
+```
+
+Available inputs are `--source`, `--walkthrough`, `--script`, `--images` (file or directory) and `--reference`. The output is an authoring plan, **not an executed edit**. Read it and use actual input evidence to revise its candidate effects. `needs-inputs` means complete independent planning first, then request only the missing material that blocks the user's result. A foreground matte can be derived from the edited source; it does not require a separate upload. A text-only motion request can use `typography`; a photo slideshow needs actual imagery. Do not turn generic keyword matching into a claim of reference understanding.
+
+The router infers one through five variants from common Dutch/English phrases; `--variants` overrides that count. Verify it matches the user's request; deliver the requested count. `reel.py variants` currently supplies only three baseline timeline variations, so use those only as starting points and author any remaining jobs. Keep variant job directories and filenames distinct.
 
 ## Inspect inputs and plan
 
@@ -53,7 +66,7 @@ Add a supplied screen recording with `--walkthrough /absolute/screen.mp4`. Add o
 
 ## Author motion and inspect references
 
-`job.json` is `{ "job": {...} }`. Core fields are `title`, `brand`, `width`, `height`, `fps`, `duration` (seconds), `video` (path relative to `public/`), `captions` and `effects`. Events use `{id,start,duration,text,...parameters}` with seconds. Treat the JSON timeline as the source of truth. Prefer a small number of purposeful effects: hierarchy for the hook, emphasis on a key idea, a transition for a real topic change, and a legible ending. Check cue timing against actual speech.
+`job.json` is `{ "job": {...} }`. Core fields are `title`, `brand`, `width`, `height`, `fps`, `duration` (seconds), `video` (path relative to `public/`), `captions` and `effects`. Events use `{id,start,duration,text,...parameters}` with seconds. Treat the JSON timeline as the source of truth. Use one dominant visual idea at a time; start with at most three graphic recipes per short and add only when the content earns them. The planner's candidate list is a palette, not a command to apply every effect. Prefer a small number of purposeful effects: hierarchy for the hook, emphasis on a key idea, a transition for a real topic change, and a legible ending. Check cue timing against actual speech.
 
 ```sh
 python3 scripts/reel.py analyze-reference /absolute/permitted-reference.mp4 --out reference.json --frames public/jobs/reference-frames
@@ -61,6 +74,8 @@ python3 scripts/reel.py variants public/jobs/example/job.json --out public/jobs/
 ```
 
 Frame sampling and scene thresholds are diagnostic aids. Inspect permitted examples frame by frame around the chosen cut/effect, using FFmpeg samples or available media tools. Record composition, entrance/exit duration, easing, text hierarchy, masking, crop/camera motion and audio accents. Encoding keyframes are not cuts. Reproduce editing principles with independently authored graphics; never bypass access restrictions or copy protected reference media/private code into the library.
+
+For `--reference`, the router only records the path: run `analyze-reference`, inspect sampled frames and audio, then write observed style decisions into the authoring plan. A name or URL alone is not a visual analysis. If source access is restricted, request an authorized reference rather than bypassing it.
 
 For text behind a real person, segment the **edited** video so cuts, crop and FPS match. Use the tested chromakey route for green screen; the optional MediaPipe portrait adapter needs its own environment and a quality review. Set `job.foregroundFrames` using the documented numbered PNG pattern. Inspect hair/edges/motion before claiming success.
 
@@ -85,5 +100,7 @@ npm run render -- public/jobs/example/job.json out/example.mp4
 Follow the host repository's `AGENTS.md` for rendering location. In the Studio Linea development workspace, browser rendering belongs on the isolated runner and must not run on the Mac or production server. Do ordinary FFmpeg analysis/edits and prepare the renderable job locally, then use the repository's CI workflow for the browser render. Elsewhere, local rendering is fine when that environment permits it. Do not alter production environments.
 
 Inspect the moving export, not only JSON or one still: caption sync, word clipping, audio joins, loudness, crop, text margins, readability, graphic timing, foreground edges and final duration. Read `docs/visual-acceptance.md` for the quality bar. Tests demonstrate technical behavior; they do not establish reference-quality equivalence. Report what actually ran, artifact paths, and remaining limitations. Do not claim an effect, ASR model or adapter was tested merely because its code exists.
+
+Canvas `orbit-ring`, `layer-explode` and `room-doors` are perspective/2.5D recipes, not physical 3D simulation. The synthetic person fixture demonstrates layering, not natural portrait-mask quality. Keep these distinctions in delivery notes and choose a real 3D or tracking implementation only if available, licensed and warranted by the brief.
 
 Use free local tools only unless the user explicitly authorizes a paid service. A missing input, unsupported capability or external permission is a concrete limitation to report; do not silently invent footage, voices, functionality or verification.
