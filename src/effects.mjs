@@ -41,9 +41,15 @@ export function cameraTransform(id,time,duration=2.4,params={}){
  return {zoom:1+(params.amount??.13)*enter,x:0,y:0,rotation:0};
 }
 function applyCamera(c,transform){c.translate(360+transform.x,640+transform.y);c.rotate(transform.rotation);c.scale(transform.zoom,transform.zoom);c.translate(-360,-640);}
+// Layout is in 720×1280 design units. Scale about frame center, then offset.
+export function effectTransform(params={}){
+ const scale=Number.isFinite(params.scale)?clamp(params.scale,.1,4):1,offsetX=Number.isFinite(params.offsetX)?clamp(params.offsetX,-2000,2000):0,offsetY=Number.isFinite(params.offsetY)?clamp(params.offsetY,-2000,2000):0;
+ return {scale,x:offsetX+360*(1-scale),y:offsetY+640*(1-scale)};
+}
+function applyEffectTransform(c,params){const {scale,x,y}=effectTransform(params);c.transform(scale,0,0,scale,x,y);}
 export function drawEffect(c,id,time,p={},brand=defaultBrand){
  const b={...defaultBrand,...brand,_media:p.media||{},_sources:p.mediaSources||[]}, t=Math.max(0,time), a=ease(t/.6), s=spring(t/.65), title=p.text||'Meer tijd. Meer impact.', W=720,H=1280;
- c.save();
+ c.save();applyEffectTransform(c,p);
  const fade=clamp((p.duration===undefined?100:p.duration)-t,0,.3)/.3;c.globalAlpha=fade*ease(t/.45);c.translate(0,24*(1-ease(t/.45)));
  switch(id){
  case 'title-reveal': case 'kinetic-hook': {words(title).slice(0,5).forEach((w,i)=>{const at=p.wordTimes?.[i]?.start??(p.wordTimes?.[i]?.startMs!==undefined?p.wordTimes[i].startMs/1000:i*.12),q=ease((t-at)/.55);c.save();c.translate(W/2,380+i*88+(1-q)*65);c.globalAlpha*=q;fit(c,w,0,0,620,80,b.foreground);c.restore();});break;}
@@ -102,6 +108,9 @@ export function drawEffect(c,id,time,p={},brand=defaultBrand){
    else c.arc(360,640,900*q,0,Math.PI*2);
    c.clip();if(next)drawOwned(c,next,0,0,W,H);else{box(c,0,0,W,H,b.accent,0);fit(c,title,360,640,620,64,'white');}c.restore();break;}
  case 'paper-tear': {
+   const destination=p.media?.next||p.media?.video;
+   if(destination)drawOwned(c,destination,0,0,W,H);
+   else{box(c,0,0,W,H,b.accent,0);text(c,'NIEUW PERSPECTIEF',360,395,22,'#c6cce6','center');fit(c,title,360,610,620,76,'#fff');text(c,'SYNTHETISCHE DEMONSTRATIE',360,1050,18,'#c6cce6','center');}
    const q=ease((t-.18)/.72),edge=Array.from({length:41},(_,i)=>({y:i*32,x:360+Math.sin(i*2.37)*11+Math.cos(i*.83)*7}));
    for(const side of [-1,1]){c.save();c.translate(side*q*480,-q*35);c.translate(side<0?0:W,H/2);c.rotate(side*q*.09);c.scale(1-.18*q,1);c.translate(side<0?0:-W,-H/2);
      c.beginPath();c.moveTo(side<0?0:W,0);c.lineTo(edge[0].x,0);for(const pt of edge)c.lineTo(pt.x,pt.y);c.lineTo(side<0?0:W,H);c.closePath();c.shadowColor='#0007';c.shadowBlur=20;c.shadowOffsetX=-side*15;c.fillStyle='#f3eddf';c.fill();c.shadowColor='transparent';c.clip();
@@ -189,14 +198,14 @@ export function drawFrame(c,job,time,media={}){
  c.fillStyle=b.background;c.fillRect(0,0,720,1280);
  const camera=(job.effects||[]).find(e=>['zoom-punch','camera-transitions','dolly-zoom'].includes(e.id)&&time>=e.start&&time<e.start+e.duration),motion=camera?cameraTransform(camera.id,time-camera.start,camera.duration,{...camera.params,...camera}):null;
  if(media.previous&&camera?.id==='camera-transitions')drawOwned(c,media.previous,0,0,720,1280);
- if(media.background||media.video){c.save();if(motion)applyCamera(c,motion);drawOwned(c,media.background||media.video,0,0,720,1280);c.restore();}
+ if(media.background||media.video){c.save();if(camera)applyEffectTransform(c,{...camera.params,...camera});if(motion)applyCamera(c,motion);drawOwned(c,media.background||media.video,0,0,720,1280);c.restore();}
  if(media.walkthrough){box(c,40,250,640,480,'#fff');const v=media.walkthrough;const ratio=Math.min(610/(v.videoWidth||v.width),420/(v.videoHeight||v.height));const dw=(v.videoWidth||v.width)*ratio,dh=(v.videoHeight||v.height)*ratio;c.drawImage(v,360-dw/2,490-dh/2,dw,dh);}
- for(const e of job.effects||[]){if(time<e.start||time>=e.start+e.duration)continue;if(e.id==='broll'){if(media[e.src]){const v=media[e.src];c.drawImage(v,40,320,640,480);}continue;}if(media.video&&['zoom-punch','camera-transitions','dolly-zoom'].includes(e.id))continue;const localWords=(e.params?.syncWords||e.syncWords)?(job.captions||[]).filter(word=>word.startMs>=e.start*1000&&word.startMs<(e.start+e.duration)*1000).map(word=>({...word,startMs:word.startMs-e.start*1000})):undefined;drawEffect(c,e.id,time-e.start,{...e.params,...e,duration:e.duration,media,wordTimes:e.wordTimes||e.params?.wordTimes||localWords,orbitPass:e.id==='orbit-ring'?'rear':undefined},b);}
+ for(const e of job.effects||[]){if(time<e.start||time>=e.start+e.duration)continue;if(e.id==='broll'){if(media[e.src]){c.save();applyEffectTransform(c,{...e.params,...e});const v=media[e.src];drawOwned(c,v,40,320,640,480);c.restore();}continue;}if(media.video&&['zoom-punch','camera-transitions','dolly-zoom'].includes(e.id))continue;const localWords=(e.params?.syncWords||e.syncWords)?(job.captions||[]).filter(word=>word.startMs>=e.start*1000&&word.startMs<(e.start+e.duration)*1000).map(word=>({...word,startMs:word.startMs-e.start*1000})):undefined;drawEffect(c,e.id,time-e.start,{...e.params,...e,duration:e.duration,media,wordTimes:e.wordTimes||e.params?.wordTimes||localWords,orbitPass:e.id==='orbit-ring'?'rear':undefined},b);}
  const transformedSubject=(job.effects||[]).some(e=>{
    if(time<e.start||time>=e.start+e.duration)return false;
    return ['blade-slice','banknote','paper-tear','room-doors','code-body'].includes(e.id)||(e.id==='double-exposure'&&media.foreground)||e.foregroundOnTop===false||e.params?.foregroundOnTop===false;
  });
- if(media.foreground&&!transformedSubject){c.save();if(motion){const subject=camera.id==='dolly-zoom'?{...motion,zoom:motion.subjectZoom}:motion;applyCamera(c,subject);}drawOwned(c,media.foreground,0,0,720,1280);c.restore();}
+ if(media.foreground&&!transformedSubject){c.save();if(camera)applyEffectTransform(c,{...camera.params,...camera});if(motion){const subject=camera.id==='dolly-zoom'?{...motion,zoom:motion.subjectZoom}:motion;applyCamera(c,subject);}drawOwned(c,media.foreground,0,0,720,1280);c.restore();}
  for(const e of job.effects||[])if(e.id==='orbit-ring'&&time>=e.start&&time<e.start+e.duration)drawEffect(c,e.id,time-e.start,{...e.params,...e,duration:e.duration,orbitPass:'front'},b);
  if(!media.video&&!job.noBrand){line(c,45,75,91,75,b.accent,4);text(c,(b.name||'Studio Linea').toUpperCase(),110,75,18,b.accent);text(c,'REEL KIT / INDEPENDENT MOTION SYSTEM',45,1210,16,b.accent);}
  drawCaptions(c,job.captions||[],time,b);

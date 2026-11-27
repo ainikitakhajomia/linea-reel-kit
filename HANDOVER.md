@@ -55,3 +55,13 @@ De openbare statische preview is aangemaakt op GitHub Pages: https://ainikitakha
 Globale skills opnieuw geïnstalleerd met `python3 scripts/install-skills.py --repo "$PWD" --codex --claude --force`; Codex-home is `/Users/nikitakhajomia/.codex-mattia`, Claude-home `/Users/nikitakhajomia/.claude`.
 
 Nieuwe lokale, nog te pushen iteratie: 67 eerlijke cataloguslabels en inputvoorwaarden, uitwerkingsfilter, standaard double-exposurecontrast en letter-dive-eindbeeld, vier exportcontactbladen met FFprobe/framecounts/SHA per MP4, posters en native1080×1920 @24fps demo's. De eerste gedownloade interface/compositie/all67-screenshots zijn door root visueel bekeken; volledige nieuwe exportcontactbladen nog niet.
+
+## Visuele en transcriptie-afkeur van eerste filmversie
+
+Root heeft alle tien eerste filmcontactbladen (uit echte MP4s) bekeken. Versie d8cad22 is technisch groen maar visueel onvoldoende: overlays over ogen, dubbele walkthroughpanelen, vaste typographykop achter nieuwe tekst, dubbele portretlaag bij transitions. Niet als premium geaccepteerd of als definitieve films publiceren.
+
+Eigen QA op de daadwerkelijk opgeslagen tiny-transcripts: Nederlandse micro-WER **61,4%** op acht synthetische scripts, alle acht `usable:false`; Engelse micro-WER **15,6%** op twee scripts. Geen ongeldige woordtijden. Rapport lokaal `out/first-evidence/out/transcription-qa.json`. Dit zijn synthetische spraaktests, geen uitspraak over natuurlijke sprekers. Eerst groter lokaal Whisper-model `small`, opnieuw meten; niet het script als initial_prompt gebruiken om het resultaat te verfraaien.
+
+Lopende correctie: native1080-bronbeelden, schone graphicbackdrops, losse clean plate + foregroundalpha, presenter-PIP buiten walkthrough, overlayplaatsing via offsetX/offsetY/scale, echte verschillende slideshowafbeeldingen en speech-cues op gemeten ASR-woorden. Afsluiten met nieuwe daadwerkelijke exports en beeldinspectie.
+
+De publieke preview is nu daadwerkelijk op Linux gecontroleerd: run `46047955418` speelde **alle 67 kaarten** af, nul consolefouten of mislukte assetrequests. Films waren op dat moment nog niet gepubliceerd (`demosPlayed:0`). Eén eerdere hostedtest faalde door URL-object i.p.v. string in de QA zelf; gerepareerd in `0a1ee10`.

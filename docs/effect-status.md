@@ -110,3 +110,10 @@ Deze bronwijzigingen zijn door syntax- en pure unitcontroles gecontroleerd. Visu
 - De gedeelde media-loader wacht op geladen frames, meldt timeout/loadfouten, begrenst seeks en voorkomt dat scrubben naar exact het einde een niet-bestaand foregroundframe vraagt. Stage wacht op geladen lokale fonts voordat een job start.
 
 Na inspectie van de galerierenders is de no-media double-exposure-stand-in vervangen door een contrastrijke, expliciet synthetisch gelabelde portretsilhouet met geanimeerd duotoonlandschap. De media-backed alphaoperatie blijft afzonderlijk. Letter-dive gebruikt een late crossfade naar volledig bronbeeld; dit voorkomt een lege eindframe, maar is geen automatische camera door een echte glyphopening. Deze wijzigingen vragen nieuwe isolated-runner beelden.
+
+
+## Per-effectplaatsing voor leesbare talking heads
+
+Ieder effect accepteert `offsetX`, `offsetY` en `scale` op het effect of onder `params` (het effectveld heeft voorrang). Coördinaten zijn altijd in de 720×1280-ontwerpruimte: eerst schalen rond (360,640), daarna verplaatsen. Bijvoorbeeld `{ "id": "follow-chip", "start": 4, "duration": 2, "offsetY": -300 }` verplaatst de pill van het gezicht naar de bovenste vrije zone. `scale` moet 0.1–4 zijn en offsets −2000–2000; export weigert niet-finite waarden. Dezelfde wrapper geldt voor beide orbitpasses, B-roll en echte cameramedia. Jobcaptions behouden hun eigen veilige onderzone.
+
+Paper-tear toont na het openen de aangeleverde `next` of bronvideo. Zonder zulke media blijft een expliciet synthetische bestemmingsplaat met tekst zichtbaar, zodat de galerij geen lege eindframe toont.

@@ -1,6 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
-import {cameraTransform,captionLines} from '../src/effects.mjs';
+import {cameraTransform,captionLines,effectTransform} from '../src/effects.mjs';
 import {assetUrl} from '../src/media.mjs';
 import {validateJob} from '../src/render.mjs';
 test('dolly zoom separates background and foreground scale, with bounded end state',()=>{
@@ -29,4 +29,19 @@ test('transition and clean background inputs are validated before rendering',()=
    assert.throws(()=>validateJob({duration:2,[key]:'../private.png'}));
    assert.equal(validateJob({duration:2,[key]:'jobs/demo/plate.png'})[key],'jobs/demo/plate.png');
  }
+});
+
+test('overlay layout scales about frame center then offsets away from presenter',()=>{
+ const transform=effectTransform({scale:.6,offsetY:-300});
+ assert.equal(360*transform.scale+transform.x,360);
+ assert.equal(640*transform.scale+transform.y,340);
+ assert.deepEqual(effectTransform({offsetX:40,offsetY:-300}),{scale:1,x:40,y:-300});
+});
+test('export rejects unbounded or nonfinite overlay transforms at either params level',()=>{
+ const effect={id:'word-stamp',start:0,duration:1};
+ for(const field of ['scale','offsetX','offsetY'])for(const value of [NaN,Infinity,'1',field==='scale'?0:2001])for(const nested of [false,true]){
+   const bad=nested?{...effect,params:{[field]:value}}:{...effect,[field]:value};
+   assert.throws(()=>validateJob({duration:2,effects:[bad]}),/Invalid effect/);
+ }
+ assert.doesNotThrow(()=>validateJob({duration:2,effects:[{...effect,scale:.6,params:{offsetY:-300}}]}));
 });

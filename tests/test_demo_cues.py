@@ -48,7 +48,7 @@ class SpeechCueTests(unittest.TestCase):
 
 class NativeDrawingTests(unittest.TestCase):
     def test_geometry_strokes_and_radius_are_native_and_angles_unchanged(self):
-        draw=demos.NativeDraw.__new__(demos.NativeDraw);draw.draw=Mock()
+        draw=demos.NativeDraw.__new__(demos.NativeDraw);draw.draw=Mock();draw.factor=2;draw.offset=(0,0)
         with patch.object(demos,'SCALE',2):
             draw.line((10,20,30,40),width=3,fill='#fff')
             draw.rounded_rectangle((1,2,30,40),8,fill='#fff')
@@ -56,6 +56,11 @@ class NativeDrawingTests(unittest.TestCase):
         draw.draw.line.assert_called_once_with((20,40,60,80),width=6,fill='#fff')
         draw.draw.rounded_rectangle.assert_called_once_with((2,4,60,80),16,fill='#fff')
         draw.draw.pieslice.assert_called_once_with((2,4,60,80),180,360,fill='#fff')
+
+    def test_pip_coordinates_and_strokes_respect_local_scale_and_native_offset(self):
+        draw=demos.NativeDraw.__new__(demos.NativeDraw);draw.draw=Mock();draw.factor=.84;draw.offset=(590,1020)
+        draw.line((100,200,300,400),width=5,fill='#fff')
+        draw.draw.line.assert_called_once_with((674,1188,842,1356),width=4,fill='#fff')
 
     def test_fonts_are_rasterized_at_native_size_without_loading_pixels(self):
         imagefont=Mock()
