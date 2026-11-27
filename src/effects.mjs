@@ -17,7 +17,7 @@ export const defaultBrand={background:'#f6f5f1',foreground:'#111316',accent:'#27
 export function drawEffect(c,id,time,p={},brand=defaultBrand){
  const b={...defaultBrand,...brand}, t=Math.max(0,time), a=ease(t/.6), s=spring(t/.65), title=p.text||'Meer tijd. Meer impact.', W=720,H=1280;
  c.save();
- const fade=clamp((p.duration===undefined?100:p.duration)-t,0,.3)/.3;c.globalAlpha=fade;
+ const fade=clamp((p.duration===undefined?100:p.duration)-t,0,.3)/.3;c.globalAlpha=fade*ease(t/.45);c.translate(0,24*(1-ease(t/.45)));
  switch(id){
  case 'title-reveal': case 'kinetic-hook': {words(title).slice(0,5).forEach((w,i)=>{const q=ease((t-i*.12)/.55);c.save();c.translate(W/2,380+i*88+(1-q)*65);c.globalAlpha*=q;fit(c,w,0,0,620,80,b.foreground);c.restore();});break;}
  case 'icon-strike': {
@@ -108,7 +108,7 @@ export function drawFrame(c,job,time,media={}){
  for(const e of job.effects||[]){if(time<e.start||time>=e.start+e.duration)continue;if(e.id==='broll'){if(media[e.src]){const v=media[e.src];c.drawImage(v,40,320,640,480);}continue;}if(media.video&&['zoom-punch','camera-transitions','dolly-zoom'].includes(e.id))continue;drawEffect(c,e.id,time-e.start,{...e.params,...e,duration:e.duration,media,orbitPass:e.id==='orbit-ring'?'rear':undefined},b);}
  if(media.foreground)c.drawImage(media.foreground,0,0,720,1280);
  for(const e of job.effects||[])if(e.id==='orbit-ring'&&time>=e.start&&time<e.start+e.duration)drawEffect(c,e.id,time-e.start,{...e.params,...e,duration:e.duration,orbitPass:'front'},b);
- if(!media.video&&!job.noBrand){line(c,45,75,91,75,b.accent,4);text(c,'STUDIO LINEA',110,75,18,b.accent);text(c,'REEL KIT / INDEPENDENT MOTION SYSTEM',45,1210,16,b.accent);}
+ if(!media.video&&!job.noBrand){line(c,45,75,91,75,b.accent,4);text(c,(b.name||'Studio Linea').toUpperCase(),110,75,18,b.accent);text(c,'REEL KIT / INDEPENDENT MOTION SYSTEM',45,1210,16,b.accent);}
  drawCaptions(c,job.captions||[],time,b);
  c.restore();
 }

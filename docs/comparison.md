@@ -8,26 +8,26 @@ Bronnen: [publieke verkooppagina](https://justyn.ai/masterclass), [aanbodaudit](
 
 | Onderdeel | Publiek aanbod Justyn | Hier gerealiseerd of voorbereid | Resterende grens |
 |---|---|---|---|
-| Lokale talking-head montage | Opname naar afgewerkte reel | FFprobe-ingest, FFmpeg-cuts, portrait framing, audio-normalisatie, JSON-job voor compositie | Geen benchmark op representatieve echte talking heads; renderer- en eindtests bepalen de uitvoerstatus |
+| Lokale talking-head montage | Opname naar afgewerkte reel | FFprobe-ingest, FFmpeg-cuts, portrait framing, audio-normalisatie, JSON-job voor compositie | FFmpeg-smoketests uitgevoerd; representatieve echte talking heads nog geen kwaliteitsbenchmark; browserexports hebben afzonderlijk Actions-bewijs nodig |
 | Stiltes weghalen | Dode tijd verwijderen | Akoestische stilteherkenning; woordintervallen beschermen tegen automatisch knippen | Detectie van stilte begrijpt geen betekenis; microfoonruis en zachte spraak beïnvloeden grenzen |
 | Goede takes | Laatste goede versie van elke regel | Voorstellen voor exact herhaalde genormaliseerde zinnen; optioneel eerdere versies knippen; agent kan bron-EDL schrijven | Geen automatische beoordeling van delivery, overtuiging, fout uitgesproken woorden of tegenstrijdige formuleringen |
 | J-cuts en lip-synccontrole | J-cut op joins; controle voor/na render | Bron/output-tijdlijn en caption-remap maken inspectie mogelijk | Geen automatische J-cutbouw of inhoudelijke lip-syncscore; metadata/duurcontrole is geen lip-syncvalidatie |
-| Nederlands en Engels | Meertalige voorbeelden; geen Nederlandse benchmark aangetroffen | Lokale faster-whisper-backend met woordtijden en expliciete `nl`/`en` keuze; transcript-JSON import | Adapterbeschikbaarheid is geen bewezen taalnauwkeurigheid; noteer daadwerkelijk geteste modellen en opnames in validatie |
+| Nederlands en Engels | Meertalige voorbeelden; geen Nederlandse benchmark aangetroffen | Lokale faster-whisper-backend met woordtijden en expliciete `nl`/`en` keuze; beide werkelijk uitgevoerd; transcript-JSON import | Faster-whisper 1.2.1/tiny CPU/int8 daadwerkelijk op EN en NL synthetische spraak gedraaid; EN 11 woorden vrijwel correct, NL 14 woorden met merk-/slotzin-fouten; geen WER-benchmark |
 | Dynamische captions | Woordnauwkeurig in huisstijl | Actief woord, groepen, tijdgestuurde weergave en output-tijdremap | Vast basislayout; geen automatische line-breakoptimalisatie of gegarandeerde ASR-alignment |
-| Tekst achter persoon | Bewegende matte op elk frame | Compositor kan een aangeleverde foregroundlaag boven effecten plaatsen | Een echte consistente alpha-video/segmentation-backend en tests nodig; synthetisch portret telt niet als automatische cutout |
+| Tekst achter persoon | Bewegende matte op elk frame | `segment.py` produceert echte RGBA-PNG-frames via FFmpeg-chromakey; transparante/opaque pixels en bronbehoud getest; compositor ondersteunt `foregroundFrames` | Normale talking-headisolatie heeft optionele MediaPipe-adapter; ML-stack nog niet uitgevoerd; green-screen-alpha test bewijst geen haar-/handkwaliteit in gewone opname |
 | Motion graphics | 67 publieke effecten | 67 onafhankelijk geschreven, parameteriseerbare Canvas recipes en enkele aliases | Veel recipes zijn vereenvoudigde prototypes; zie visuele acceptatie |
 | Automatische B-roll | Visuele voorbeelden met schermen, kaarten en video | Aangeleverde lokale B-roll in job; agent kan timing en selectie wijzigen | Geen automatische legale assetzoekmachine, semantische matching of geverifieerde stocklicenties |
 | Softwarewalkthrough | Videokaart of achtergrond achter persoon | Lokale walkthrough als compositielaag; job beschrijft bron | Geen automatische cursor-/hoofdstukherkenning of inhoudelijke synchronisatie |
 | Referentievideo analyseren | Tempo/stijl leren en effect nabouwen | Scenewisselheuristiek, encoding-keyframes, stilteanalyse en representatieve frames | Geen model dat zelfstandig typografie, masking, easing of audioverhaal begrijpt; agent moet frames en opname inspecteren |
-| Storyboard en feedback | Beats met frames en opmerkingen | Job/EDL zijn leesbaar en door agents wijzigbaar; preview kan review ondersteunen | Geen bewezen volledige equivalent van annotatieboard met authoring-state, comments en automatische feedbackverwerking |
+| Storyboard en feedback | Beats met frames en opmerkingen | `story.py storyboard` maakt een getimed scenevoorstel/job uit script; `feedback` controleert leesduur/tekstdichtheid; agent kan job en EDL wijzigen | Deterministische tekstsplitsing/effectrotatie, geen semantische storyboardgenerator; geen volledige equivalent van commentboard/annotatie-state |
 | Brand styles | Guide, designbestand, site of voorbeelden | Parameterobject/preset voor kleuren en expliciete vormgeving | Geen automatische merkextractie of fontlicentiecontrole; gecontroleerde preset nodig |
 | Drie varianten | Creatieve alternatieven en trial-posts | Minimal/dynamic/playful jobs met verschillende beginbehandeling | Niet drie inhoudelijk herbedachte edits; geen Instagram-publicatie of trials/statistieken |
-| Carousels | Vanaf reel of idee; eigen stijl | Architectuur kan stills en layouts aansturen; actuele exportstatus staat in README/validatie | Niet afleiden uit een slideshow dat een volledig carouselboard of PDF/PNG-export al bestaat |
-| Geanimeerde slideshow | Niet als afzonderlijke productbelofte vastgesteld | Tijdgestuurde recipes zonder bronvideo bruikbaar voor motion scenes | Contentstructuur, beeldkeuze en storytelling blijven agentwerk |
+| Carousels | Vanaf reel of idee; eigen stijl | `story.py carousel` maakt originele merk-SVG-slides en manifest; `render-carousel.mjs` exporteert 1080×1440 PNG via browser | SVG-generatie is lokaal bruikbaar; browser-PNG-export heeft geïsoleerd Actions-bewijs nodig; geen automatische reel-samenvatting, fotoextractie, PDF-export of carouselcommentboard |
+| Geanimeerde slideshow | Niet als afzonderlijke productbelofte vastgesteld | `story.py storyboard` levert daadwerkelijk getimede motion scenes/job; scenes zijn renderbaar zonder bronvideo | Duur en effectkeuze zijn heuristisch; geen voice-over gegenereerd; betekenisvolle artdirection blijft agentwerk |
 | Humor/social | Expressieve effecten en snelle wissels | Burst, UI, physics-achtige en caption recipes beschikbaar | Humor, juiste sound cue en timing zijn inhoudelijke keuzes, geen automatische kwaliteitsscore |
 | SaaS motion graphics | UI/effectdemonstraties | Originele inputbalken, kaarten, tijdlijnen en cursorvormen | Productgetrouwe UI, echte schermopnames en merkconsistentie moeten per opdracht worden beoordeeld |
 | Audio | SFX op bewegingen en streaming loudness | FFmpeg-normalisatie van bestaande audio; bron-audio behouden | Geen complete voice/SFX/music-ducking-engine of stemisolatie afgeleid uit alleen normalisatie |
-| AI Content OS | Bonus met contentstrategie | Geen equivalent van privélessen of getrainde cursusassistent | Agent kan onafhankelijk ideeën/kalender maken; geen gereproduceerd private kennisproduct |
+| AI Content OS | Bonus met contentstrategie | `content.py` biedt werkende lokale ideeën-/scripttracker, gekoppelde reel/carouseldrafts, statussen, immutable revisies en writer-lock; getest | Derivaten houden hetzelfde script; geen automatisch herschrijven, analytics, planningkalender, platformposting of lesson-trained private kennisassistent |
 | Course, Edits, community | Lessen, telefoonworkflow, assistent, seat | Bewust technologiegerichte repository | Geen toegang tot privélessen, community, privéprompts of support inbegrepen |
 | Manychat/Trial posting | Aanvullende platformautomatisering | Geen betalende services of externe publicatie aangezet | Vereist afzonderlijke platform-/toegangscontrole en expliciete opdracht |
 
@@ -50,7 +50,7 @@ Exacte upstream commits, notices, testgrenzen en aanvullende MCP/skill-kandidate
 
 ## Wat onafhankelijk gebouwd is
 
-De uniforme CLI/job-aanpak, reviewomgeving, agentinstructies en Canvas recipes zijn bedoeld om één werkstroom te vormen. De recipes gebruiken zelfgetekende vormen en tekst; geen beschermde reference-assets. Een bestaande licentie op vergelijkbare algemene technieken is niet nodig om onafhankelijk een inputbalk, tekstanimatie of kaartovergang te bouwen.
+De uniforme CLI/job-aanpak, reviewomgeving, agentinstructies, storyboard-/carouselscripts, segmentation-adapter, lokale contenttracker en Canvas recipes vormen één uitbreidbare werkstroom. De recipes gebruiken zelfgetekende vormen en tekst; geen beschermde reference-assets. Een bestaande licentie op vergelijkbare algemene technieken is niet nodig om onafhankelijk een inputbalk, tekstanimatie of kaartovergang te bouwen.
 
 De nieuwe recipes dekken namen uit de publieke inventaris, maar meerdere implementaties wijken wezenlijk af van hun referentie:
 
@@ -78,5 +78,7 @@ Dit zijn eigenschappen van onze repository, geen onbewezen superioriteitsclaims 
 3. **Providerkeuze**: de kern heeft geen betaalde API nodig; captions kunnen worden geïmporteerd en modellen zijn optioneel lokaal.
 4. **Reproduceerbare techniek**: projectbestanden en tijdgestuurde compositie zijn versieerbaar. Identieke outputs vereisen ook dezelfde browser, fonts, modellen en encoderinstellingen; geen onterechte bit-identieke garantie.
 5. **Eerlijke uitvoerstatus**: functionele tests, media-probes en menselijke visuele beoordeling hebben verschillende rollen. Een geslaagde syntaxcheck wordt niet als een geslaagde edit gepresenteerd.
+
+Voor de 67 recipes afzonderlijk staat een expliciete classificatie en afwijking in [effect-status.md](effect-status.md). De source bevat geen automatisch bewijs van visuele acceptatie.
 
 Voor “beter dan Justyn” op cutkwaliteit, teksttracking, visuele afwerking, snelheid of stabiliteit bestaat nog geen gecontroleerde A/B-meting met hetzelfde bronmateriaal. Die conclusie wordt daarom niet getrokken.
